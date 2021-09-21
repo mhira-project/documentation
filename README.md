@@ -1,6 +1,10 @@
-# Welcome to MHIRA Documentation
+MHIRA
+================================================================
 
-## Get started with MHIRA in less than 5 minutes
+![Banner](resources/images/banner.png "Banner")
+
+Get started with MHIRA in less than 5 minutes
+----------------------------------------------------------------
 
 * [Installation](/docs/installation.md)
 * [Data and Backup](/docs/data-and-backup.md)
@@ -9,11 +13,16 @@
 * [Translation](/docs/translations.md)
 * [User Manual](/docs/installation.md)
 
+Licensing
+----------------------------------------------------------------
 
-# Licensing
 License refer to [LICENSE.md](LICENSE.md)
 
-# Contributing
+Contributing
+----------------------------------------------------------------
+
 MHIRA is an open source project, and your contributions....
+
 Contribution guide
+
 Community guideline
