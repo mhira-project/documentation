@@ -6,6 +6,7 @@
 * [Data and Backup](/docs/data-and-backup.md)
 * [Security](/docs/security.md)
 * [Admin Password Reset](/docs/admin-password-reset.md)
+* [Translation](/docs/translations.md)
 * [User Manual](/docs/installation.md)
 
 
