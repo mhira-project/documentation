@@ -1,4 +1,4 @@
-MHIRA
+📙 MHIRA Documentation
 ================================================================
 
 ![Banner](resources/images/banner.png "Banner")
