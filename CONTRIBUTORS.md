@@ -1,7 +1,7 @@
 # Contributors
 
 ## The project has been financially supported by 
-Fondation Botnar (https://www.fondationbotnar.org/)
+ - Fondation Botnar (https://www.fondationbotnar.org/)
 
 ## The project has been initiated and is being managed by 
  - Ronan Zimmermann (University of Basel)
@@ -16,11 +16,10 @@ Fondation Botnar (https://www.fondationbotnar.org/)
 ### Leeto Digital Agency
  - Edison Biba
 
-### SciCORE Basel
+### SciCORE (University of Basel)
  - Yiqing Zhu
- - Thierry Sengstag
-
-## Contributing clinical experts:
+ 
+## Contributing clinical experts and reserachers:
  - Alex Behn
  - Jon Konjufca
  - Mrema Kilonzo
