@@ -22,6 +22,7 @@
  - Mrema Kilonzo
  - Cristobal Hernandes
  - Fernando Parada
+ - Kathrin Blum
 
 ## The project has been financially supported by 
  - Fondation Botnar (https://www.fondationbotnar.org/)
