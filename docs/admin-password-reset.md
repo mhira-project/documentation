@@ -15,7 +15,12 @@ This will open PSQL prompt. In PSQL prompt run the following command
 # connect to default database
 \c default
 
-#Update password to 'Password@1'
-update user set password = '$argon2id$v=19$m=16,t=2,p=1$Umd4VFBYZW1NdXdSbThCeA$IO/O4hXWPy3Y9jFPXLMjpg' where code = 'superadmin'
-
+#Update password to default value of 'superadmin'
+UPDATE "public"."user" 
+    set "active" = true, 
+    "passwordExpiresAt" = now(), 
+    "password" = '$argon2id$v=19$m=16,t=2,p=1$eUxBQXd3bTVhYTU5c2pKUQ$s4pcrRM4RTbfEBV//JpcIw' 
+WHERE "isSuperUser" = true;
 ```
+
+After which login to MHIRA portal with username: `superadmin` and password `superadmin` and change your password to something more secure.
