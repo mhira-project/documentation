@@ -2,7 +2,7 @@
 
 If the `superadmin` account password is lost or blocked, you can connect to the postgres database via commandline to reset the password.
 
-First, please navigate to the folder that you cloned from github.
+First, please navigate to the folder containing the docker and docker-compose (.yml) files of the MHIRA installation (the one cloned from github).
 
 Run
 ```bash
