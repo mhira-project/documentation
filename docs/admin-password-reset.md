@@ -2,6 +2,8 @@
 
 If the `superadmin` account password is lost or blocked, you can connect to the postgres database via commandline to reset the password.
 
+First, please navigate to the folder that you cloned from github.
+
 Run
 ```bash
 # Connect to postgres using psql CLI tool
