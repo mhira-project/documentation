@@ -26,10 +26,31 @@ In a typical installation, the folder contents will be as listed below.
 
 ## Backup
 
-To backup data under this location
+### Automated daily backups
+
+The `MHIRA` docker installation comes with a `backup` helper container, that manages daily backups.
+
+The default backup schedule is daily at midnight.
+
+The backup location is controlled by by `DATA_BACKUP_PATH` key in the `.env` file.
+
+Default value for `DATA_BACKUP_PATH` is `~/.mhira-docker/backups`
+
+### Manual backup
+
+To manually backup data to current working direcotry
 
 ```bash
+# >> Using tar zip of the data folder
+# This will output the backup file in current directory where it is run
 tar -czvf mhira-data-$(date '+%Y-%m-%dT%T').tar.gz ~/.mhira-docker/data
 ```
 
-This will create a backup file in current folder.
+To manually backup data to in configured MHIRA backup location
+
+```bash
+# >> Using provided backup container
+# This will output the backup file in backup path configured in `dotenv` by `DATA_BACKUP_PATH` key
+# Default value for `DATA_BACKUP_PATH` is `~/.mhira-docker/backups`
+docker-compose up  --build -d backup
+```
