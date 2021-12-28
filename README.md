@@ -3,7 +3,7 @@ MHIRA
 
 
 
-Get started with MHIRA in less than 5 minutes
+Get started with MHIRA 
 ----------------------------------------------------------------
 
 * [Installation using docker compose](https://github.com/mhira-project/mhira-docker#installation)
