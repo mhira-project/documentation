@@ -6,7 +6,7 @@ MHIRA
 Get started with MHIRA 
 ----------------------------------------------------------------
 
-* [Installation using docker compose](https://github.com/mhira-project/mhira-docker#installation)
+* [Installation using docker compose](https://github.com/mhira-project/mhira-docker)
 * [Data and Backup](/docs/data-and-backup.md)
 * [Security](/docs/security.md)
 * [Admin Password Reset](/docs/admin-password-reset.md)
