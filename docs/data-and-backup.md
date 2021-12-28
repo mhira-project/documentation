@@ -2,7 +2,7 @@
 
 ## Data Storage Location
 
-The location where mhira-docker installation will store its data is controlled by environment variable `DATA_SAVE_PATH`.
+The location where mhira-docker installation will store its data is controlled by environment variable `DATA_SAVE_PATH` in the .env file.
 
 ```dotenv
 # Default location under current user home directory
