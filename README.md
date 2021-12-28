@@ -1,7 +1,7 @@
 MHIRA
 ================================================================
 
-![Banner](resources/images/banner.png "Banner")
+
 
 Get started with MHIRA in less than 5 minutes
 ----------------------------------------------------------------
