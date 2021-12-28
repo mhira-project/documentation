@@ -20,7 +20,7 @@ In a typical installation, the folder contents will be as listed below.
 >
 > For example: if `MHIRA` docker-compose is run as root user, the data save path will be under the root user's home directory, i.e: `/root/.mhira-docker/data`.
 >
-> Switching running mhira using one user to another can result in apparent data loss, as the new user context will create a new data directory under their home directory, which will not include data from the old data directory.
+> Switching a running instance of mhira to another user can result in apparent data loss, as the new user context will create a new data directory under their home directory, which will not include data from the old data directory.
 >
 > To avoid this, MHIRA system admin can replace the `DATA_SAVE_PATH` with an absolute path pointing to a directory they wish to persist data.
 
