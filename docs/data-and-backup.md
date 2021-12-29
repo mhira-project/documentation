@@ -26,14 +26,6 @@ In a typical installation, the folder contents will be as listed below.
 
 ## Backup data
 
-MHIRA data backup uses standard file formats: TAR for creating archives and GZIP for compression. These formats are natively supported on linux, macOS and other operating systems. This makes it possible to easily extract files from the archives.
-
-The backup utility simply creates a TAR archive of the MHIRA data directory and saves it in configured data backup path.
-
-To restore from backup, you may have multiple archives created at different times (we call them versions). Choose one of them (the latest if you want to restore the most recent copy of your data) and extract it. Copy the extracted data to  the configured MHIRA data save path.
-
-The next subsections give more details on the provided automated backups utility, how to do manual backups, and restore process.
-
 ### Automated daily backups
 
 The `MHIRA` docker installation comes with a `backup` helper container, that manages daily backups.
@@ -43,6 +35,8 @@ The `MHIRA` docker installation comes with a `backup` helper container, that man
 > * The backup location is controlled by by `DATA_BACKUP_PATH` key in the `.env` file.
 >
 > * Default value for `DATA_BACKUP_PATH` is `~/.mhira-docker/backups`
+>
+> * The backup utility creates a TAR archive of the MHIRA data directory and saves it in configured data backup path.
 
 ### Manual backup
 
@@ -54,7 +48,7 @@ To manually backup data to current working direcotry
 tar -czvf mhira-data-$(date '+%Y-%m-%dT%T').tar.gz ~/.mhira-docker/data
 ```
 
-To manually backup data to in configured MHIRA backup location
+To manually backup data using MHIRA backup utility
 
 ```bash
 # >> Using provided backup container
