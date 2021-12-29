@@ -53,7 +53,8 @@ To manually backup data using MHIRA backup utility
 ```bash
 # >> Using provided backup container
 # This will output the backup file in backup path configured in `dotenv` by `DATA_BACKUP_PATH` key
-docker-compose up  --build -d backup
+# Default value for `DATA_BACKUP_PATH` is `~/.mhira-docker/backups`
+docker compose exec backup /bin/backup
 ```
 
 ## Restoring Data
