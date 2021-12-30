@@ -38,6 +38,12 @@ The `MHIRA` docker installation comes with a `backup` helper container, that man
 >
 > * The backup utility creates a TAR archive of the MHIRA data directory and saves it in configured data backup path.
 
+***WARNING:***
+
+* You are highly encouraged to use a different hard drive for backup storage, or where possible Remote Backup to a different location. This will make sure you data can be restored in case of hard drive failure or other incidents.
+
+* Please refer to your oganizations guidelines regarding best practives for backing up data and disaster recovery.
+
 ### Manual backup
 
 To manually backup data to current working direcotry
