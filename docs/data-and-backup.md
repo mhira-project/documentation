@@ -88,7 +88,7 @@ The `backup` container provided by the `mhira-docker` installation also provides
 This can be called by running:
 
 ```bash
-docker compose exec backup /bin/restore
+docker-compose exec backup /bin/restore
 ```
 
 This will prompt the user to select a backup archive to restore from.
