@@ -1,0 +1,78 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/documentation/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "installation-guide/admin-password-reset",
+              "path": "/documentation/docs/installation-guide/admin-password-reset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation-guide/data-and-backup",
+              "path": "/documentation/docs/installation-guide/data-and-backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation-guide/installing-mhira",
+              "path": "/documentation/docs/installation-guide/installing-mhira",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation-guide/RStudio",
+              "path": "/documentation/docs/installation-guide/RStudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/documentation/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "License-and-contributors/contributors",
+              "path": "/documentation/docs/License-and-contributors/contributors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "License-and-contributors/how-to-contribute",
+              "path": "/documentation/docs/License-and-contributors/how-to-contribute",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "License-and-contributors/license",
+              "path": "/documentation/docs/License-and-contributors/license",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/installation-guide",
+              "path": "/documentation/docs/category/installation-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/license-and-contributors",
+              "path": "/documentation/docs/category/license-and-contributors",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/documentation/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

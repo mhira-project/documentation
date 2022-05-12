@@ -1,0 +1,27 @@
+{
+  "unversionedId": "License-and-contributors/license",
+  "id": "License-and-contributors/license",
+  "title": "Copyright and Licensing",
+  "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
+  "source": "@site/docs/6-License-and-contributors/1-license.md",
+  "sourceDirName": "6-License-and-contributors",
+  "slug": "/License-and-contributors/license",
+  "permalink": "/documentation/docs/License-and-contributors/license",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/mhira-manual/docs/6-License-and-contributors/1-license.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "License and contributors",
+    "permalink": "/documentation/docs/category/license-and-contributors"
+  },
+  "next": {
+    "title": "Contributors",
+    "permalink": "/documentation/docs/License-and-contributors/contributors"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "installation-guide/RStudio",
+  "id": "installation-guide/RStudio",
+  "title": "R-Studio to test reports",
+  "description": "The installation comes with bundled in rstudio container.",
+  "source": "@site/docs/4-installation-guide/10-RStudio.md",
+  "sourceDirName": "4-installation-guide",
+  "slug": "/installation-guide/RStudio",
+  "permalink": "/documentation/docs/installation-guide/RStudio",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/mhira-manual/docs/4-installation-guide/10-RStudio.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Admin Password Reset",
+    "permalink": "/documentation/docs/installation-guide/admin-password-reset"
+  },
+  "next": {
+    "title": "License and contributors",
+    "permalink": "/documentation/docs/category/license-and-contributors"
+  }
+}

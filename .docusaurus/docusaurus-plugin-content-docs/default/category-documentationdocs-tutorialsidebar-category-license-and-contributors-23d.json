@@ -1,0 +1,15 @@
+{
+  "title": "License and contributors",
+  "slug": "/category/license-and-contributors",
+  "permalink": "/documentation/docs/category/license-and-contributors",
+  "navigation": {
+    "previous": {
+      "title": "R-Studio to test reports",
+      "permalink": "/documentation/docs/installation-guide/RStudio"
+    },
+    "next": {
+      "title": "Copyright and Licensing",
+      "permalink": "/documentation/docs/License-and-contributors/license"
+    }
+  }
+}

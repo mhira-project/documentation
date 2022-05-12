@@ -1,0 +1,15 @@
+{
+  "title": "Installation guide",
+  "slug": "/category/installation-guide",
+  "permalink": "/documentation/docs/category/installation-guide",
+  "navigation": {
+    "previous": {
+      "title": "Overview",
+      "permalink": "/documentation/docs/intro"
+    },
+    "next": {
+      "title": "🐳 Installing MHIRA",
+      "permalink": "/documentation/docs/installation-guide/installing-mhira"
+    }
+  }
+}

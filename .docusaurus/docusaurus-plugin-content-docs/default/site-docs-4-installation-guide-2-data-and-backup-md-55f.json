@@ -1,0 +1,27 @@
+{
+  "unversionedId": "installation-guide/data-and-backup",
+  "id": "installation-guide/data-and-backup",
+  "title": "Data and Backup",
+  "description": "Data Storage Location",
+  "source": "@site/docs/4-installation-guide/2-data-and-backup.md",
+  "sourceDirName": "4-installation-guide",
+  "slug": "/installation-guide/data-and-backup",
+  "permalink": "/documentation/docs/installation-guide/data-and-backup",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/mhira-manual/docs/4-installation-guide/2-data-and-backup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🐳 Installing MHIRA",
+    "permalink": "/documentation/docs/installation-guide/installing-mhira"
+  },
+  "next": {
+    "title": "Admin Password Reset",
+    "permalink": "/documentation/docs/installation-guide/admin-password-reset"
+  }
+}
