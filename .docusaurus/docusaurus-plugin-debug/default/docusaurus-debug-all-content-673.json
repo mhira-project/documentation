@@ -1,0 +1,369 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/documentation/docs",
+          "tagsPath": "/documentation/docs/tags",
+          "editUrl": "https://github.com/mhira-project/documentation/docs",
+          "editUrlLocalized": "https://github.com/mhira-project/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/ronan/Documents/documentation/sidebars.js",
+          "contentPath": "/home/ronan/Documents/documentation/docs",
+          "contentPathLocalized": "/home/ronan/Documents/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "installation-guide/admin-password-reset",
+              "id": "installation-guide/admin-password-reset",
+              "title": "Admin Password Reset",
+              "description": "If the superadmin account password is lost or blocked, you can connect to the postgres database via commandline to reset the password.",
+              "source": "@site/docs/4-installation-guide/7-admin-password-reset.md",
+              "sourceDirName": "4-installation-guide",
+              "slug": "/installation-guide/admin-password-reset",
+              "permalink": "/documentation/docs/installation-guide/admin-password-reset",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/7-admin-password-reset.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data and Backup",
+                "permalink": "/documentation/docs/installation-guide/data-and-backup"
+              },
+              "next": {
+                "title": "R-Studio to test reports",
+                "permalink": "/documentation/docs/installation-guide/RStudio"
+              }
+            },
+            {
+              "unversionedId": "installation-guide/data-and-backup",
+              "id": "installation-guide/data-and-backup",
+              "title": "Data and Backup",
+              "description": "Data Storage Location",
+              "source": "@site/docs/4-installation-guide/2-data-and-backup.md",
+              "sourceDirName": "4-installation-guide",
+              "slug": "/installation-guide/data-and-backup",
+              "permalink": "/documentation/docs/installation-guide/data-and-backup",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/2-data-and-backup.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🐳 Installing MHIRA",
+                "permalink": "/documentation/docs/installation-guide/installing-mhira"
+              },
+              "next": {
+                "title": "Admin Password Reset",
+                "permalink": "/documentation/docs/installation-guide/admin-password-reset"
+              }
+            },
+            {
+              "unversionedId": "installation-guide/installing-mhira",
+              "id": "installation-guide/installing-mhira",
+              "title": "🐳 Installing MHIRA",
+              "description": "MHIRA can be installed from docker containers using docker-compose.",
+              "source": "@site/docs/4-installation-guide/1-installing-mhira.md",
+              "sourceDirName": "4-installation-guide",
+              "slug": "/installation-guide/installing-mhira",
+              "permalink": "/documentation/docs/installation-guide/installing-mhira",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/1-installing-mhira.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation guide",
+                "permalink": "/documentation/docs/category/installation-guide"
+              },
+              "next": {
+                "title": "Data and Backup",
+                "permalink": "/documentation/docs/installation-guide/data-and-backup"
+              }
+            },
+            {
+              "unversionedId": "installation-guide/RStudio",
+              "id": "installation-guide/RStudio",
+              "title": "R-Studio to test reports",
+              "description": "The installation comes with bundled in rstudio container.",
+              "source": "@site/docs/4-installation-guide/10-RStudio.md",
+              "sourceDirName": "4-installation-guide",
+              "slug": "/installation-guide/RStudio",
+              "permalink": "/documentation/docs/installation-guide/RStudio",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/10-RStudio.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Admin Password Reset",
+                "permalink": "/documentation/docs/installation-guide/admin-password-reset"
+              },
+              "next": {
+                "title": "MHIRA Reporting guide",
+                "permalink": "/documentation/docs/category/mhira-reporting-guide"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Overview",
+              "description": "- The user manual provides a guide on how to use MHIRA for mental health professionals.",
+              "source": "@site/docs/1-intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/documentation/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/1-intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Installation guide",
+                "permalink": "/documentation/docs/category/installation-guide"
+              }
+            },
+            {
+              "unversionedId": "License-and-contributors/contributors",
+              "id": "License-and-contributors/contributors",
+              "title": "Contributors",
+              "description": "The project has been initiated and is being managed by",
+              "source": "@site/docs/6-License-and-contributors/2-contributors.md",
+              "sourceDirName": "6-License-and-contributors",
+              "slug": "/License-and-contributors/contributors",
+              "permalink": "/documentation/docs/License-and-contributors/contributors",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/2-contributors.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Copyright and Licensing",
+                "permalink": "/documentation/docs/License-and-contributors/license"
+              },
+              "next": {
+                "title": "How to contribute?",
+                "permalink": "/documentation/docs/License-and-contributors/how-to-contribute"
+              }
+            },
+            {
+              "unversionedId": "License-and-contributors/how-to-contribute",
+              "id": "License-and-contributors/how-to-contribute",
+              "title": "How to contribute?",
+              "description": "Please contact Ronan Zimmermann or any other team member. Thank you.",
+              "source": "@site/docs/6-License-and-contributors/3-how-to-contribute.md",
+              "sourceDirName": "6-License-and-contributors",
+              "slug": "/License-and-contributors/how-to-contribute",
+              "permalink": "/documentation/docs/License-and-contributors/how-to-contribute",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/3-how-to-contribute.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contributors",
+                "permalink": "/documentation/docs/License-and-contributors/contributors"
+              }
+            },
+            {
+              "unversionedId": "License-and-contributors/license",
+              "id": "License-and-contributors/license",
+              "title": "Copyright and Licensing",
+              "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
+              "source": "@site/docs/6-License-and-contributors/1-license.md",
+              "sourceDirName": "6-License-and-contributors",
+              "slug": "/License-and-contributors/license",
+              "permalink": "/documentation/docs/License-and-contributors/license",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/1-license.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "License and contributors",
+                "permalink": "/documentation/docs/category/license-and-contributors"
+              },
+              "next": {
+                "title": "Contributors",
+                "permalink": "/documentation/docs/License-and-contributors/contributors"
+              }
+            },
+            {
+              "unversionedId": "MHIRA-reporting-guide/patient-report-shiny-app",
+              "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+              "title": "Shiny patient reporting tool",
+              "description": "This documenation refers to this repository",
+              "source": "@site/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
+              "sourceDirName": "5-MHIRA-reporting-guide",
+              "slug": "/MHIRA-reporting-guide/patient-report-shiny-app",
+              "permalink": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MHIRA Reporting guide",
+                "permalink": "/documentation/docs/category/mhira-reporting-guide"
+              },
+              "next": {
+                "title": "License and contributors",
+                "permalink": "/documentation/docs/category/license-and-contributors"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Installation guide",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "installation-guide/installing-mhira"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "installation-guide/data-and-backup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "installation-guide/admin-password-reset"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "installation-guide/RStudio"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/installation-guide",
+                  "permalink": "/documentation/docs/category/installation-guide"
+                }
+              },
+              {
+                "type": "category",
+                "label": "MHIRA Reporting guide",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "MHIRA-reporting-guide/patient-report-shiny-app"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/mhira-reporting-guide",
+                  "permalink": "/documentation/docs/category/mhira-reporting-guide"
+                }
+              },
+              {
+                "type": "category",
+                "label": "License and contributors",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "License-and-contributors/license"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "License-and-contributors/contributors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "License-and-contributors/how-to-contribute"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/license-and-contributors",
+                  "permalink": "/documentation/docs/category/license-and-contributors"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/documentation/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/documentation/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/documentation/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

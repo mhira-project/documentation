@@ -2,7 +2,7 @@
   "unversionedId": "MHIRA-reporting-guide/patient-report-shiny-app",
   "id": "MHIRA-reporting-guide/patient-report-shiny-app",
   "title": "Shiny patient reporting tool",
-  "description": "This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).",
+  "description": "This documenation refers to this repository",
   "source": "@site/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
   "sourceDirName": "5-MHIRA-reporting-guide",
   "slug": "/MHIRA-reporting-guide/patient-report-shiny-app",

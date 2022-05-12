@@ -1,4 +1,10 @@
 # Shiny patient reporting tool
+
+:::tip
+This documenation refers to [this repository](https://github.com/mhira-project/patient-report)
+:::
+
+
 This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).  
 MHIRA allows for the connection of external apps for reporting by adding these apps to the [docker setup](https://www.docker.com/) in which MHIRA is shipped.
 In this case, reporting is done with [shiny](https://www.rstudio.com/products/shiny/shiny-server/).
