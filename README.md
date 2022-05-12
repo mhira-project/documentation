@@ -1,32 +1,41 @@
-📙 MHIRA Documentation
-================================================================
+# Website
 
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### Installation
 
-Get started with MHIRA 
-----------------------------------------------------------------
+```
+$ yarn
+```
 
-* [Installation using docker compose](https://github.com/mhira-project/mhira-docker)
-* [Data and Backup](/docs/data-and-backup.md)
-* [Security](/docs/security.md)
-* [Admin Password Reset](/docs/admin-password-reset.md)
-* [Translation](/docs/translations.md)
-* [User Manual](/docs/installation.md)
+### Local Development
 
-Copyright and Licensing
-----------------------------------------------------------------
+```
+$ yarn start
+```
 
-Copyright © 2021 by ‘University of Basel’ and mhira-project (https://github.com/mhira-project; https://mhira-project.org/).
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-MHIRA is licensed under (an unmodified) Mozilla Public License (MPL) 2.0, the terms of which are included in [LICENSE.md](LICENSE.md). The license applies to all files in the repository. 
+### Build
 
-Please note that MHIRA is using other open source packages and libraries which are, to our knowledge, compatible with the chosen license. 
+```
+$ yarn build
+```
 
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-Contributing
-----------------------------------------------------------------
-The contributors to MHIRA are listed in the file CONTRIBUTORS (in https://github.com/mhira-project/documentation).  
+### Deployment
 
-Contribution guide (to be done)
+Using SSH:
 
-Community guideline (to be done)
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
