@@ -1,0 +1,15 @@
+{
+  "title": "MHIRA Reporting guide",
+  "slug": "/category/mhira-reporting-guide",
+  "permalink": "/documentation/docs/category/mhira-reporting-guide",
+  "navigation": {
+    "previous": {
+      "title": "R-Studio to test reports",
+      "permalink": "/documentation/docs/installation-guide/RStudio"
+    },
+    "next": {
+      "title": "Shiny patient reporting tool",
+      "permalink": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app"
+    }
+  }
+}

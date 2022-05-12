@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/ronan/Documents/documentation/sidebars.js",
-          "editUrl": "https://github.com/mhira-project/mhira-manual"
+          "editUrl": "https://github.com/mhira-project/documentation"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/mhira-project/mhira-manual"
+          "editUrl": "https://github.com/mhira-project/documentation"
         },
         "theme": {
           "customCss": "/home/ronan/Documents/documentation/src/css/custom.css"

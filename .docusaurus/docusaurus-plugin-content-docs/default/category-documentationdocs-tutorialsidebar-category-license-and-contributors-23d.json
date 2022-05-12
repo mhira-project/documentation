@@ -4,8 +4,8 @@
   "permalink": "/documentation/docs/category/license-and-contributors",
   "navigation": {
     "previous": {
-      "title": "R-Studio to test reports",
-      "permalink": "/documentation/docs/installation-guide/RStudio"
+      "title": "Shiny patient reporting tool",
+      "permalink": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app"
     },
     "next": {
       "title": "Copyright and Licensing",

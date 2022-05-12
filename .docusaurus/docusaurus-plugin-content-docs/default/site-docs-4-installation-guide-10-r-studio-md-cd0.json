@@ -8,7 +8,7 @@
   "slug": "/installation-guide/RStudio",
   "permalink": "/documentation/docs/installation-guide/RStudio",
   "draft": false,
-  "editUrl": "https://github.com/mhira-project/mhira-manual/docs/4-installation-guide/10-RStudio.md",
+  "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/10-RStudio.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -21,7 +21,7 @@
     "permalink": "/documentation/docs/installation-guide/admin-password-reset"
   },
   "next": {
-    "title": "License and contributors",
-    "permalink": "/documentation/docs/category/license-and-contributors"
+    "title": "MHIRA Reporting guide",
+    "permalink": "/documentation/docs/category/mhira-reporting-guide"
   }
 }

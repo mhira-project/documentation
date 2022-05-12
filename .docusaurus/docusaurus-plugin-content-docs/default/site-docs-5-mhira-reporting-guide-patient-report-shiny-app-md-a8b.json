@@ -1,0 +1,24 @@
+{
+  "unversionedId": "MHIRA-reporting-guide/patient-report-shiny-app",
+  "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+  "title": "Shiny patient reporting tool",
+  "description": "This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).",
+  "source": "@site/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
+  "sourceDirName": "5-MHIRA-reporting-guide",
+  "slug": "/MHIRA-reporting-guide/patient-report-shiny-app",
+  "permalink": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MHIRA Reporting guide",
+    "permalink": "/documentation/docs/category/mhira-reporting-guide"
+  },
+  "next": {
+    "title": "License and contributors",
+    "permalink": "/documentation/docs/category/license-and-contributors"
+  }
+}

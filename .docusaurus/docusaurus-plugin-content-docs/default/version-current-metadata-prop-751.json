@@ -49,6 +49,21 @@
       },
       {
         "type": "category",
+        "label": "MHIRA Reporting guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Shiny patient reporting tool",
+            "href": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+            "docId": "MHIRA-reporting-guide/patient-report-shiny-app"
+          }
+        ],
+        "href": "/documentation/docs/category/mhira-reporting-guide"
+      },
+      {
+        "type": "category",
         "label": "License and contributors",
         "collapsible": true,
         "collapsed": true,
@@ -123,6 +138,12 @@
       "id": "License-and-contributors/license",
       "title": "Copyright and Licensing",
       "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
+      "sidebar": "tutorialSidebar"
+    },
+    "MHIRA-reporting-guide/patient-report-shiny-app": {
+      "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+      "title": "Shiny patient reporting tool",
+      "description": "This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).",
       "sidebar": "tutorialSidebar"
     }
   }

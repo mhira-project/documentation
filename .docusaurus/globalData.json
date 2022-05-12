@@ -51,8 +51,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+              "path": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/installation-guide",
               "path": "/documentation/docs/category/installation-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/mhira-reporting-guide",
+              "path": "/documentation/docs/category/mhira-reporting-guide",
               "sidebar": "tutorialSidebar"
             },
             {
