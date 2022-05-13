@@ -19,6 +19,33 @@
           "contentPathLocalized": "/home/ronan/Documents/documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "guide-for-admins/questionnaires",
+              "id": "guide-for-admins/questionnaires",
+              "title": "Questionnaires",
+              "description": "Creating an xlsform",
+              "source": "@site/docs/3-guide-for-admins/1-questionnaires.md",
+              "sourceDirName": "3-guide-for-admins",
+              "slug": "/guide-for-admins/questionnaires",
+              "permalink": "/documentation/docs/guide-for-admins/questionnaires",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/docs/3-guide-for-admins/1-questionnaires.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guide for admins",
+                "permalink": "/documentation/docs/category/guide-for-admins"
+              },
+              "next": {
+                "title": "Installation guide",
+                "permalink": "/documentation/docs/category/installation-guide"
+              }
+            },
+            {
               "unversionedId": "installation-guide/admin-password-reset",
               "id": "installation-guide/admin-password-reset",
               "title": "Admin Password Reset",
@@ -143,8 +170,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Installation guide",
-                "permalink": "/documentation/docs/category/installation-guide"
+                "title": "Guide for admins",
+                "permalink": "/documentation/docs/category/guide-for-admins"
               }
             },
             {
@@ -237,7 +264,10 @@
               "editUrl": "https://github.com/mhira-project/documentation/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MHIRA Reporting guide",
@@ -255,6 +285,23 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Guide for admins",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guide-for-admins/questionnaires"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/guide-for-admins",
+                  "permalink": "/documentation/docs/category/guide-for-admins"
+                }
               },
               {
                 "type": "category",

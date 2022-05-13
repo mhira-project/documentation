@@ -16,6 +16,21 @@
       },
       {
         "type": "category",
+        "label": "Guide for admins",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Questionnaires",
+            "href": "/documentation/docs/guide-for-admins/questionnaires",
+            "docId": "guide-for-admins/questionnaires"
+          }
+        ],
+        "href": "/documentation/docs/category/guide-for-admins"
+      },
+      {
+        "type": "category",
         "label": "Installation guide",
         "collapsible": true,
         "collapsed": true,
@@ -92,6 +107,12 @@
     ]
   },
   "docs": {
+    "guide-for-admins/questionnaires": {
+      "id": "guide-for-admins/questionnaires",
+      "title": "Questionnaires",
+      "description": "Creating an xlsform",
+      "sidebar": "tutorialSidebar"
+    },
     "installation-guide/admin-password-reset": {
       "id": "installation-guide/admin-password-reset",
       "title": "Admin Password Reset",

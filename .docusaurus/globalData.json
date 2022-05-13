@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "guide-for-admins/questionnaires",
+              "path": "/documentation/docs/guide-for-admins/questionnaires",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "installation-guide/admin-password-reset",
               "path": "/documentation/docs/installation-guide/admin-password-reset",
               "sidebar": "tutorialSidebar"
@@ -53,6 +58,11 @@
             {
               "id": "MHIRA-reporting-guide/patient-report-shiny-app",
               "path": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guide-for-admins",
+              "path": "/documentation/docs/category/guide-for-admins",
               "sidebar": "tutorialSidebar"
             },
             {

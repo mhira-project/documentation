@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Installation guide",
-    "permalink": "/documentation/docs/category/installation-guide"
+    "title": "Guide for admins",
+    "permalink": "/documentation/docs/category/guide-for-admins"
   }
 }

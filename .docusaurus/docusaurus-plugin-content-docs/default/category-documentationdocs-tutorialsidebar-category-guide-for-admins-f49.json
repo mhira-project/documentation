@@ -1,0 +1,15 @@
+{
+  "title": "Guide for admins",
+  "slug": "/category/guide-for-admins",
+  "permalink": "/documentation/docs/category/guide-for-admins",
+  "navigation": {
+    "previous": {
+      "title": "Overview",
+      "permalink": "/documentation/docs/intro"
+    },
+    "next": {
+      "title": "Questionnaires",
+      "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+    }
+  }
+}
