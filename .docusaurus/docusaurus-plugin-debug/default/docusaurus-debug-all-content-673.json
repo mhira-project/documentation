@@ -10,8 +10,8 @@
           "className": "docs-version-current",
           "path": "/documentation/docs",
           "tagsPath": "/documentation/docs/tags",
-          "editUrl": "https://github.com/mhira-project/documentation/docs",
-          "editUrlLocalized": "https://github.com/mhira-project/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs",
+          "editUrlLocalized": "https://github.com/mhira-project/documentation/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/home/ronan/Documents/documentation/sidebars.js",
@@ -28,7 +28,7 @@
               "slug": "/guide-for-admins/questionnaires",
               "permalink": "/documentation/docs/guide-for-admins/questionnaires",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/3-guide-for-admins/1-questionnaires.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/3-guide-for-admins/1-questionnaires.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -55,7 +55,7 @@
               "slug": "/installation-guide/admin-password-reset",
               "permalink": "/documentation/docs/installation-guide/admin-password-reset",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/7-admin-password-reset.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/4-installation-guide/7-admin-password-reset.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -80,7 +80,7 @@
               "slug": "/installation-guide/data-and-backup",
               "permalink": "/documentation/docs/installation-guide/data-and-backup",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/2-data-and-backup.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/4-installation-guide/2-data-and-backup.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -107,7 +107,7 @@
               "slug": "/installation-guide/installing-mhira",
               "permalink": "/documentation/docs/installation-guide/installing-mhira",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/1-installing-mhira.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/4-installation-guide/1-installing-mhira.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -134,7 +134,7 @@
               "slug": "/installation-guide/RStudio",
               "permalink": "/documentation/docs/installation-guide/RStudio",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/4-installation-guide/10-RStudio.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/4-installation-guide/10-RStudio.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 10,
@@ -161,7 +161,7 @@
               "slug": "/intro",
               "permalink": "/documentation/docs/intro",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/1-intro.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/1-intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -170,21 +170,21 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Guide for admins",
-                "permalink": "/documentation/docs/category/guide-for-admins"
+                "title": "User Manual",
+                "permalink": "/documentation/docs/category/user-manual"
               }
             },
             {
-              "unversionedId": "License-and-contributors/contributors",
-              "id": "License-and-contributors/contributors",
+              "unversionedId": "license-and-contributors/contributors",
+              "id": "license-and-contributors/contributors",
               "title": "Contributors",
               "description": "The project has been initiated and is being managed by",
-              "source": "@site/docs/6-License-and-contributors/2-contributors.md",
-              "sourceDirName": "6-License-and-contributors",
-              "slug": "/License-and-contributors/contributors",
-              "permalink": "/documentation/docs/License-and-contributors/contributors",
+              "source": "@site/docs/6-license-and-contributors/2-contributors.md",
+              "sourceDirName": "6-license-and-contributors",
+              "slug": "/license-and-contributors/contributors",
+              "permalink": "/documentation/docs/license-and-contributors/contributors",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/2-contributors.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/6-license-and-contributors/2-contributors.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -194,24 +194,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Copyright and Licensing",
-                "permalink": "/documentation/docs/License-and-contributors/license"
+                "permalink": "/documentation/docs/license-and-contributors/license"
               },
               "next": {
                 "title": "How to contribute?",
-                "permalink": "/documentation/docs/License-and-contributors/how-to-contribute"
+                "permalink": "/documentation/docs/license-and-contributors/how-to-contribute"
               }
             },
             {
-              "unversionedId": "License-and-contributors/how-to-contribute",
-              "id": "License-and-contributors/how-to-contribute",
+              "unversionedId": "license-and-contributors/how-to-contribute",
+              "id": "license-and-contributors/how-to-contribute",
               "title": "How to contribute?",
               "description": "Please contact Ronan Zimmermann or any other team member. Thank you.",
-              "source": "@site/docs/6-License-and-contributors/3-how-to-contribute.md",
-              "sourceDirName": "6-License-and-contributors",
-              "slug": "/License-and-contributors/how-to-contribute",
-              "permalink": "/documentation/docs/License-and-contributors/how-to-contribute",
+              "source": "@site/docs/6-license-and-contributors/3-how-to-contribute.md",
+              "sourceDirName": "6-license-and-contributors",
+              "slug": "/license-and-contributors/how-to-contribute",
+              "permalink": "/documentation/docs/license-and-contributors/how-to-contribute",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/3-how-to-contribute.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/6-license-and-contributors/3-how-to-contribute.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -221,20 +221,20 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Contributors",
-                "permalink": "/documentation/docs/License-and-contributors/contributors"
+                "permalink": "/documentation/docs/license-and-contributors/contributors"
               }
             },
             {
-              "unversionedId": "License-and-contributors/license",
-              "id": "License-and-contributors/license",
+              "unversionedId": "license-and-contributors/license",
+              "id": "license-and-contributors/license",
               "title": "Copyright and Licensing",
               "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
-              "source": "@site/docs/6-License-and-contributors/1-license.md",
-              "sourceDirName": "6-License-and-contributors",
-              "slug": "/License-and-contributors/license",
-              "permalink": "/documentation/docs/License-and-contributors/license",
+              "source": "@site/docs/6-license-and-contributors/1-license.md",
+              "sourceDirName": "6-license-and-contributors",
+              "slug": "/license-and-contributors/license",
+              "permalink": "/documentation/docs/license-and-contributors/license",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/6-License-and-contributors/1-license.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/6-license-and-contributors/1-license.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -248,20 +248,20 @@
               },
               "next": {
                 "title": "Contributors",
-                "permalink": "/documentation/docs/License-and-contributors/contributors"
+                "permalink": "/documentation/docs/license-and-contributors/contributors"
               }
             },
             {
-              "unversionedId": "MHIRA-reporting-guide/patient-report-shiny-app",
-              "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+              "unversionedId": "mhira-reporting-guide/patient-report-shiny-app",
+              "id": "mhira-reporting-guide/patient-report-shiny-app",
               "title": "Shiny patient reporting tool",
               "description": "This documenation refers to this repository",
-              "source": "@site/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
-              "sourceDirName": "5-MHIRA-reporting-guide",
-              "slug": "/MHIRA-reporting-guide/patient-report-shiny-app",
-              "permalink": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+              "source": "@site/docs/5-mhira-reporting-guide/patient-report-shiny-app.md",
+              "sourceDirName": "5-mhira-reporting-guide",
+              "slug": "/mhira-reporting-guide/patient-report-shiny-app",
+              "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
               "draft": false,
-              "editUrl": "https://github.com/mhira-project/documentation/docs/5-MHIRA-reporting-guide/patient-report-shiny-app.md",
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/5-mhira-reporting-guide/patient-report-shiny-app.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -277,6 +277,168 @@
                 "title": "License and contributors",
                 "permalink": "/documentation/docs/category/license-and-contributors"
               }
+            },
+            {
+              "unversionedId": "user-manual/access",
+              "id": "user-manual/access",
+              "title": "Access",
+              "description": "",
+              "source": "@site/docs/2-user-manual/2-access.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/access",
+              "permalink": "/documentation/docs/user-manual/access",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/2-access.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Workflow",
+                "permalink": "/documentation/docs/user-manual/workflow"
+              },
+              "next": {
+                "title": "Navigation",
+                "permalink": "/documentation/docs/user-manual/navigation"
+              }
+            },
+            {
+              "unversionedId": "user-manual/assessments",
+              "id": "user-manual/assessments",
+              "title": "Assessments",
+              "description": "After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, from the ‘plan assessment’ menu in the navigation bar.",
+              "source": "@site/docs/2-user-manual/5-assessments.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/assessments",
+              "permalink": "/documentation/docs/user-manual/assessments",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/5-assessments.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Patient Management",
+                "permalink": "/documentation/docs/user-manual/patient-management"
+              },
+              "next": {
+                "title": "Reports",
+                "permalink": "/documentation/docs/user-manual/reports"
+              }
+            },
+            {
+              "unversionedId": "user-manual/navigation",
+              "id": "user-manual/navigation",
+              "title": "Navigation",
+              "description": "",
+              "source": "@site/docs/2-user-manual/3-navigation.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/navigation",
+              "permalink": "/documentation/docs/user-manual/navigation",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/3-navigation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Access",
+                "permalink": "/documentation/docs/user-manual/access"
+              },
+              "next": {
+                "title": "Patient Management",
+                "permalink": "/documentation/docs/user-manual/patient-management"
+              }
+            },
+            {
+              "unversionedId": "user-manual/patient-management",
+              "id": "user-manual/patient-management",
+              "title": "Patient Management",
+              "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site. The patient-centred view can be accessed by selecting the corresponding patient from the patient overview list.  The patient-centred view contains the subsections profile, departments, case managers, departments, caregivers, assessments and reports. To create a patient, the “create patient” button needs to be clicked. This will prompt the user to fill in the patient's profile.",
+              "source": "@site/docs/2-user-manual/4-patient-management.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/patient-management",
+              "permalink": "/documentation/docs/user-manual/patient-management",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/4-patient-management.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Navigation",
+                "permalink": "/documentation/docs/user-manual/navigation"
+              },
+              "next": {
+                "title": "Assessments",
+                "permalink": "/documentation/docs/user-manual/assessments"
+              }
+            },
+            {
+              "unversionedId": "user-manual/reports",
+              "id": "user-manual/reports",
+              "title": "Reports",
+              "description": "",
+              "source": "@site/docs/2-user-manual/6-reports.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/reports",
+              "permalink": "/documentation/docs/user-manual/reports",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/6-reports.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Assessments",
+                "permalink": "/documentation/docs/user-manual/assessments"
+              },
+              "next": {
+                "title": "Guide for admins",
+                "permalink": "/documentation/docs/category/guide-for-admins"
+              }
+            },
+            {
+              "unversionedId": "user-manual/workflow",
+              "id": "user-manual/workflow",
+              "title": "Workflow",
+              "description": "The core workflow in MHIRA consists of creating a case (information representing a patient), then creating one or multiple assessment(s) for this patient which contain one or multiple questionnaires. Next, the questions in the assessment(s) need to be answered by an informant. Each assessment needs to be filled in by only one informant. Finally, a user with access to the case’s information can access the report which results from the answered questionnaires.",
+              "source": "@site/docs/2-user-manual/1-workflow.md",
+              "sourceDirName": "2-user-manual",
+              "slug": "/user-manual/workflow",
+              "permalink": "/documentation/docs/user-manual/workflow",
+              "draft": false,
+              "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/1-workflow.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "User Manual",
+                "permalink": "/documentation/docs/category/user-manual"
+              },
+              "next": {
+                "title": "Access",
+                "permalink": "/documentation/docs/user-manual/access"
+              }
             }
           ],
           "drafts": [],
@@ -285,6 +447,44 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "User Manual",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "user-manual/workflow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-manual/access"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-manual/navigation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-manual/patient-management"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-manual/assessments"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-manual/reports"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "This is a guide for mental health care workers using MHIRA",
+                  "slug": "/category/user-manual",
+                  "permalink": "/documentation/docs/category/user-manual"
+                }
               },
               {
                 "type": "category",
@@ -340,7 +540,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "MHIRA-reporting-guide/patient-report-shiny-app"
+                    "id": "mhira-reporting-guide/patient-report-shiny-app"
                   }
                 ],
                 "link": {
@@ -357,15 +557,15 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "License-and-contributors/license"
+                    "id": "license-and-contributors/license"
                   },
                   {
                     "type": "doc",
-                    "id": "License-and-contributors/contributors"
+                    "id": "license-and-contributors/contributors"
                   },
                   {
                     "type": "doc",
-                    "id": "License-and-contributors/how-to-contribute"
+                    "id": "license-and-contributors/how-to-contribute"
                   }
                 ],
                 "link": {

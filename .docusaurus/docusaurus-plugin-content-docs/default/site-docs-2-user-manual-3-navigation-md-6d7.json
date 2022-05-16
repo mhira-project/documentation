@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/navigation",
+  "id": "user-manual/navigation",
+  "title": "Navigation",
+  "description": "",
+  "source": "@site/docs/2-user-manual/3-navigation.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/navigation",
+  "permalink": "/documentation/docs/user-manual/navigation",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/3-navigation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Access",
+    "permalink": "/documentation/docs/user-manual/access"
+  },
+  "next": {
+    "title": "Patient Management",
+    "permalink": "/documentation/docs/user-manual/patient-management"
+  }
+}

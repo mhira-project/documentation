@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/workflow",
+  "id": "user-manual/workflow",
+  "title": "Workflow",
+  "description": "The core workflow in MHIRA consists of creating a case (information representing a patient), then creating one or multiple assessment(s) for this patient which contain one or multiple questionnaires. Next, the questions in the assessment(s) need to be answered by an informant. Each assessment needs to be filled in by only one informant. Finally, a user with access to the case’s information can access the report which results from the answered questionnaires.",
+  "source": "@site/docs/2-user-manual/1-workflow.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/workflow",
+  "permalink": "/documentation/docs/user-manual/workflow",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/1-workflow.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Manual",
+    "permalink": "/documentation/docs/category/user-manual"
+  },
+  "next": {
+    "title": "Access",
+    "permalink": "/documentation/docs/user-manual/access"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/assesments",
+  "id": "user-manual/assesments",
+  "title": "Assesments",
+  "description": "After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, from the ‘plan assessment’ menu in the navigation bar.",
+  "source": "@site/docs/2-user-manual/5-assesments.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/assesments",
+  "permalink": "/documentation/docs/user-manual/assesments",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/docs/2-user-manual/5-assesments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patient Management",
+    "permalink": "/documentation/docs/user-manual/patient-management"
+  },
+  "next": {
+    "title": "Reports",
+    "permalink": "/documentation/docs/user-manual/reports"
+  }
+}

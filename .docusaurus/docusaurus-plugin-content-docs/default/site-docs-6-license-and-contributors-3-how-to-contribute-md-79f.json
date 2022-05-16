@@ -1,0 +1,23 @@
+{
+  "unversionedId": "license-and-contributors/how-to-contribute",
+  "id": "license-and-contributors/how-to-contribute",
+  "title": "How to contribute?",
+  "description": "Please contact Ronan Zimmermann or any other team member. Thank you.",
+  "source": "@site/docs/6-license-and-contributors/3-how-to-contribute.md",
+  "sourceDirName": "6-license-and-contributors",
+  "slug": "/license-and-contributors/how-to-contribute",
+  "permalink": "/documentation/docs/license-and-contributors/how-to-contribute",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/6-license-and-contributors/3-how-to-contribute.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contributors",
+    "permalink": "/documentation/docs/license-and-contributors/contributors"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/assessments copy",
+  "id": "user-manual/assessments copy",
+  "title": "Patient Management",
+  "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site. The patient-centred view can be accessed by selecting the corresponding patient from the patient overview list.  The patient-centred view contains the subsections profile, departments, case managers, departments, caregivers, assessments and reports. To create a patient, the “create patient” button needs to be clicked. This will prompt the user to fill in the patient's profile.",
+  "source": "@site/docs/2-user-manual/5-assessments copy.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/assessments copy",
+  "permalink": "/documentation/docs/user-manual/assessments copy",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/docs/2-user-manual/5-assessments copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patient Management",
+    "permalink": "/documentation/docs/user-manual/patient-management"
+  },
+  "next": {
+    "title": "Patient Management",
+    "permalink": "/documentation/docs/user-manual/assessments"
+  }
+}

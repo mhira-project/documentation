@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/reports",
+  "id": "user-manual/reports",
+  "title": "Reports",
+  "description": "",
+  "source": "@site/docs/2-user-manual/6-reports.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/reports",
+  "permalink": "/documentation/docs/user-manual/reports",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/6-reports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assessments",
+    "permalink": "/documentation/docs/user-manual/assessments"
+  },
+  "next": {
+    "title": "Guide for admins",
+    "permalink": "/documentation/docs/category/guide-for-admins"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mhira-reporting-guide/patient-report-shiny-app",
+  "id": "mhira-reporting-guide/patient-report-shiny-app",
+  "title": "Shiny patient reporting tool",
+  "description": "This documenation refers to this repository",
+  "source": "@site/docs/5-mhira-reporting-guide/patient-report-shiny-app.md",
+  "sourceDirName": "5-mhira-reporting-guide",
+  "slug": "/mhira-reporting-guide/patient-report-shiny-app",
+  "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/5-mhira-reporting-guide/patient-report-shiny-app.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MHIRA Reporting guide",
+    "permalink": "/documentation/docs/category/mhira-reporting-guide"
+  },
+  "next": {
+    "title": "License and contributors",
+    "permalink": "/documentation/docs/category/license-and-contributors"
+  }
+}

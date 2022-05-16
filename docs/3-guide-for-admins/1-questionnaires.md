@@ -9,16 +9,18 @@ Adding questionnaires in MHIRA is based on the [xlsfrom](https://xlsform.org/) w
 The first step is to create an excel file with the specification of the xlsform format to represent the questionnaire you would like to add to MHIRA. 
 To create this excel file, please follow the instructions on the [xlsform guide](https://xlsform.org/) (external to our project).
 
- In short, your excel file will need 3 worksheets:
-[The survey worksheet](https://xlsform.org/en/#the-survey-worksheet)
-[The choices worksheet](https://xlsform.org/en/#the-choices-worksheet)
-[Settings worksheet](https://xlsform.org/en/#settings-worksheet) 
-
 :::caution
 Xlsform is a sophisticated format aimed at research. For MHIRA, we have only implemented a limited set of features useful to cover most mental health questionnaires. We will add more features in the future as needed. The current document details the available features.
 :::
 
-### Available [question types](https://xlsform.org/en/#question-types)
+ In short, your excel file will need 3 worksheets:
+1. [The survey worksheet](https://xlsform.org/en/#the-survey-worksheet): is a list of the questions of the questionnaires.
+2. [The choices worksheet](https://xlsform.org/en/#the-choices-worksheet) is used to set the answer options (e.g., for multiple choice type questions).
+3. [Settings worksheet](https://xlsform.org/en/#settings-worksheet): is used to set meta data about the questionnaire.
+
+
+
+### Available question types
 
 [Here](https://xlsform.org/en/#question-types) you can find a list of question types available in xlsform format.  
 
@@ -49,7 +51,7 @@ On the [settings worksheet](https://xlsform.org/en/#settings-worksheet), the fie
 
 ### Validating your xlsform
 
-You can use [this website](xyz.com) to validate your forms. This will indicate any violation of the format. 
+You can use [this website](https://getodk.org/xlsform/) to validate your forms. This will indicate any violation of the format. 
 
 ## Uploading your xlsform to MHIRA to create a questionnaire
 
@@ -85,8 +87,8 @@ The uploaded questionnaires are listed under the “questionnaires” menu acces
 
 ![questionnaire_list](./img/questionnaire-list.png "questionnaire list")
 
-Left mouse click on a questionnaire in the list will bring you to the questionnaire detail view in which you can edit the questionnaire fields. You cannot change the uploaded xlsform. This requires archiving the questionnaire and re-uploading it. 
-With the right mouse click, you open the context menu allowing you to archive the questionnaire (provided you have the permission to do so). 
+- Left mouse click on a questionnaire in the list will bring you to the questionnaire detail view in which you can edit the questionnaire fields. You cannot change the uploaded xlsform. This requires archiving the questionnaire and re-uploading it. 
+- With the right mouse click, you open the context menu allowing you to archive the questionnaire (provided you have the permission to do so). 
 
  ##  Old versions of questionnaires
 

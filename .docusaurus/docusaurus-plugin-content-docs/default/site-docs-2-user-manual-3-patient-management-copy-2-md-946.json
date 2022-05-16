@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/patient-management copy 2",
+  "id": "user-manual/patient-management copy 2",
+  "title": "Access",
+  "description": "",
+  "source": "@site/docs/2-user-manual/3-patient-management copy 2.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/patient-management copy 2",
+  "permalink": "/documentation/docs/user-manual/patient-management copy 2",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/docs/2-user-manual/3-patient-management copy 2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Workflow",
+    "permalink": "/documentation/docs/user-manual/workflow"
+  },
+  "next": {
+    "title": "Patient Management",
+    "permalink": "/documentation/docs/user-manual/patient-management"
+  }
+}

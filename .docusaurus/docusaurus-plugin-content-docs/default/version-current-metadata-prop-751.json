@@ -16,6 +16,51 @@
       },
       {
         "type": "category",
+        "label": "User Manual",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Workflow",
+            "href": "/documentation/docs/user-manual/workflow",
+            "docId": "user-manual/workflow"
+          },
+          {
+            "type": "link",
+            "label": "Access",
+            "href": "/documentation/docs/user-manual/access",
+            "docId": "user-manual/access"
+          },
+          {
+            "type": "link",
+            "label": "Navigation",
+            "href": "/documentation/docs/user-manual/navigation",
+            "docId": "user-manual/navigation"
+          },
+          {
+            "type": "link",
+            "label": "Patient Management",
+            "href": "/documentation/docs/user-manual/patient-management",
+            "docId": "user-manual/patient-management"
+          },
+          {
+            "type": "link",
+            "label": "Assessments",
+            "href": "/documentation/docs/user-manual/assessments",
+            "docId": "user-manual/assessments"
+          },
+          {
+            "type": "link",
+            "label": "Reports",
+            "href": "/documentation/docs/user-manual/reports",
+            "docId": "user-manual/reports"
+          }
+        ],
+        "href": "/documentation/docs/category/user-manual"
+      },
+      {
+        "type": "category",
         "label": "Guide for admins",
         "collapsible": true,
         "collapsed": true,
@@ -71,8 +116,8 @@
           {
             "type": "link",
             "label": "Shiny patient reporting tool",
-            "href": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
-            "docId": "MHIRA-reporting-guide/patient-report-shiny-app"
+            "href": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
+            "docId": "mhira-reporting-guide/patient-report-shiny-app"
           }
         ],
         "href": "/documentation/docs/category/mhira-reporting-guide"
@@ -86,20 +131,20 @@
           {
             "type": "link",
             "label": "Copyright and Licensing",
-            "href": "/documentation/docs/License-and-contributors/license",
-            "docId": "License-and-contributors/license"
+            "href": "/documentation/docs/license-and-contributors/license",
+            "docId": "license-and-contributors/license"
           },
           {
             "type": "link",
             "label": "Contributors",
-            "href": "/documentation/docs/License-and-contributors/contributors",
-            "docId": "License-and-contributors/contributors"
+            "href": "/documentation/docs/license-and-contributors/contributors",
+            "docId": "license-and-contributors/contributors"
           },
           {
             "type": "link",
             "label": "How to contribute?",
-            "href": "/documentation/docs/License-and-contributors/how-to-contribute",
-            "docId": "License-and-contributors/how-to-contribute"
+            "href": "/documentation/docs/license-and-contributors/how-to-contribute",
+            "docId": "license-and-contributors/how-to-contribute"
           }
         ],
         "href": "/documentation/docs/category/license-and-contributors"
@@ -143,28 +188,64 @@
       "description": "- The user manual provides a guide on how to use MHIRA for mental health professionals.",
       "sidebar": "tutorialSidebar"
     },
-    "License-and-contributors/contributors": {
-      "id": "License-and-contributors/contributors",
+    "license-and-contributors/contributors": {
+      "id": "license-and-contributors/contributors",
       "title": "Contributors",
       "description": "The project has been initiated and is being managed by",
       "sidebar": "tutorialSidebar"
     },
-    "License-and-contributors/how-to-contribute": {
-      "id": "License-and-contributors/how-to-contribute",
+    "license-and-contributors/how-to-contribute": {
+      "id": "license-and-contributors/how-to-contribute",
       "title": "How to contribute?",
       "description": "Please contact Ronan Zimmermann or any other team member. Thank you.",
       "sidebar": "tutorialSidebar"
     },
-    "License-and-contributors/license": {
-      "id": "License-and-contributors/license",
+    "license-and-contributors/license": {
+      "id": "license-and-contributors/license",
       "title": "Copyright and Licensing",
       "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
       "sidebar": "tutorialSidebar"
     },
-    "MHIRA-reporting-guide/patient-report-shiny-app": {
-      "id": "MHIRA-reporting-guide/patient-report-shiny-app",
+    "mhira-reporting-guide/patient-report-shiny-app": {
+      "id": "mhira-reporting-guide/patient-report-shiny-app",
       "title": "Shiny patient reporting tool",
       "description": "This documenation refers to this repository",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/access": {
+      "id": "user-manual/access",
+      "title": "Access",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/assessments": {
+      "id": "user-manual/assessments",
+      "title": "Assessments",
+      "description": "After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, from the ‘plan assessment’ menu in the navigation bar.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/navigation": {
+      "id": "user-manual/navigation",
+      "title": "Navigation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/patient-management": {
+      "id": "user-manual/patient-management",
+      "title": "Patient Management",
+      "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site. The patient-centred view can be accessed by selecting the corresponding patient from the patient overview list.  The patient-centred view contains the subsections profile, departments, case managers, departments, caregivers, assessments and reports. To create a patient, the “create patient” button needs to be clicked. This will prompt the user to fill in the patient's profile.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/reports": {
+      "id": "user-manual/reports",
+      "title": "Reports",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-manual/workflow": {
+      "id": "user-manual/workflow",
+      "title": "Workflow",
+      "description": "The core workflow in MHIRA consists of creating a case (information representing a patient), then creating one or multiple assessment(s) for this patient which contain one or multiple questionnaires. Next, the questions in the assessment(s) need to be answered by an informant. Each assessment needs to be filled in by only one informant. Finally, a user with access to the case’s information can access the report which results from the answered questionnaires.",
       "sidebar": "tutorialSidebar"
     }
   }

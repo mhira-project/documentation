@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/Access copy",
+  "id": "user-manual/Access copy",
+  "title": "Access",
+  "description": "",
+  "source": "@site/docs/2-user-manual/2-Access copy.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/Access copy",
+  "permalink": "/documentation/docs/user-manual/Access copy",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/docs/2-user-manual/2-Access copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Workflow",
+    "permalink": "/documentation/docs/user-manual/workflow"
+  },
+  "next": {
+    "title": "Access",
+    "permalink": "/documentation/docs/user-manual/Access"
+  }
+}

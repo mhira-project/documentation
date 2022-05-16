@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/access",
+  "id": "user-manual/access",
+  "title": "Access",
+  "description": "",
+  "source": "@site/docs/2-user-manual/2-access.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/access",
+  "permalink": "/documentation/docs/user-manual/access",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/2-user-manual/2-access.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Workflow",
+    "permalink": "/documentation/docs/user-manual/workflow"
+  },
+  "next": {
+    "title": "Navigation",
+    "permalink": "/documentation/docs/user-manual/navigation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "license-and-contributors/contributors",
+  "id": "license-and-contributors/contributors",
+  "title": "Contributors",
+  "description": "The project has been initiated and is being managed by",
+  "source": "@site/docs/6-license-and-contributors/2-contributors.md",
+  "sourceDirName": "6-license-and-contributors",
+  "slug": "/license-and-contributors/contributors",
+  "permalink": "/documentation/docs/license-and-contributors/contributors",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/blob/main/docs/6-license-and-contributors/2-contributors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Copyright and Licensing",
+    "permalink": "/documentation/docs/license-and-contributors/license"
+  },
+  "next": {
+    "title": "How to contribute?",
+    "permalink": "/documentation/docs/license-and-contributors/how-to-contribute"
+  }
+}

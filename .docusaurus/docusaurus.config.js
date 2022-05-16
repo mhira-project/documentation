@@ -11,7 +11,7 @@ export default {
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "trailingSlash": true,
+  "trailingSlash": false,
   "organizationName": "mhira-project",
   "projectName": "documentation",
   "deploymentBranch": "gh-pages",
@@ -28,7 +28,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/ronan/Documents/documentation/sidebars.js",
-          "editUrl": "https://github.com/mhira-project/documentation"
+          "editUrl": "https://github.com/mhira-project/documentation/blob/main/"
         },
         "blog": {
           "showReadingTime": true,

@@ -41,23 +41,58 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "License-and-contributors/contributors",
-              "path": "/documentation/docs/License-and-contributors/contributors",
+              "id": "license-and-contributors/contributors",
+              "path": "/documentation/docs/license-and-contributors/contributors",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "License-and-contributors/how-to-contribute",
-              "path": "/documentation/docs/License-and-contributors/how-to-contribute",
+              "id": "license-and-contributors/how-to-contribute",
+              "path": "/documentation/docs/license-and-contributors/how-to-contribute",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "License-and-contributors/license",
-              "path": "/documentation/docs/License-and-contributors/license",
+              "id": "license-and-contributors/license",
+              "path": "/documentation/docs/license-and-contributors/license",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "MHIRA-reporting-guide/patient-report-shiny-app",
-              "path": "/documentation/docs/MHIRA-reporting-guide/patient-report-shiny-app",
+              "id": "mhira-reporting-guide/patient-report-shiny-app",
+              "path": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/access",
+              "path": "/documentation/docs/user-manual/access",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/assessments",
+              "path": "/documentation/docs/user-manual/assessments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/navigation",
+              "path": "/documentation/docs/user-manual/navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/patient-management",
+              "path": "/documentation/docs/user-manual/patient-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/reports",
+              "path": "/documentation/docs/user-manual/reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/workflow",
+              "path": "/documentation/docs/user-manual/workflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/user-manual",
+              "path": "/documentation/docs/category/user-manual",
               "sidebar": "tutorialSidebar"
             },
             {
