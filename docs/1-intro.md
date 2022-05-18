@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Documenation overview
 
  - The [user manual](category/user-manual) provides a guide on how to use MHIRA for mental health professionals. 
  - The [guide for admins](category/guide-for-admins) is for those who manage access to the software and who customise it for a specific service (e.g., creating user accounts, defining departments). 
