@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Built to address the global mental health care gap',
-   // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+   // Svg: require('@site/static/img/world.png').default,
     description: (
       <>
         In a world where most mental health problems remain undetected, we 
@@ -15,7 +15,7 @@ const FeatureList = [
   ,
   {
     title: 'Adapt MHIRA to the needs of your service',
-   // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    //Svg: require('@site/static/img/gears.png').default,
     description: (
       <>
         MHIRA allows integrating psychometric questionnaires and creating customised reports.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Support mental health care workers',
-   // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    //Svg: require('@site/static/img/handshake.png').default,
     description: (
       <>
         This project was desinged together with front-line health 
@@ -38,7 +38,7 @@ function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-       
+        
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

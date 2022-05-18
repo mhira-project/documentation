@@ -38,14 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mhira-project/documentation/blob/main/',
+            'https://github.com/mhira-project/documentation/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mhira-project/documentation/blob/main/',
+            'https://github.com/mhira-project/documentation/edit/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
