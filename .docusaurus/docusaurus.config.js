@@ -32,7 +32,7 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/mhira-project/documentation"
+          "editUrl": "https://github.com/mhira-project/documentation/blob/main/"
         },
         "theme": {
           "customCss": "/home/ronan/Documents/documentation/src/css/custom.css"
