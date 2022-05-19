@@ -2,13 +2,13 @@
 sidebar_position: 10
 ---
 
-# R-Studio to test reports
+# Activating R-Studio to test reports
 
-The installation comes with bundled in `rstudio` container.
+The installation comes with an `rstudio` docker container. 
+This container is a great way to test and develop the reports which are based on R.
+This article describes how to activate this container. 
 
-The RStudio container may be useful for purposes of creating/editing custom reporting scripts using R.
-
-RStudio this is not enabled by default. To enabled `rstudio` set following values in your `env` file.
+RStudio this is not enabled by default. To enabled `rstudio` set the following values in your `.env` file.
 
 ```env
 # To enable `rstudio` container uncomment the following line, that enables `rstudio` profile
@@ -30,3 +30,5 @@ Accessing R-studio container
     https://localhost:8787 
     or 
     https://localhost/rstudio
+    or
+    https://{{yourMHIRAurlHERE}}/rstudio
