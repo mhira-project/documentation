@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/overview",
+  "id": "guide-for-admins/overview",
+  "title": "Overview",
+  "description": "The following actions need to be taken by the admin to setup MHIRA (in this recommended order)",
+  "source": "@site/docs/3-guide-for-admins/1-overview.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/overview",
+  "permalink": "/documentation/docs/guide-for-admins/overview",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/1-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide for admins",
+    "permalink": "/documentation/docs/category/guide-for-admins"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  }
+}

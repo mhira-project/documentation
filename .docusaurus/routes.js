@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '159'),
+    component: ComponentCreator('/documentation/docs', '043'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -42,8 +42,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/documentation/docs/guide-for-admins/overview',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/overview', 'ff8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/documentation/docs/guide-for-admins/questionnaires',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/questionnaires', '6b3'),
+        component: ComponentCreator('/documentation/docs/guide-for-admins/questionnaires', '0d2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

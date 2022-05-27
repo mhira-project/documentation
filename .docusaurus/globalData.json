@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "guide-for-admins/overview",
+              "path": "/documentation/docs/guide-for-admins/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "guide-for-admins/questionnaires",
               "path": "/documentation/docs/guide-for-admins/questionnaires",
               "sidebar": "tutorialSidebar"

@@ -67,6 +67,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Overview",
+            "href": "/documentation/docs/guide-for-admins/overview",
+            "docId": "guide-for-admins/overview"
+          },
+          {
+            "type": "link",
             "label": "Questionnaires",
             "href": "/documentation/docs/guide-for-admins/questionnaires",
             "docId": "guide-for-admins/questionnaires"
@@ -164,6 +170,12 @@
     ]
   },
   "docs": {
+    "guide-for-admins/overview": {
+      "id": "guide-for-admins/overview",
+      "title": "Overview",
+      "description": "The following actions need to be taken by the admin to setup MHIRA (in this recommended order)",
+      "sidebar": "tutorialSidebar"
+    },
     "guide-for-admins/questionnaires": {
       "id": "guide-for-admins/questionnaires",
       "title": "Questionnaires",
