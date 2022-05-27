@@ -43,6 +43,11 @@ MHIRA currently offers the following question types:
 - [Constrains](https://xlsform.org/en/#constraints) are currently not implemented.
 - [Multi-language support](https://xlsform.org/en/#multiple-language-support) is not implemented. You will need to create multiple xlsfoms and set language in the MHIRA user interface. This change is due to how reporting works in MHIRA. 
 
+:::warn
+Make sure required items are set to 'required' in the xlsform as
+failing to do so will likely later result in incomplete reports. 
+:::
+
 ### Unique identifier for questionnaires.
 
 :::tip
@@ -60,7 +65,7 @@ To upload your questionnaire to MHIRA, please select “upload questionnaire” 
 ![upload_questionnaire](./img/upload-questionnaire.png "Uploading questionnaires")
 
 
-1. Select your xlsform on your local drive to upload it with the “choose file” button.
+1. Select your *xlsform* on your local drive to upload it with the “choose file” button.
 2. Provide a long name for your form. 
 3. Select a status (this field has no impact on the behaviour of the software, but the field is required)
 4. Select a language

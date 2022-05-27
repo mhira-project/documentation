@@ -26,4 +26,4 @@ WHERE "isSuperUser" = true;
 ```
 
 
-Finally, login to MHIRA portal with username: `superadmin` and password `superadmin` and change your password to something more secure.
+Finally, login to MHIRA portal with username: `superadmin` and password `superadmin` and change your password. 

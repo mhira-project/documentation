@@ -100,7 +100,7 @@
           },
           {
             "type": "link",
-            "label": "R-Studio to test reports",
+            "label": "Activating R-Studio to test reports",
             "href": "/documentation/docs/installation-guide/RStudio",
             "docId": "installation-guide/RStudio"
           }
@@ -113,6 +113,12 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "link",
+            "label": "MHIRA reporting overview",
+            "href": "/documentation/docs/mhira-reporting-guide/reporting_overview",
+            "docId": "mhira-reporting-guide/reporting_overview"
+          },
           {
             "type": "link",
             "label": "Shiny patient reporting tool",
@@ -178,8 +184,8 @@
     },
     "installation-guide/RStudio": {
       "id": "installation-guide/RStudio",
-      "title": "R-Studio to test reports",
-      "description": "The installation comes with bundled in rstudio container.",
+      "title": "Activating R-Studio to test reports",
+      "description": "The installation comes with an rstudio docker container.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -210,6 +216,12 @@
       "id": "mhira-reporting-guide/patient-report-shiny-app",
       "title": "Shiny patient reporting tool",
       "description": "This documenation refers to this repository",
+      "sidebar": "tutorialSidebar"
+    },
+    "mhira-reporting-guide/reporting_overview": {
+      "id": "mhira-reporting-guide/reporting_overview",
+      "title": "MHIRA reporting overview",
+      "description": "reporting",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/access": {

@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/documentation/docs-87f": {
+  "/documentation/docs-415": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a9f6cc16"
@@ -72,6 +72,10 @@
   "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app-b01": {
     "__comp": "17896441",
     "content": "c89bc024"
+  },
+  "/documentation/docs/mhira-reporting-guide/reporting_overview-92b": {
+    "__comp": "17896441",
+    "content": "9a4a974e"
   },
   "/documentation/docs/user-manual/access-2fb": {
     "__comp": "17896441",

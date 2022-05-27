@@ -4,12 +4,12 @@
   "permalink": "/documentation/docs/category/mhira-reporting-guide",
   "navigation": {
     "previous": {
-      "title": "R-Studio to test reports",
+      "title": "Activating R-Studio to test reports",
       "permalink": "/documentation/docs/installation-guide/RStudio"
     },
     "next": {
-      "title": "Shiny patient reporting tool",
-      "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+      "title": "MHIRA reporting overview",
+      "permalink": "/documentation/docs/mhira-reporting-guide/reporting_overview"
     }
   }
 }

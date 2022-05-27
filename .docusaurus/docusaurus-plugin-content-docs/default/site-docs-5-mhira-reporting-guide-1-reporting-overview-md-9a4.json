@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mhira-reporting-guide/reporting_overview",
+  "id": "mhira-reporting-guide/reporting_overview",
+  "title": "MHIRA reporting overview",
+  "description": "reporting",
+  "source": "@site/docs/5-mhira-reporting-guide/1-reporting_overview.md",
+  "sourceDirName": "5-mhira-reporting-guide",
+  "slug": "/mhira-reporting-guide/reporting_overview",
+  "permalink": "/documentation/docs/mhira-reporting-guide/reporting_overview",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/1-reporting_overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MHIRA Reporting guide",
+    "permalink": "/documentation/docs/category/mhira-reporting-guide"
+  },
+  "next": {
+    "title": "Shiny patient reporting tool",
+    "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+  }
+}
