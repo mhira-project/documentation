@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '415'),
+    component: ComponentCreator('/documentation/docs', '159'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -55,13 +55,19 @@ export default [
       },
       {
         path: '/documentation/docs/installation-guide/data-and-backup',
-        component: ComponentCreator('/documentation/docs/installation-guide/data-and-backup', 'd8c'),
+        component: ComponentCreator('/documentation/docs/installation-guide/data-and-backup', '5fb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/documentation/docs/installation-guide/installing-mhira',
-        component: ComponentCreator('/documentation/docs/installation-guide/installing-mhira', '81b'),
+        component: ComponentCreator('/documentation/docs/installation-guide/installing-mhira', '714'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/installation-guide/requirements',
+        component: ComponentCreator('/documentation/docs/installation-guide/requirements', 'adb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -31,6 +31,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "installation-guide/requirements",
+              "path": "/documentation/docs/installation-guide/requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "installation-guide/RStudio",
               "path": "/documentation/docs/installation-guide/RStudio",
               "sidebar": "tutorialSidebar"

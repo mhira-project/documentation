@@ -1,0 +1,27 @@
+{
+  "unversionedId": "installation-guide/installing-mhira",
+  "id": "installation-guide/installing-mhira",
+  "title": "🐳 Installing MHIRA",
+  "description": "MHIRA can be installed from docker containers using docker-compose.",
+  "source": "@site/docs/4-installation-guide/2-installing-mhira.md",
+  "sourceDirName": "4-installation-guide",
+  "slug": "/installation-guide/installing-mhira",
+  "permalink": "/documentation/docs/installation-guide/installing-mhira",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/4-installation-guide/2-installing-mhira.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Requirements",
+    "permalink": "/documentation/docs/installation-guide/requirements"
+  },
+  "next": {
+    "title": "Data and Backup",
+    "permalink": "/documentation/docs/installation-guide/data-and-backup"
+  }
+}

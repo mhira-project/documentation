@@ -82,6 +82,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Requirements",
+            "href": "/documentation/docs/installation-guide/requirements",
+            "docId": "installation-guide/requirements"
+          },
+          {
+            "type": "link",
             "label": "🐳 Installing MHIRA",
             "href": "/documentation/docs/installation-guide/installing-mhira",
             "docId": "installation-guide/installing-mhira"
@@ -180,6 +186,12 @@
       "id": "installation-guide/installing-mhira",
       "title": "🐳 Installing MHIRA",
       "description": "MHIRA can be installed from docker containers using docker-compose.",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation-guide/requirements": {
+      "id": "installation-guide/requirements",
+      "title": "Requirements",
+      "description": "Server",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/RStudio": {

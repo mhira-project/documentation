@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/1-questionnaires.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {

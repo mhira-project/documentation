@@ -16,6 +16,10 @@ sidebar_position: 2
 
 ### Leeto Digital Agency
  - Edison Biba
+ - Erald Lifo
+ - Renata Kadiu
+ - Ervis Hajdari
+
 
 ### SciCORE (University of Basel)
  - Yiqing Zhu
@@ -24,7 +28,7 @@ sidebar_position: 2
  - Alex Behn
  - Jon Konjufca
  - Mrema Kilonzo
- - Cristobal Hernandes
+ - Cristobal Hernandez
  - Fernando Parada
  - Kathrin Blum
  - Yamil Quevedo
