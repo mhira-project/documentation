@@ -2,7 +2,7 @@
   "unversionedId": "guide-for-admins/overview",
   "id": "guide-for-admins/overview",
   "title": "Overview",
-  "description": "The following actions need to be taken by the admin to setup MHIRA (in this recommended order)",
+  "description": "The following actions need to be taken by the admin to setup MHIRA.",
   "source": "@site/docs/3-guide-for-admins/1-overview.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/overview",

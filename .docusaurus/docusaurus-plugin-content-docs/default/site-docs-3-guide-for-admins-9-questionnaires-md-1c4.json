@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/documentation/docs/guide-for-admins/overview"
+    "title": "Assessment titles",
+    "permalink": "/documentation/docs/guide-for-admins/assessment-titles"
   },
   "next": {
-    "title": "Installation guide",
-    "permalink": "/documentation/docs/category/installation-guide"
+    "title": "Report-buttons",
+    "permalink": "/documentation/docs/guide-for-admins/Report-buttons"
   }
 }

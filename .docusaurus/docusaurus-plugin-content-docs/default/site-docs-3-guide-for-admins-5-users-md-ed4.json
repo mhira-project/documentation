@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/users",
+  "id": "guide-for-admins/users",
+  "title": "Users",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/5-users.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/users",
+  "permalink": "/documentation/docs/guide-for-admins/users",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/5-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Departments",
+    "permalink": "/documentation/docs/guide-for-admins/departments"
+  },
+  "next": {
+    "title": "Messages and disclaimers",
+    "permalink": "/documentation/docs/guide-for-admins/messages-and-disclaimers"
+  }
+}

@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/documentation/docs-043": {
+  "/documentation/docs-304": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a9f6cc16"
@@ -33,13 +33,49 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "5ef954cc"
   },
-  "/documentation/docs/guide-for-admins/overview-ff8": {
+  "/documentation/docs/guide-for-admins/assessment-titles-571": {
     "__comp": "17896441",
-    "content": "1752b189"
+    "content": "04cb0ebc"
+  },
+  "/documentation/docs/guide-for-admins/departments-5f7": {
+    "__comp": "17896441",
+    "content": "be79744c"
+  },
+  "/documentation/docs/guide-for-admins/messages-and-disclaimers-985": {
+    "__comp": "17896441",
+    "content": "ecc92084"
+  },
+  "/documentation/docs/guide-for-admins/overview-6f8": {
+    "__comp": "17896441",
+    "content": "0219c083"
+  },
+  "/documentation/docs/guide-for-admins/patient-statuses-065": {
+    "__comp": "17896441",
+    "content": "bc838d09"
+  },
+  "/documentation/docs/guide-for-admins/permissions-3ca": {
+    "__comp": "17896441",
+    "content": "0094c148"
   },
   "/documentation/docs/guide-for-admins/questionnaires-0d2": {
     "__comp": "17896441",
     "content": "1c45f462"
+  },
+  "/documentation/docs/guide-for-admins/Report-buttons-80b": {
+    "__comp": "17896441",
+    "content": "fd59a039"
+  },
+  "/documentation/docs/guide-for-admins/roles-b1d": {
+    "__comp": "17896441",
+    "content": "511b38fa"
+  },
+  "/documentation/docs/guide-for-admins/superadmin-71e": {
+    "__comp": "17896441",
+    "content": "dec18a0e"
+  },
+  "/documentation/docs/guide-for-admins/users-a5d": {
+    "__comp": "17896441",
+    "content": "ed4ea577"
   },
   "/documentation/docs/installation-guide/admin-password-reset-c4d": {
     "__comp": "17896441",
@@ -65,17 +101,17 @@
     "__comp": "17896441",
     "content": "c6810bfd"
   },
-  "/documentation/docs/license-and-contributors/contributors-9fb": {
+  "/documentation/docs/license-and-contributors/contributors-a66": {
     "__comp": "17896441",
-    "content": "f878b72d"
+    "content": "f001ad0c"
   },
-  "/documentation/docs/license-and-contributors/how-to-contribute-a97": {
+  "/documentation/docs/license-and-contributors/how-to-contribute-534": {
     "__comp": "17896441",
-    "content": "79f4401e"
+    "content": "8807473a"
   },
-  "/documentation/docs/license-and-contributors/license-fd7": {
+  "/documentation/docs/license-and-contributors/license-18e": {
     "__comp": "17896441",
-    "content": "006cd192"
+    "content": "90384e46"
   },
   "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app-b01": {
     "__comp": "17896441",

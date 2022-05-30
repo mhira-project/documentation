@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/permissions",
+  "id": "guide-for-admins/permissions",
+  "title": "Permissions",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/3-permissions.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/permissions",
+  "permalink": "/documentation/docs/guide-for-admins/permissions",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/3-permissions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Roles",
+    "permalink": "/documentation/docs/guide-for-admins/roles"
+  },
+  "next": {
+    "title": "Departments",
+    "permalink": "/documentation/docs/guide-for-admins/departments"
+  }
+}

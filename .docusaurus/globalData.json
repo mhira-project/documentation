@@ -11,13 +11,58 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "guide-for-admins/assessment-titles",
+              "path": "/documentation/docs/guide-for-admins/assessment-titles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/departments",
+              "path": "/documentation/docs/guide-for-admins/departments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/messages-and-disclaimers",
+              "path": "/documentation/docs/guide-for-admins/messages-and-disclaimers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "guide-for-admins/overview",
               "path": "/documentation/docs/guide-for-admins/overview",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "guide-for-admins/patient-statuses",
+              "path": "/documentation/docs/guide-for-admins/patient-statuses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/permissions",
+              "path": "/documentation/docs/guide-for-admins/permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "guide-for-admins/questionnaires",
               "path": "/documentation/docs/guide-for-admins/questionnaires",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/Report-buttons",
+              "path": "/documentation/docs/guide-for-admins/Report-buttons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/roles",
+              "path": "/documentation/docs/guide-for-admins/roles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/superadmin",
+              "path": "/documentation/docs/guide-for-admins/superadmin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide-for-admins/users",
+              "path": "/documentation/docs/guide-for-admins/users",
               "sidebar": "tutorialSidebar"
             },
             {

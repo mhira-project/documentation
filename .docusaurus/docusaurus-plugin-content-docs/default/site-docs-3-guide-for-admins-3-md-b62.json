@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/3-",
+  "id": "guide-for-admins/3-",
+  "title": "3-",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/3-.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/3-",
+  "permalink": "/documentation/docs/guide-for-admins/3-",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/3-.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "roles",
+    "permalink": "/documentation/docs/guide-for-admins/roles"
+  },
+  "next": {
+    "title": "4-",
+    "permalink": "/documentation/docs/guide-for-admins/4-"
+  }
+}

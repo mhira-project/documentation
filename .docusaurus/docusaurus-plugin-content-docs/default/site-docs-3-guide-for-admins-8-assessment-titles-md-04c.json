@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/assessment-titles",
+  "id": "guide-for-admins/assessment-titles",
+  "title": "Assessment titles",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/8-assessment-titles.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/assessment-titles",
+  "permalink": "/documentation/docs/guide-for-admins/assessment-titles",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/8-assessment-titles.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Patient status",
+    "permalink": "/documentation/docs/guide-for-admins/patient-statuses"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/departments",
+  "id": "guide-for-admins/departments",
+  "title": "Departments",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/4-departments.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/departments",
+  "permalink": "/documentation/docs/guide-for-admins/departments",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/4-departments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Permissions",
+    "permalink": "/documentation/docs/guide-for-admins/permissions"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/documentation/docs/guide-for-admins/users"
+  }
+}

@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '043'),
+    component: ComponentCreator('/documentation/docs', '304'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -42,14 +42,68 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/documentation/docs/guide-for-admins/assessment-titles',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/assessment-titles', '571'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/departments',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/departments', '5f7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/messages-and-disclaimers',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/messages-and-disclaimers', '985'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/documentation/docs/guide-for-admins/overview',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/overview', 'ff8'),
+        component: ComponentCreator('/documentation/docs/guide-for-admins/overview', '6f8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/patient-statuses',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/patient-statuses', '065'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/permissions',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/permissions', '3ca'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/documentation/docs/guide-for-admins/questionnaires',
         component: ComponentCreator('/documentation/docs/guide-for-admins/questionnaires', '0d2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/Report-buttons',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/Report-buttons', '80b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/roles',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/roles', 'b1d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/superadmin',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/superadmin', '71e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/guide-for-admins/users',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/users', 'a5d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -91,19 +145,19 @@ export default [
       },
       {
         path: '/documentation/docs/license-and-contributors/contributors',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/contributors', '9fb'),
+        component: ComponentCreator('/documentation/docs/license-and-contributors/contributors', 'a66'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/documentation/docs/license-and-contributors/how-to-contribute',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/how-to-contribute', 'a97'),
+        component: ComponentCreator('/documentation/docs/license-and-contributors/how-to-contribute', '534'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/documentation/docs/license-and-contributors/license',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/license', 'fd7'),
+        component: ComponentCreator('/documentation/docs/license-and-contributors/license', '18e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

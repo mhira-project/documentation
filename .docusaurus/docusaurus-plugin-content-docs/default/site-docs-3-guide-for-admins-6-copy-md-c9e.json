@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/copy",
+  "id": "guide-for-admins/copy",
+  "title": "copy",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/6-copy.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/copy",
+  "permalink": "/documentation/docs/guide-for-admins/copy",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/6-copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5-",
+    "permalink": "/documentation/docs/guide-for-admins/5-"
+  },
+  "next": {
+    "title": "7 -",
+    "permalink": "/documentation/docs/guide-for-admins/7 -"
+  }
+}

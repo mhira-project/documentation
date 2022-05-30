@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/5-",
+  "id": "guide-for-admins/5-",
+  "title": "5-",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/5-.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/5-",
+  "permalink": "/documentation/docs/guide-for-admins/5-",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/5-.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4-",
+    "permalink": "/documentation/docs/guide-for-admins/4-"
+  },
+  "next": {
+    "title": "copy",
+    "permalink": "/documentation/docs/guide-for-admins/copy"
+  }
+}

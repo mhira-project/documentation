@@ -73,9 +73,63 @@
           },
           {
             "type": "link",
+            "label": "Superadmin",
+            "href": "/documentation/docs/guide-for-admins/superadmin",
+            "docId": "guide-for-admins/superadmin"
+          },
+          {
+            "type": "link",
+            "label": "Roles",
+            "href": "/documentation/docs/guide-for-admins/roles",
+            "docId": "guide-for-admins/roles"
+          },
+          {
+            "type": "link",
+            "label": "Permissions",
+            "href": "/documentation/docs/guide-for-admins/permissions",
+            "docId": "guide-for-admins/permissions"
+          },
+          {
+            "type": "link",
+            "label": "Departments",
+            "href": "/documentation/docs/guide-for-admins/departments",
+            "docId": "guide-for-admins/departments"
+          },
+          {
+            "type": "link",
+            "label": "Users",
+            "href": "/documentation/docs/guide-for-admins/users",
+            "docId": "guide-for-admins/users"
+          },
+          {
+            "type": "link",
+            "label": "Messages and disclaimers",
+            "href": "/documentation/docs/guide-for-admins/messages-and-disclaimers",
+            "docId": "guide-for-admins/messages-and-disclaimers"
+          },
+          {
+            "type": "link",
+            "label": "Patient status",
+            "href": "/documentation/docs/guide-for-admins/patient-statuses",
+            "docId": "guide-for-admins/patient-statuses"
+          },
+          {
+            "type": "link",
+            "label": "Assessment titles",
+            "href": "/documentation/docs/guide-for-admins/assessment-titles",
+            "docId": "guide-for-admins/assessment-titles"
+          },
+          {
+            "type": "link",
             "label": "Questionnaires",
             "href": "/documentation/docs/guide-for-admins/questionnaires",
             "docId": "guide-for-admins/questionnaires"
+          },
+          {
+            "type": "link",
+            "label": "Report-buttons",
+            "href": "/documentation/docs/guide-for-admins/Report-buttons",
+            "docId": "guide-for-admins/Report-buttons"
           }
         ],
         "href": "/documentation/docs/category/guide-for-admins"
@@ -170,16 +224,70 @@
     ]
   },
   "docs": {
+    "guide-for-admins/assessment-titles": {
+      "id": "guide-for-admins/assessment-titles",
+      "title": "Assessment titles",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/departments": {
+      "id": "guide-for-admins/departments",
+      "title": "Departments",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/messages-and-disclaimers": {
+      "id": "guide-for-admins/messages-and-disclaimers",
+      "title": "Messages and disclaimers",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "guide-for-admins/overview": {
       "id": "guide-for-admins/overview",
       "title": "Overview",
-      "description": "The following actions need to be taken by the admin to setup MHIRA (in this recommended order)",
+      "description": "The following actions need to be taken by the admin to setup MHIRA.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/patient-statuses": {
+      "id": "guide-for-admins/patient-statuses",
+      "title": "Patient status",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/permissions": {
+      "id": "guide-for-admins/permissions",
+      "title": "Permissions",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/questionnaires": {
       "id": "guide-for-admins/questionnaires",
       "title": "Questionnaires",
       "description": "Creating an xlsform",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/Report-buttons": {
+      "id": "guide-for-admins/Report-buttons",
+      "title": "Report-buttons",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/roles": {
+      "id": "guide-for-admins/roles",
+      "title": "Roles",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/superadmin": {
+      "id": "guide-for-admins/superadmin",
+      "title": "Superadmin",
+      "description": "When MHIRA is installed, it has one user role and one user account pre-intalled.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide-for-admins/users": {
+      "id": "guide-for-admins/users",
+      "title": "Users",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/admin-password-reset": {

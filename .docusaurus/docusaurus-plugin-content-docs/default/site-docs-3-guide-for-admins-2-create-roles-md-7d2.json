@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/Create roles",
+  "id": "guide-for-admins/Create roles",
+  "title": "Create roles",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/2 - Create roles.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/Create roles",
+  "permalink": "/documentation/docs/guide-for-admins/Create roles",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/2 - Create roles.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reset superadmin password",
+    "permalink": "/documentation/docs/guide-for-admins/Reset superadmin password"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  }
+}

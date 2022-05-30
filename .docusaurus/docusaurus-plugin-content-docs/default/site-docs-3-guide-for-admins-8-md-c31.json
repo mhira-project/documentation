@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/8 -",
+  "id": "guide-for-admins/8 -",
+  "title": "8 -",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/8 -.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/8 -",
+  "permalink": "/documentation/docs/guide-for-admins/8 -",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/8 -.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7 -",
+    "permalink": "/documentation/docs/guide-for-admins/7 -"
+  },
+  "next": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  }
+}

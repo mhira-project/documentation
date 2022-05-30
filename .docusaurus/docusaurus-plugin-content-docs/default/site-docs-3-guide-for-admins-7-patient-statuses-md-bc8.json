@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/patient-statuses",
+  "id": "guide-for-admins/patient-statuses",
+  "title": "Patient status",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/7-patient-statuses.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/patient-statuses",
+  "permalink": "/documentation/docs/guide-for-admins/patient-statuses",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/7-patient-statuses.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messages and disclaimers",
+    "permalink": "/documentation/docs/guide-for-admins/messages-and-disclaimers"
+  },
+  "next": {
+    "title": "Assessment titles",
+    "permalink": "/documentation/docs/guide-for-admins/assessment-titles"
+  }
+}
