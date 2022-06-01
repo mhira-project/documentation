@@ -7,9 +7,7 @@ sidebar_position: 0
 The following actions need to be taken by the admin to setup MHIRA.
 
 :::tip
-
-Make sure to complete the setup before allowing access to non-admin users. 
-
+- Make sure to complete the setup before allowing access to non-admin users. 
 :::
 
 1. Reset superadmin password (this is enforced at first login)

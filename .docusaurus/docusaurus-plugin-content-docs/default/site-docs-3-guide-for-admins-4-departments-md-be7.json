@@ -2,7 +2,7 @@
   "unversionedId": "guide-for-admins/departments",
   "id": "guide-for-admins/departments",
   "title": "Departments",
-  "description": "",
+  "description": "Departments in MHIRA work as patient access groups. This is useful in a situation where users with the permission to view patients should only have access to a restricted group of patients.",
   "source": "@site/docs/3-guide-for-admins/4-departments.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/departments",

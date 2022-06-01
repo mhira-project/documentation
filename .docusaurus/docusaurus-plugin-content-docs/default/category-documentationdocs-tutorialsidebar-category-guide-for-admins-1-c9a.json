@@ -1,0 +1,15 @@
+{
+  "title": "Guide for admins",
+  "slug": "/category/guide-for-admins-1",
+  "permalink": "/documentation/docs/category/guide-for-admins-1",
+  "navigation": {
+    "previous": {
+      "title": "Shiny patient reporting tool",
+      "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+    },
+    "next": {
+      "title": "Scenario 1",
+      "permalink": "/documentation/docs/practical-scenarios/chile"
+    }
+  }
+}

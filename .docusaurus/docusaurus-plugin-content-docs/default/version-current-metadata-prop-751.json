@@ -79,7 +79,7 @@
           },
           {
             "type": "link",
-            "label": "Roles",
+            "label": "User roles",
             "href": "/documentation/docs/guide-for-admins/roles",
             "docId": "guide-for-admins/roles"
           },
@@ -127,9 +127,9 @@
           },
           {
             "type": "link",
-            "label": "Report-buttons",
-            "href": "/documentation/docs/guide-for-admins/Report-buttons",
-            "docId": "guide-for-admins/Report-buttons"
+            "label": "Reports",
+            "href": "/documentation/docs/guide-for-admins/Reports",
+            "docId": "guide-for-admins/Reports"
           }
         ],
         "href": "/documentation/docs/category/guide-for-admins"
@@ -196,6 +196,21 @@
       },
       {
         "type": "category",
+        "label": "Guide for admins",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Scenario 1",
+            "href": "/documentation/docs/practical-scenarios/chile",
+            "docId": "practical-scenarios/chile"
+          }
+        ],
+        "href": "/documentation/docs/category/guide-for-admins-1"
+      },
+      {
+        "type": "category",
         "label": "License and contributors",
         "collapsible": true,
         "collapsed": true,
@@ -233,7 +248,7 @@
     "guide-for-admins/departments": {
       "id": "guide-for-admins/departments",
       "title": "Departments",
-      "description": "",
+      "description": "Departments in MHIRA work as patient access groups. This is useful in a situation where users with the permission to view patients should only have access to a restricted group of patients.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/messages-and-disclaimers": {
@@ -257,7 +272,7 @@
     "guide-for-admins/permissions": {
       "id": "guide-for-admins/permissions",
       "title": "Permissions",
-      "description": "",
+      "description": "Permissions determine what information users can view and edit within the software.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/questionnaires": {
@@ -266,16 +281,16 @@
       "description": "Creating an xlsform",
       "sidebar": "tutorialSidebar"
     },
-    "guide-for-admins/Report-buttons": {
-      "id": "guide-for-admins/Report-buttons",
-      "title": "Report-buttons",
-      "description": "---",
+    "guide-for-admins/Reports": {
+      "id": "guide-for-admins/Reports",
+      "title": "Reports",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/roles": {
       "id": "guide-for-admins/roles",
-      "title": "Roles",
-      "description": "",
+      "title": "User roles",
+      "description": "User roles are a way to conventiently bundle a set of permissions. By assinging a user role to a user, this user will obtain all the permissions linked to the role.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/superadmin": {
@@ -287,7 +302,7 @@
     "guide-for-admins/users": {
       "id": "guide-for-admins/users",
       "title": "Users",
-      "description": "",
+      "description": "Users will need an account to access MHIRA.",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/admin-password-reset": {
@@ -354,6 +369,12 @@
       "id": "mhira-reporting-guide/reporting_overview",
       "title": "MHIRA reporting overview",
       "description": "reporting",
+      "sidebar": "tutorialSidebar"
+    },
+    "practical-scenarios/chile": {
+      "id": "practical-scenarios/chile",
+      "title": "Scenario 1",
+      "description": "To be done",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/access": {

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/Reports",
+  "id": "guide-for-admins/Reports",
+  "title": "Reports",
+  "description": "",
+  "source": "@site/docs/3-guide-for-admins/10-Reports.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/Reports",
+  "permalink": "/documentation/docs/guide-for-admins/Reports",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/10-Reports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  },
+  "next": {
+    "title": "Installation guide",
+    "permalink": "/documentation/docs/category/installation-guide"
+  }
+}

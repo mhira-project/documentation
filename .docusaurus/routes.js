@@ -9,11 +9,17 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '304'),
+    component: ComponentCreator('/documentation/docs', '1f4'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
         component: ComponentCreator('/documentation/docs/category/guide-for-admins', '720'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/category/guide-for-admins-1',
+        component: ComponentCreator('/documentation/docs/category/guide-for-admins-1', '44f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -84,8 +90,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/Report-buttons',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/Report-buttons', '80b'),
+        path: '/documentation/docs/guide-for-admins/Reports',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/Reports', 'd89'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -170,6 +176,12 @@ export default [
       {
         path: '/documentation/docs/mhira-reporting-guide/reporting_overview',
         component: ComponentCreator('/documentation/docs/mhira-reporting-guide/reporting_overview', '92b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/practical-scenarios/chile',
+        component: ComponentCreator('/documentation/docs/practical-scenarios/chile', '18e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -1,6 +1,5 @@
-
 ---
 sidebar_position: 10
 ---
 
-# Report buttons
+# Reports

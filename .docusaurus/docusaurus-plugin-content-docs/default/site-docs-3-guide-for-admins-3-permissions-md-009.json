@@ -2,7 +2,7 @@
   "unversionedId": "guide-for-admins/permissions",
   "id": "guide-for-admins/permissions",
   "title": "Permissions",
-  "description": "",
+  "description": "Permissions determine what information users can view and edit within the software.",
   "source": "@site/docs/3-guide-for-admins/3-permissions.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/permissions",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Roles",
+    "title": "User roles",
     "permalink": "/documentation/docs/guide-for-admins/roles"
   },
   "next": {

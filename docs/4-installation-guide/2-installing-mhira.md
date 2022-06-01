@@ -17,7 +17,7 @@ You will need to install docker and docker-compose:
 
 * Docker installation instruction can be found [here](https://docs.docker.com/get-docker/)
 
-* We strongly recommend executing the post-installation steps e.g., adding your user to a docker group. 
+* We strongly recommend executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
 
 ### Docker-compose
 
@@ -41,10 +41,10 @@ Change the line `JWT_SECRET=changeMe` after the equal sign to set the secret key
 
     sed -i "s|changeMe|$(openssl rand -base64 32)|" .env
 
-Run docker-compose to initialize your app
+Run docker compose to initialize your app
 
-    docker-compose pull
-    docker-compose up --build -d
+    docker compose pull
+    docker compose up --build -d
 
 If the above steps ran successfully, you should now be able to access the mhira application on your local machine at below address.
 
@@ -91,7 +91,7 @@ To update your existing installation to a newer version of MHIRA software execut
     git pull 
 
     # Pull latest docker images
-    docker-compose pull  
+    docker compose pull  
 
     # Restart containers with updated images and config   
-    docker-compose up -d --build --remove-orphan
+    docker compose up -d --build --remove-orphan

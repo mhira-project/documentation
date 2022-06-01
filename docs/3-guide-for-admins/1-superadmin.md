@@ -13,15 +13,17 @@ Using your internet browser, navigate to the URL (address entered into the brows
 This will be take you to a [login screen](https://mhira-project.github.io/documentation/docs/user-manual/access).
 Enter the username: *superadmin* and the password. 
 
-Now, the software will force you to change the password for this user. 
-Make sure to save this password in a secure location or to remember it. 
-Also make sure that the password is strong.
-In case you loose this password, there is a [recovery procedure](https://mhira-project.github.io/documentation/docs/installation-guide/admin-password-reset) but it will need access to the command line of the server. 
+Now, the software will force you to change the password for the superadmin. 
+Make sure  that the password is strong.
+Also make sure to save this password in a secure location or to remember it.
+In case you lose this password, there is a [recovery procedure](https://mhira-project.github.io/documentation/docs/installation-guide/admin-password-reset) but it will need access to the command line of the server. 
 
-:::warn
+:::caution
+
 The superadmin account has all the permissions you can have in MHIRA. 
 However, it can not be changed. 
 Thus, the superadmin cannot be assigned to any [department](https://mhira-project.github.io/documentation/docs/guide-for-admins/departments). Consequently, you cannot create patients with this account. 
+
 :::
 
 :::tip

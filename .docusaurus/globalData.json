@@ -46,8 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "guide-for-admins/Report-buttons",
-              "path": "/documentation/docs/guide-for-admins/Report-buttons",
+              "id": "guide-for-admins/Reports",
+              "path": "/documentation/docs/guide-for-admins/Reports",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -121,6 +121,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "practical-scenarios/chile",
+              "path": "/documentation/docs/practical-scenarios/chile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "user-manual/access",
               "path": "/documentation/docs/user-manual/access",
               "sidebar": "tutorialSidebar"
@@ -168,6 +173,11 @@
             {
               "id": "/category/mhira-reporting-guide",
               "path": "/documentation/docs/category/mhira-reporting-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guide-for-admins-1",
+              "path": "/documentation/docs/category/guide-for-admins-1",
               "sidebar": "tutorialSidebar"
             },
             {

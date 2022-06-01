@@ -1,8 +1,8 @@
 {
   "unversionedId": "guide-for-admins/roles",
   "id": "guide-for-admins/roles",
-  "title": "Roles",
-  "description": "",
+  "title": "User roles",
+  "description": "User roles are a way to conventiently bundle a set of permissions. By assinging a user role to a user, this user will obtain all the permissions linked to the role.",
   "source": "@site/docs/3-guide-for-admins/2-roles.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/roles",
