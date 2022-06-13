@@ -2,7 +2,7 @@
   "unversionedId": "mhira-reporting-guide/graphql_api",
   "id": "mhira-reporting-guide/graphql_api",
   "title": "GraphQL API",
-  "description": "",
+  "description": "The reporting app will need to request data via MHIRA's API.",
   "source": "@site/docs/5-mhira-reporting-guide/2-graphql_api.md",
   "sourceDirName": "5-mhira-reporting-guide",
   "slug": "/mhira-reporting-guide/graphql_api",

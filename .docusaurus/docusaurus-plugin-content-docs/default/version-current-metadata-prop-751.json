@@ -374,7 +374,7 @@
     "mhira-reporting-guide/graphql_api": {
       "id": "mhira-reporting-guide/graphql_api",
       "title": "GraphQL API",
-      "description": "",
+      "description": "The reporting app will need to request data via MHIRA's API.",
       "sidebar": "tutorialSidebar"
     },
     "mhira-reporting-guide/overview": {
