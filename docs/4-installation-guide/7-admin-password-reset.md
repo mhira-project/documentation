@@ -7,7 +7,7 @@ First, please navigate to the folder containing the docker and docker-compose (.
 Run
 ```bash
 # Connect to postgres using psql CLI tool
-docker-compose exec postgres psql '-Udefault'
+docker compose exec postgres psql '-Udefault'
 
 ```
 
