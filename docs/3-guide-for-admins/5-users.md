@@ -25,7 +25,7 @@ The password needs to be repeated. The set password is temporary as the user wil
 The password needs to be communicated to the user by a channel outside of MHIRA, e.g., a paper printout, via telephone or by email. 
 
 :::tip
-Some browsers have the possiblity to auto-generate stong passwords. 
+Some browsers have the possiblity to auto-generate strong passwords. 
 :::
 
 

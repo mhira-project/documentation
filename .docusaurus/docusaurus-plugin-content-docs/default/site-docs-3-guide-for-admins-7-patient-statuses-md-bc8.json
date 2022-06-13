@@ -2,7 +2,7 @@
   "unversionedId": "guide-for-admins/patient-statuses",
   "id": "guide-for-admins/patient-statuses",
   "title": "Patient status",
-  "description": "",
+  "description": "Patient status is a feature that can support the workflow and collaboration.",
   "source": "@site/docs/3-guide-for-admins/7-patient-statuses.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/patient-statuses",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/7-patient-statuses.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {

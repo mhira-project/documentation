@@ -1,0 +1,15 @@
+{
+  "title": "Implementation scenarios",
+  "slug": "/category/implementation-scenarios",
+  "permalink": "/documentation/docs/category/implementation-scenarios",
+  "navigation": {
+    "previous": {
+      "title": "Shiny patient reporting tool",
+      "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+    },
+    "next": {
+      "title": "Scenario 1",
+      "permalink": "/documentation/docs/implementation-scenarios/chile"
+    }
+  }
+}

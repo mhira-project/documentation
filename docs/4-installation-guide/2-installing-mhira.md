@@ -15,7 +15,7 @@ sidebar_position: 2
 
 You will need to install docker and docker-compose:
 
-* Docker installation instruction can be found [here](https://docs.docker.com/get-docker/)
+* Docker installation instruction can be found [here](https://docs.docker.com/engine/install/)
 
 * We strongly recommend executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
 

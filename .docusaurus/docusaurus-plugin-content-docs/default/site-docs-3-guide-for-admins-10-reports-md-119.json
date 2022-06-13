@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guide-for-admins/reports",
+  "id": "guide-for-admins/reports",
+  "title": "Reports",
+  "description": "The 'reports' menu which is accessible under 'Adminstraion' allows to set up reporting buttons in the MHIRA software.",
+  "source": "@site/docs/3-guide-for-admins/10-reports.md",
+  "sourceDirName": "3-guide-for-admins",
+  "slug": "/guide-for-admins/reports",
+  "permalink": "/documentation/docs/guide-for-admins/reports",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/10-reports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Questionnaires",
+    "permalink": "/documentation/docs/guide-for-admins/questionnaires"
+  },
+  "next": {
+    "title": "Installation guide",
+    "permalink": "/documentation/docs/category/installation-guide"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mhira-reporting-guide/graphql_api",
+  "id": "mhira-reporting-guide/graphql_api",
+  "title": "GraphQL API",
+  "description": "",
+  "source": "@site/docs/5-mhira-reporting-guide/2-graphql_api.md",
+  "sourceDirName": "5-mhira-reporting-guide",
+  "slug": "/mhira-reporting-guide/graphql_api",
+  "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/2-graphql_api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/documentation/docs/mhira-reporting-guide/overview"
+  },
+  "next": {
+    "title": "Shiny patient reporting tool",
+    "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+  }
+}

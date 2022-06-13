@@ -46,8 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "guide-for-admins/Reports",
-              "path": "/documentation/docs/guide-for-admins/Reports",
+              "id": "guide-for-admins/reports",
+              "path": "/documentation/docs/guide-for-admins/reports",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -63,6 +63,11 @@
             {
               "id": "guide-for-admins/users",
               "path": "/documentation/docs/guide-for-admins/users",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "implementation-scenarios/chile",
+              "path": "/documentation/docs/implementation-scenarios/chile",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -86,8 +91,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "installation-guide/RStudio",
-              "path": "/documentation/docs/installation-guide/RStudio",
+              "id": "installation-guide/rstudio",
+              "path": "/documentation/docs/installation-guide/rstudio",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -111,18 +116,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "mhira-reporting-guide/graphql_api",
+              "path": "/documentation/docs/mhira-reporting-guide/graphql_api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mhira-reporting-guide/overview",
+              "path": "/documentation/docs/mhira-reporting-guide/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "mhira-reporting-guide/patient-report-shiny-app",
               "path": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "mhira-reporting-guide/reporting_overview",
-              "path": "/documentation/docs/mhira-reporting-guide/reporting_overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "practical-scenarios/chile",
-              "path": "/documentation/docs/practical-scenarios/chile",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -171,13 +176,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/mhira-reporting-guide",
-              "path": "/documentation/docs/category/mhira-reporting-guide",
+              "id": "/category/mhira-reporting",
+              "path": "/documentation/docs/category/mhira-reporting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guide-for-admins-1",
-              "path": "/documentation/docs/category/guide-for-admins-1",
+              "id": "/category/implementation-scenarios",
+              "path": "/documentation/docs/category/implementation-scenarios",
               "sidebar": "tutorialSidebar"
             },
             {

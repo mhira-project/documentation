@@ -128,8 +128,8 @@
           {
             "type": "link",
             "label": "Reports",
-            "href": "/documentation/docs/guide-for-admins/Reports",
-            "docId": "guide-for-admins/Reports"
+            "href": "/documentation/docs/guide-for-admins/reports",
+            "docId": "guide-for-admins/reports"
           }
         ],
         "href": "/documentation/docs/category/guide-for-admins"
@@ -167,23 +167,29 @@
           {
             "type": "link",
             "label": "Activating R-Studio to test reports",
-            "href": "/documentation/docs/installation-guide/RStudio",
-            "docId": "installation-guide/RStudio"
+            "href": "/documentation/docs/installation-guide/rstudio",
+            "docId": "installation-guide/rstudio"
           }
         ],
         "href": "/documentation/docs/category/installation-guide"
       },
       {
         "type": "category",
-        "label": "MHIRA Reporting guide",
+        "label": "MHIRA Reporting",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "MHIRA reporting overview",
-            "href": "/documentation/docs/mhira-reporting-guide/reporting_overview",
-            "docId": "mhira-reporting-guide/reporting_overview"
+            "label": "Overview",
+            "href": "/documentation/docs/mhira-reporting-guide/overview",
+            "docId": "mhira-reporting-guide/overview"
+          },
+          {
+            "type": "link",
+            "label": "GraphQL API",
+            "href": "/documentation/docs/mhira-reporting-guide/graphql_api",
+            "docId": "mhira-reporting-guide/graphql_api"
           },
           {
             "type": "link",
@@ -192,22 +198,22 @@
             "docId": "mhira-reporting-guide/patient-report-shiny-app"
           }
         ],
-        "href": "/documentation/docs/category/mhira-reporting-guide"
+        "href": "/documentation/docs/category/mhira-reporting"
       },
       {
         "type": "category",
-        "label": "Guide for admins",
+        "label": "Implementation scenarios",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Scenario 1",
-            "href": "/documentation/docs/practical-scenarios/chile",
-            "docId": "practical-scenarios/chile"
+            "href": "/documentation/docs/implementation-scenarios/chile",
+            "docId": "implementation-scenarios/chile"
           }
         ],
-        "href": "/documentation/docs/category/guide-for-admins-1"
+        "href": "/documentation/docs/category/implementation-scenarios"
       },
       {
         "type": "category",
@@ -242,7 +248,7 @@
     "guide-for-admins/assessment-titles": {
       "id": "guide-for-admins/assessment-titles",
       "title": "Assessment titles",
-      "description": "",
+      "description": "When creating an assessment, an 'assessment title' needs to be selected.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/departments": {
@@ -254,7 +260,7 @@
     "guide-for-admins/messages-and-disclaimers": {
       "id": "guide-for-admins/messages-and-disclaimers",
       "title": "Messages and disclaimers",
-      "description": "",
+      "description": "Messages can be important to inform informants (those filling in questionnaires) and users of MHIRA.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/overview": {
@@ -266,7 +272,7 @@
     "guide-for-admins/patient-statuses": {
       "id": "guide-for-admins/patient-statuses",
       "title": "Patient status",
-      "description": "",
+      "description": "Patient status is a feature that can support the workflow and collaboration.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/permissions": {
@@ -281,10 +287,10 @@
       "description": "Creating an xlsform",
       "sidebar": "tutorialSidebar"
     },
-    "guide-for-admins/Reports": {
-      "id": "guide-for-admins/Reports",
+    "guide-for-admins/reports": {
+      "id": "guide-for-admins/reports",
       "title": "Reports",
-      "description": "",
+      "description": "The 'reports' menu which is accessible under 'Adminstraion' allows to set up reporting buttons in the MHIRA software.",
       "sidebar": "tutorialSidebar"
     },
     "guide-for-admins/roles": {
@@ -303,6 +309,12 @@
       "id": "guide-for-admins/users",
       "title": "Users",
       "description": "Users will need an account to access MHIRA.",
+      "sidebar": "tutorialSidebar"
+    },
+    "implementation-scenarios/chile": {
+      "id": "implementation-scenarios/chile",
+      "title": "Scenario 1",
+      "description": "To be done",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/admin-password-reset": {
@@ -329,8 +341,8 @@
       "description": "Server",
       "sidebar": "tutorialSidebar"
     },
-    "installation-guide/RStudio": {
-      "id": "installation-guide/RStudio",
+    "installation-guide/rstudio": {
+      "id": "installation-guide/rstudio",
       "title": "Activating R-Studio to test reports",
       "description": "The installation comes with an rstudio docker container.",
       "sidebar": "tutorialSidebar"
@@ -359,22 +371,22 @@
       "description": "Copyright © 2021 by ‘University of Basel’ and mhira-project (https//mhira-project.org/).",
       "sidebar": "tutorialSidebar"
     },
+    "mhira-reporting-guide/graphql_api": {
+      "id": "mhira-reporting-guide/graphql_api",
+      "title": "GraphQL API",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "mhira-reporting-guide/overview": {
+      "id": "mhira-reporting-guide/overview",
+      "title": "Overview",
+      "description": "With the flexibility regarding questionnaires, MHIRA is confronted with the challenge of flexible and adaptive reporting. MHIRA’s strategy to address this issue is leveraging available data science tools like those available in the R (e.g., ggplot, tydiverse and shiny) and Python (e.g., pandas and dash) programming languages.",
+      "sidebar": "tutorialSidebar"
+    },
     "mhira-reporting-guide/patient-report-shiny-app": {
       "id": "mhira-reporting-guide/patient-report-shiny-app",
       "title": "Shiny patient reporting tool",
       "description": "This documenation refers to this repository",
-      "sidebar": "tutorialSidebar"
-    },
-    "mhira-reporting-guide/reporting_overview": {
-      "id": "mhira-reporting-guide/reporting_overview",
-      "title": "MHIRA reporting overview",
-      "description": "reporting",
-      "sidebar": "tutorialSidebar"
-    },
-    "practical-scenarios/chile": {
-      "id": "practical-scenarios/chile",
-      "title": "Scenario 1",
-      "description": "To be done",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/access": {

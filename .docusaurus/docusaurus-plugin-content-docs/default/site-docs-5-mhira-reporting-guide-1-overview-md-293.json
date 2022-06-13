@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mhira-reporting-guide/overview",
+  "id": "mhira-reporting-guide/overview",
+  "title": "Overview",
+  "description": "With the flexibility regarding questionnaires, MHIRA is confronted with the challenge of flexible and adaptive reporting. MHIRA’s strategy to address this issue is leveraging available data science tools like those available in the R (e.g., ggplot, tydiverse and shiny) and Python (e.g., pandas and dash) programming languages.",
+  "source": "@site/docs/5-mhira-reporting-guide/1-overview.md",
+  "sourceDirName": "5-mhira-reporting-guide",
+  "slug": "/mhira-reporting-guide/overview",
+  "permalink": "/documentation/docs/mhira-reporting-guide/overview",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/1-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MHIRA Reporting",
+    "permalink": "/documentation/docs/category/mhira-reporting"
+  },
+  "next": {
+    "title": "GraphQL API",
+    "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api"
+  }
+}

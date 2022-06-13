@@ -22,10 +22,10 @@ While MHIRA should work with most avaiable browsers, we have tested with google 
 
 ## Network 
 
-A stable network with required for running MHIRA storing data requires an active connection. 
+A stable network connectin is required for running MHIRA.
 MHIRA does not cache data on the client device.
 Addtionally, a domain and an active SSL certificate is required as MHIRA should run using Hypertext Transfer Protocol Secure (https).
 
 # Backup
 
-An external backup location is recommended. 
+An external backup is recommended. 

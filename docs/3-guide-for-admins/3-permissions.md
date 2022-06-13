@@ -32,7 +32,8 @@ Use of the delete type permissions should be strongly restricted.
 
 :::tip
 - To effectively use assessments, the permisson "view users" is required. This is because assessment mangagers need to be selected and users can be informants of the assessments.
--  Managing type permissions only work if viewing is also selected
+- Addtionally, it is required to 'view patients' and to 'view questionnaires'to plan assessments. 
+- Managing type permissions only work if viewing is also selected
 :::
 
 ## Linking permissions to [user roles](https://mhira-project.github.io/documentation/docs/guide-for-admins/roles) 
@@ -56,6 +57,7 @@ A tick mark will apprear to indicate that the permission has been linked to the 
 - view caregivers
 - manage caregivers
 - view users
+- view questionnaires
 
 ### Patient manager
 - view all patients

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "installation-guide/rstudio",
+  "id": "installation-guide/rstudio",
+  "title": "Activating R-Studio to test reports",
+  "description": "The installation comes with an rstudio docker container.",
+  "source": "@site/docs/4-installation-guide/10-rstudio.md",
+  "sourceDirName": "4-installation-guide",
+  "slug": "/installation-guide/rstudio",
+  "permalink": "/documentation/docs/installation-guide/rstudio",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/4-installation-guide/10-rstudio.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Admin Password Reset",
+    "permalink": "/documentation/docs/installation-guide/admin-password-reset"
+  },
+  "next": {
+    "title": "MHIRA Reporting",
+    "permalink": "/documentation/docs/category/mhira-reporting"
+  }
+}

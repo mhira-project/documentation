@@ -1,0 +1,27 @@
+{
+  "unversionedId": "implementation-scenarios/chile",
+  "id": "implementation-scenarios/chile",
+  "title": "Scenario 1",
+  "description": "To be done",
+  "source": "@site/docs/6-implementation-scenarios/1-chile.md",
+  "sourceDirName": "6-implementation-scenarios",
+  "slug": "/implementation-scenarios/chile",
+  "permalink": "/documentation/docs/implementation-scenarios/chile",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/6-implementation-scenarios/1-chile.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implementation scenarios",
+    "permalink": "/documentation/docs/category/implementation-scenarios"
+  },
+  "next": {
+    "title": "License and contributors",
+    "permalink": "/documentation/docs/category/license-and-contributors"
+  }
+}

@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MHIRA reporting overview",
-    "permalink": "/documentation/docs/mhira-reporting-guide/reporting_overview"
+    "title": "GraphQL API",
+    "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api"
   },
   "next": {
-    "title": "Guide for admins",
-    "permalink": "/documentation/docs/category/guide-for-admins-1"
+    "title": "Implementation scenarios",
+    "permalink": "/documentation/docs/category/implementation-scenarios"
   }
 }

@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '1f4'),
+    component: ComponentCreator('/documentation/docs', 'be5'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -18,8 +18,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/guide-for-admins-1',
-        component: ComponentCreator('/documentation/docs/category/guide-for-admins-1', '44f'),
+        path: '/documentation/docs/category/implementation-scenarios',
+        component: ComponentCreator('/documentation/docs/category/implementation-scenarios', '430'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -36,8 +36,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/mhira-reporting-guide',
-        component: ComponentCreator('/documentation/docs/category/mhira-reporting-guide', 'e97'),
+        path: '/documentation/docs/category/mhira-reporting',
+        component: ComponentCreator('/documentation/docs/category/mhira-reporting', '3b6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -90,8 +90,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/Reports',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/Reports', 'd89'),
+        path: '/documentation/docs/guide-for-admins/reports',
+        component: ComponentCreator('/documentation/docs/guide-for-admins/reports', '1ce'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -110,6 +110,12 @@ export default [
       {
         path: '/documentation/docs/guide-for-admins/users',
         component: ComponentCreator('/documentation/docs/guide-for-admins/users', 'a5d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/implementation-scenarios/chile',
+        component: ComponentCreator('/documentation/docs/implementation-scenarios/chile', 'ed5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -138,8 +144,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/RStudio',
-        component: ComponentCreator('/documentation/docs/installation-guide/RStudio', '5b8'),
+        path: '/documentation/docs/installation-guide/rstudio',
+        component: ComponentCreator('/documentation/docs/installation-guide/rstudio', '12a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -168,20 +174,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/documentation/docs/mhira-reporting-guide/graphql_api',
+        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/graphql_api', '4b1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/mhira-reporting-guide/overview',
+        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/overview', 'cc6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/documentation/docs/mhira-reporting-guide/patient-report-shiny-app',
         component: ComponentCreator('/documentation/docs/mhira-reporting-guide/patient-report-shiny-app', 'b01'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/documentation/docs/mhira-reporting-guide/reporting_overview',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/reporting_overview', '92b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/documentation/docs/practical-scenarios/chile',
-        component: ComponentCreator('/documentation/docs/practical-scenarios/chile', '18e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

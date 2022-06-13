@@ -2,7 +2,7 @@
   "unversionedId": "guide-for-admins/assessment-titles",
   "id": "guide-for-admins/assessment-titles",
   "title": "Assessment titles",
-  "description": "",
+  "description": "When creating an assessment, an 'assessment title' needs to be selected.",
   "source": "@site/docs/3-guide-for-admins/8-assessment-titles.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/assessment-titles",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/8-assessment-titles.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {

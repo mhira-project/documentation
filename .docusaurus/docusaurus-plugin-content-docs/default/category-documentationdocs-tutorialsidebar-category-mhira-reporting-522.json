@@ -1,0 +1,15 @@
+{
+  "title": "MHIRA Reporting",
+  "slug": "/category/mhira-reporting",
+  "permalink": "/documentation/docs/category/mhira-reporting",
+  "navigation": {
+    "previous": {
+      "title": "Activating R-Studio to test reports",
+      "permalink": "/documentation/docs/installation-guide/rstudio"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/documentation/docs/mhira-reporting-guide/overview"
+    }
+  }
+}
