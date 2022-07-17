@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', 'be5'),
+    component: ComponentCreator('/documentation/docs', 'ca8'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -175,7 +175,7 @@ export default [
       },
       {
         path: '/documentation/docs/mhira-reporting-guide/graphql_api',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/graphql_api', '4b1'),
+        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/graphql_api', 'f22'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -187,7 +187,13 @@ export default [
       },
       {
         path: '/documentation/docs/mhira-reporting-guide/patient-report-shiny-app',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/patient-report-shiny-app', 'b01'),
+        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/patient-report-shiny-app', 'c3b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting',
+        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting', '107'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

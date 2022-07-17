@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mhira-reporting-guide/using-shiny-apps-for-reporting",
+  "id": "mhira-reporting-guide/using-shiny-apps-for-reporting",
+  "title": "Using shiny apps for reporting",
+  "description": "As discussed, MHIRA allows for the connection of external apps for reporting.",
+  "source": "@site/docs/5-mhira-reporting-guide/5-using-shiny-apps-for-reporting.md",
+  "sourceDirName": "5-mhira-reporting-guide",
+  "slug": "/mhira-reporting-guide/using-shiny-apps-for-reporting",
+  "permalink": "/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/5-using-shiny-apps-for-reporting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GraphQL API",
+    "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api"
+  },
+  "next": {
+    "title": "Patient-report shiny app",
+    "permalink": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app"
+  }
+}

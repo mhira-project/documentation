@@ -2,8 +2,7 @@
 sidebar_position: 2
 ---
 
-
-# 🐳 Installing MHIRA 
+#  Installing MHIRA 
 
 > MHIRA can be installed from docker containers using docker-compose. 
 > The following page will walk you through the installation process.
@@ -11,9 +10,9 @@ sidebar_position: 2
 
 ## Pre-requisites
 
-### Docker
-
 You will need to install docker and docker-compose:
+
+### Docker
 
 * Docker installation instruction can be found [here](https://docs.docker.com/engine/install/)
 
@@ -21,9 +20,20 @@ You will need to install docker and docker-compose:
 
 ### Docker-compose
 
-* For Windows and Mac this is installed along with docker. For Linux, installation instructions can be found [here](https://docs.docker.com/compose/install/)
+* For Windows and Mac this is installed along with docker. 
+You can check whether you already have docker compose with:
 
-## Installation
+    docker compose version
+
+In case docker compose is not installed, [installation instructions can be found here](https://docs.docker.com/compose/install/)
+
+:::tip
+
+To avoid issues, check whether your docker and docker-compose versions are up to date. 
+
+:::
+
+## Installation of MHIRA
 
 ### Cloning the docker setup from github
 
@@ -62,7 +72,7 @@ To access MHIRA software from outside of the server, set `SITE_DOMAIN` in your e
     SITE_DOMAIN=mhira.myorganization.com, 10.0.0.2
 
 :::note
-- If using a publicly accessible domain name as `SITE_DOMAIN`, the bundled in [Caddy](https://caddyserver.com/) webserver will automatically provision a Trusted HTTPS certificate for the domain.
+- If using a publicly accessible domain name as `SITE_DOMAIN`, the bundled in [Caddy](https://caddyserver.com/) webserver will automatically provision a trusted HTTPS certificate for the domain.
 
 - If using an internal domain name or IP address as `SITE_DOMAIN`, the webserver will provision a self-signed certificate. Users will be faced with a security warning when accessing the site using self-signed certificate, and will need to accept/trust the certificate to access the site.
 :::
@@ -82,7 +92,8 @@ If the above steps ran successfully, you should now be able to access the mhira 
 
 Later changes to the .env file come into effect by restarting the containers 
 
-    docker compose up -d
+   docker compose stop
+   docker compose up -d
 
 :::
 
@@ -95,13 +106,25 @@ Please consult the section on [data and backup](data-and-backup)
 :::    
 
 
-To update your existing installation to a newer version of MHIRA software execute following commands
-
+To update your existing installation to a newer version of MHIRA software, execute following commands (you need to be in the folder with the docker compose .yml file)
+   
     # Pull latest docker config
-    git pull 
+    git pull
+
+
+:::tip
+
+The .env example file might have changed with the update, potentially leading to missing or superflous environment variables.
+If a variable is missing, docker compose will output the corresponding error.
+Please compare your old and the new environment variables for discrepancies.
+
+:::
 
     # Pull latest docker images
     docker compose pull  
+
+    # It is recommended to first stop the containers
+    docker compose stop 
 
     # Restart containers with updated images and config   
     docker compose up -d --build --remove-orphan

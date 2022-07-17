@@ -148,7 +148,7 @@
           },
           {
             "type": "link",
-            "label": "🐳 Installing MHIRA",
+            "label": "Installing MHIRA",
             "href": "/documentation/docs/installation-guide/installing-mhira",
             "docId": "installation-guide/installing-mhira"
           },
@@ -166,7 +166,7 @@
           },
           {
             "type": "link",
-            "label": "Activating R-Studio to test reports",
+            "label": "rstudio",
             "href": "/documentation/docs/installation-guide/rstudio",
             "docId": "installation-guide/rstudio"
           }
@@ -193,7 +193,13 @@
           },
           {
             "type": "link",
-            "label": "Shiny patient reporting tool",
+            "label": "Using shiny apps for reporting",
+            "href": "/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
+            "docId": "mhira-reporting-guide/using-shiny-apps-for-reporting"
+          },
+          {
+            "type": "link",
+            "label": "Patient-report shiny app",
             "href": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
             "docId": "mhira-reporting-guide/patient-report-shiny-app"
           }
@@ -331,7 +337,7 @@
     },
     "installation-guide/installing-mhira": {
       "id": "installation-guide/installing-mhira",
-      "title": "🐳 Installing MHIRA",
+      "title": "Installing MHIRA",
       "description": "MHIRA can be installed from docker containers using docker-compose.",
       "sidebar": "tutorialSidebar"
     },
@@ -343,8 +349,8 @@
     },
     "installation-guide/rstudio": {
       "id": "installation-guide/rstudio",
-      "title": "Activating R-Studio to test reports",
-      "description": "The installation comes with an rstudio docker container.",
+      "title": "rstudio",
+      "description": "The rstudio container should not be used in production when sensitive data is in the data bases.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -385,8 +391,14 @@
     },
     "mhira-reporting-guide/patient-report-shiny-app": {
       "id": "mhira-reporting-guide/patient-report-shiny-app",
-      "title": "Shiny patient reporting tool",
-      "description": "This documenation refers to this repository",
+      "title": "Patient-report shiny app",
+      "description": "This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).",
+      "sidebar": "tutorialSidebar"
+    },
+    "mhira-reporting-guide/using-shiny-apps-for-reporting": {
+      "id": "mhira-reporting-guide/using-shiny-apps-for-reporting",
+      "title": "Using shiny apps for reporting",
+      "description": "As discussed, MHIRA allows for the connection of external apps for reporting.",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/access": {

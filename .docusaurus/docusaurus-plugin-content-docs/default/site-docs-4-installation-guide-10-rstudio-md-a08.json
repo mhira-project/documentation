@@ -1,8 +1,8 @@
 {
   "unversionedId": "installation-guide/rstudio",
   "id": "installation-guide/rstudio",
-  "title": "Activating R-Studio to test reports",
-  "description": "The installation comes with an rstudio docker container.",
+  "title": "rstudio",
+  "description": "The rstudio container should not be used in production when sensitive data is in the data bases.",
   "source": "@site/docs/4-installation-guide/10-rstudio.md",
   "sourceDirName": "4-installation-guide",
   "slug": "/installation-guide/rstudio",
