@@ -350,7 +350,7 @@
     "installation-guide/rstudio": {
       "id": "installation-guide/rstudio",
       "title": "rstudio",
-      "description": "The rstudio container should not be used in production when sensitive data is in the data bases.",
+      "description": "The rstudio container should not be exposed in production when sensitive data is in the data bases.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

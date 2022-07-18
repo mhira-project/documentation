@@ -49,7 +49,7 @@ A tick mark will apprear to indicate that the permission has been linked to the 
 
 ## Examples of permissions for differnt [roles](https://mhira-project.github.io/documentation/docs/guide-for-admins/roles) 
 
-### Clinican 
+### Clinician 
 - view patients
 - manage patients
 - view assessments

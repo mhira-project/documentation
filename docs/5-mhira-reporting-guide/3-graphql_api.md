@@ -12,7 +12,10 @@ The reporting tool in MHIRA is a client while the server side is part of MHIRA.
 
 For our R implementation, we used [this](https://gist.github.com/rentrop/83cb1d8fc8593726a808032e55314019) R function. 
 
-The authentitation token needed to access MHIRA via this API needs to be retrieved from the 'browser session' of the user requesting a report. 
+# Access token
+
+To get access to MHIRA's API, you will need a valid JWT access token. This token is obtained when logging into MHIRA with valid credentials (username and password). The token is saved in the session of the browser and is available for all websites running on the same domain. 
+As the reporting app is served from the same domain, it can use the access token in the browswer session.   
 
 # Accessing the API from other contaiers
 
@@ -22,10 +25,10 @@ Via the docker container network, the graphQL API can be accessed with the URL '
 
 In the .env file the graphQL playground can be activated by setting
 
-    ```
+
     GRAPHQL_PLAYGROUND_ENABLED=true
 
-    ```
+
 
 
 

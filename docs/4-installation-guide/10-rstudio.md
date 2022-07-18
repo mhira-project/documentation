@@ -4,6 +4,7 @@ sidebar_position: 10
 
 :::warning
 The rstudio container should not be exposed in production when sensitive data is in the data bases. 
+Please use this possiblity only for test purposes. 
 :::
 
 

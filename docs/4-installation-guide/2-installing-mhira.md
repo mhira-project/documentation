@@ -2,6 +2,7 @@
 sidebar_position: 2
 ---
 
+
 #  Installing MHIRA 
 
 > MHIRA can be installed from docker containers using docker-compose. 
@@ -16,7 +17,7 @@ You will need to install docker and docker-compose:
 
 * Docker installation instruction can be found [here](https://docs.docker.com/engine/install/)
 
-* We strongly recommend executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
+* We  recommend executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
 
 ### Docker-compose
 
@@ -57,6 +58,36 @@ Copy example `environment` file to create your own config
 Change the line `JWT_SECRET=changeMe` after the equal sign to set the secret key, which is a 32 character string. Run this line in order to change it into a randomly generated key.
 
     sed -i "s|changeMe|$(openssl rand -base64 32)|" .env
+
+### Settings passwords for the databases
+
+For mongodb
+
+    ```dockerfile
+    ### MONGODB ############################################################################################################
+
+    MONGODB_PORT=27017
+    MONGODB_CONNECTION_STRING=mongodb://mongo:27017/questionnaireDB
+    ```
+
+For postgres (contains patient identifying information and user information)
+
+    ```dockerfile
+    ### POSTGRES ###########################################################################################################
+
+    POSTGRES_HOST=postgres
+    POSTGRES_DB=default
+    POSTGRES_USER=default
+    POSTGRES_PASSWORD=secret
+    POSTGRES_PORT=5432
+    ```
+
+:::caution
+
+Not setting the database passwords can compromise the security of the application. Please use strong passwords. 
+
+:::
+
 
 ### Setting access of MHIRA and HTTPS Certificates in the .env file
 
