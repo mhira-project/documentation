@@ -117,7 +117,7 @@ You can also upload R functions which need to be names 'scale_function' as in th
 # The column names should be the item names i.e., name in the xlsform.
 # The data frame has a single row as it only represents data of one questionnaire.
 
-# Thus, the input could look lite this:
+# Thus, the input could look like this:
 
 # item1 item2 item3 item4 item5
 #   4     6     2     0      1
