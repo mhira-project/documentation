@@ -26,11 +26,13 @@ If you do not want to use rstudio to add files, you could for example [change th
 
 ## Access the shiny app via URL
 
-The shiny app can now be accessed under the url 'https://yourMHIRAdomain/shiny/nameOFyourAPP'. 
+The shiny app can now be accessed under this url: 
+
+  https://yourMHIRAdomain/shiny/nameOFyourAPP 
 
 ## Adding a button in MHIRA to connect to your app
 
-Please consult [this section](../3-guide-for-admins/10-reports.md)
+Please consult [this section](../3-guide-for-admins/10-reports.md).
 
 ## Access to graphQL API from within shiny server and rstudio server
 
@@ -38,7 +40,7 @@ Please refer to the section about the [graphql API](3-graphql_api.md)
 
 ## Adding R packages to the shiny server
 
-Packages can be added via the [shiny server docker file](https://github.com/mhira-project/mhira-docker/blob/main/shiny/Dockerfile) with the [install2.R command](https://rocker-project.org/use/extending#install2.r) following command.  
+Packages can be added via the [shiny server docker file](https://github.com/mhira-project/mhira-docker/blob/main/shiny/Dockerfile) with the [install2.R command](https://rocker-project.org/use/extending#install2.r).  
 
  
   ```dockerfile

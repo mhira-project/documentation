@@ -11,9 +11,9 @@ From a user perspective, obtaining a report is done by pressing a reporting butt
 
 1. Navigate to a patient profile in MHIRA.
 
-2. Select the "Report" tab.
+2. Select the *Reports* tab.
 
-|![reporting-button](./img/patient-report-button.png "reporting-button")|
+![reporting-button](./img/patient-report-button.png "reporting-button")
 
 3. Click 'the patient-report' button to obtain your patient report
 

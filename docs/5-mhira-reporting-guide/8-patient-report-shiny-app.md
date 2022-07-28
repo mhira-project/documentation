@@ -65,7 +65,7 @@ These can be uploaded in form of a '.csv' table.
 |Suicidality|q9                                        |0       |3       |    |   |         |
 
 - ScaleName: The name of the scale.
-- Formula: R code to calculate the scale. The names of the objects (q1,q2,...) come from the names selected in the [xlsform you used to create the qustionnaire](../3-guide-for-admins/9-questionnaires.md#creating-an-xlsform).
+- Formula: R code to calculate the scale. The names of the objects (q1,q2,...) come from the names selected in the [xlsform you used to create the questionnaire](../3-guide-for-admins/9-questionnaires.md#creating-an-xlsform).
 - scaleMin: Sets the lower limit in the plot.
 - scalesMax: Sets the upper limit in the plot.
 - mean: mean of healthy population, currently not used.
@@ -77,7 +77,6 @@ These can be uploaded in form of a '.csv' table.
 When uploading these files, the file name does not matter. However the name of the scripts input in the MHIRA form needs to be 'scales_table'.
 
 :::
-
 
 
 #### cutoffs
@@ -97,10 +96,10 @@ CSV files containing cutoffs can be uploaded in the following format.
 |Suicidality|3      |4       |nearly every day       |TRUE   |2         |The patient  suicidal nearly every day.                |Please consider hospitalisation to keep the patient safe.                                        |
 
 - scale: Needs to correspond to the scaleName in scales_table. This is a common source of errors
-- low_cut: Lower cutoff for a certain level (e.g. of symptom severity). The upper bound is not inculded.
-- high_cut: Higher cutoff for the level. The upper bound is not excluded except for the highest level. 
-- level: severity level of these cutoffs. 
-- text_order: The order of the representation. Will allow to concatenate the interpretations and recommendations. 
+- low_cut: Included (>=) lower cutoff for a certain level (e.g. of symptom severity). The upper bound is not inculded (<). 
+- high_cut: Included (>=) higher cutoff for the level. The upper bound is not included (<) except for the highest level (<=). 
+- level: severity level of these cutoffs. Will be used in the plot legend. 
+- text_order: The order in which the scales are represented. Will allow to concatenate the interpretations and recommendations. 
 - Interpretation: Text bocks associated to a certain level.
 - Recommendatin: Text bocks associated to a certain level.
 
@@ -113,20 +112,25 @@ Sometimes calculating the scales is more complex. In these cases, a table might 
 You can also upload R functions which need to be names 'scale_function' as in the following example. 
 
 ```r
-# Input: The parameter given to the function is a data frame with the columns
+# Input: The parameter given to the function is a dataframe 'dfItems' with the columns
 # representing the item data of a single questionnaire e.g., item1; item2; item3, ...
-# The column names should be the scale name of the item i.e., name in the xlsform.
-# The data frame has a single row as it only represents data of one questionnaire
+# The column names should be the item names i.e., name in the xlsform.
+# The data frame has a single row as it only represents data of one questionnaire.
+
+# Thus, the input could look lite this:
+
+# item1 item2 item3 item4 item5
+#   4     6     2     0      1
+
 
 # Output:The function should return a data frame structured like the example below:
-#      scale        value   scaleMin scaleMax mean sd plotGroup
-# 1 somatic_symptoms   0        0       0      NA  NA      1
-# 2 sleep              3        0       0      NA  NA      1
-# 3 depression         2        0       0      NA  NA      1
-# 4 substance_use      1        0       0      NA  NA      1
-# 5 ...                0        0       0      NA  NA      1
 
-# The data frame has a long format if there are multiple variables 
+#      scale        value   scaleMin scaleMax mean sd plotGroup
+# 1 somatic_symptoms   5        0       12     NA  NA      1
+# 2 sleep              2        0       10     NA  NA      1
+# 3 suicidality        1        0        1     NA  NA      1
+
+# The data frame has a long format if there are multiple scales
 
 
 scales_function = function(dfItmes){
@@ -135,29 +139,16 @@ scales_function = function(dfItmes){
   
   df = dfItems %>% 
     mutate(
-      var20 = as.logical(var20),
-      var21 = as.logical(var21),
-      var22 = as.logical(var22),
-      var23 = as.logical(var23),
-      var24 = as.logical(var24),
-      var25 = as.logical(var25)
+      item4 = as.logical(item24),
+      item5 = as.logical(item25)
     )
   
   
   df = df %>%
     summarise(
-      somatic_symptoms	= mean(var1, var2, na.rm = T),
-      sleep = 	var3,
-      inattention = var4,
-      depression	= mean(var5, var6, na.rm = T),
-      anger =	var7,
-      irritability =	var8,
-      mania	= mean(var9, var10, na.rm = T),
-      anxiety	= mean(var11, var12, var13, na.rm = T),
-      psychosis = 	mean(var14,  var15, na.rm = T),
-      repetitiv_thoughts_and_behavious	= mean(var16, var17, var18, var19, na.rm = T),
-      substance_use	= c(var20, var21, var22, var23) %>% anyNotFalse() %>% as.numeric(),   # 0 and 1 treated as logical
-      suicidality	= c(var24, var25) %>% anyNotFalse() %>% as.numeric()  
+      somatic_symptoms	= mean(item1, item2, na.rm = T),
+      sleep = 	item3,
+      suicidality	= c(item4, item5) %>% anyNotFalse() %>% as.numeric()  
       ) %>% 
     pivot_longer(cols = everything(),values_to = "value", names_to = "scale")
   
