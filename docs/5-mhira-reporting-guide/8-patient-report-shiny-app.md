@@ -112,7 +112,7 @@ The cutoff script needs to be named 'cutoffs' in the MHIRA form.
 Sometimes calculating the scales is more complex. In these cases, a table might be too limited. 
 You can also upload R functions which need to be names 'scale_function' as in the following example. 
 
-´´´r
+```r
 # Input: The parameter given to the function is a data frame with the columns
 # representing the item data of a single questionnaire e.g., item1; item2; item3, ...
 # The column names should be the scale name of the item i.e., name in the xlsform.
@@ -174,7 +174,8 @@ scales_function = function(dfItmes){
   
 }
 
-´´´
+```
+
 Make sure that the [shiny server has the required packages](5-using-shiny-apps-for-reporting.md#adding-r-packages-to-the-shiny-server).
 Please assign the name 'scales_function' as name for the script when uploading it. 
 

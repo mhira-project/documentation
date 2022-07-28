@@ -21,10 +21,10 @@ From a user perspective, obtaining a report is done by pressing a reporting butt
 |:--:| 
 |The patient report will show all completed questionnaires of the patient. The questionnaires are represented in tabs. The scales of the questionnaire will be automatically calculated and the cutoffs will be provided. This allows judging the severity of the impairment.|
 
-|![patient-report-interpretation](./img/patient-report-single.png "patient-report-single")|
+|![patient-report-interpretation](./img/patient-report-interpretation.png "patient-report-single")|
 |:--:| 
 |The reports also provide an interpretation in text form for each assessment.|
 
-|![patient-report-repeated](./img/patient-report-single.png "patient-report-repeated")|
+|![patient-report-repeated](./img/patient-report-repeated.png "patient-report-repeated")|
 |:--:| 
 |If multiple assessments of the same type were collected, the report switches to repeated measures mode and shows the trajectory of the symptom scales.|
