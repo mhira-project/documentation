@@ -392,7 +392,7 @@
     "mhira-reporting-guide/patient-report-shiny-app": {
       "id": "mhira-reporting-guide/patient-report-shiny-app",
       "title": "Patient-report shiny app",
-      "description": "This is a shiny app which serves as a patient data reporting tool for the Mental Health Information Reporting Assisitant (MHIRA).",
+      "description": "Please consult 'using shiny apps for reporting' for more background information.",
       "sidebar": "tutorialSidebar"
     },
     "mhira-reporting-guide/using-shiny-apps-for-reporting": {

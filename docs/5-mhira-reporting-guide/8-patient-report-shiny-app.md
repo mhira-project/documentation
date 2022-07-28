@@ -14,26 +14,171 @@ The patient-report shiny app serves as a patient data reporting tool for the Men
 This documenation refers to [this repository](https://github.com/mhira-project/patient-report)
 :::
 
-## Installing the app to work with MHIRA:
+## What is the patient report?
+
+[Click here for an example](../2-user-manual/6-reports.md#example-of-a-report)
+
+## How to make the patient report work with MHIRA
+
+
+### Installing the app to work with MHIRA:
 
 You can clone the app to the [folder inside the shiny server](5-using-shiny-apps-for-reporting.md) using 
-
 
     git clone https://github.com/mhira-project/patient-report.git
 
 
-## Updating the app
+### Updating the app
 
 For updating the shiny app, navigate inside the folder containing the app and use 
 
     git pull
 
-## Adding questionnaires to the app
+### Adding algorithms for sales and cutoffs for the questionnairs
 
-### scales_table
+For the patient-report to work you will need to provide information on how to calculate scales and on the cutoffs for these scales.
 
-### cutoffs
+For example the questionnaire [PHQ-9](https://www.apa.org/depression-guideline/patient-health-questionnaire.pdf) which evaluates depressive symtoms presents with a "Total Score" which is the sum of the scores for its 9 items. PHQ-9 also has [cutoff points](https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-019-2262-9#:~:text=Regarding%20severity%2C%20PHQ%2D9%20comprises,severe%20depressive%20symptoms%20%5B25%5D.): It comprises five categories, where a cut-off point of 0–4 indicates no depressive symptoms, 5–9 mild depressive symptoms, 10–14 moderate depressive symptoms, 15–19 moderately-severe depressive symptoms, and 20–27 severe depressive symptoms. 
 
-### scales_function
+We need to provide this information to the patient-report:
+To this aim, files containing this information can be [uploaded together whith the questionniares](../3-guide-for-admins/9-questionnaires.md) under the 'script tab' in the 'questionnaires' menu (accessible from the navigation bar).
+
+![script](./img/scripts.png "scripts")
 
 
+:::note
+
+Any text based file can be uploaded ('.txt', '.csv', '.R', '.py'). Please make sure the files are encoded in 'UTF-8'.
+The encoding can be selected in the 'save as' menu in excel and many text editors. 
+The extension (e.g. '.txt') of the file does not matter.
+
+:::
+
+#### scales_table
+
+The patient report shiny app needs a formula to calculte the scales of the questionnaire.
+These can be uploaded in form of a '.csv' table.
+
+|ScaleName  |Formula                                   |scaleMin|scaleMax|mean|sd |plotGroup|
+|-----------|------------------------------------------|--------|--------|----|---|---------|
+|TotalScore |q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9|0       |28      |    |   |1        |
+|Suicidality|q9                                        |0       |3       |    |   |         |
+
+- ScaleName: The name of the scale.
+- Formula: R code to calculate the scale. The names of the objects (q1,q2,...) come from the names selected in the [xlsform you used to create the qustionnaire](../3-guide-for-admins/9-questionnaires.md#creating-an-xlsform).
+- scaleMin: Sets the lower limit in the plot.
+- scalesMax: Sets the upper limit in the plot.
+- mean: mean of healthy population, currently not used.
+- sd: standard deviation of normal population, currently not used.
+- plotGroup: Should the scale be printed in the plot. Empty values or zeros are not printed. Providing different values >= 0 will result in a plot with multiple facets which have their own sale range.  Multiple scales with the same value >= 0 will result in these scales printed in the same facet. 
+
+:::note
+
+When uploading these files, the file name does not matter. However the name of the scripts input in the MHIRA form needs to be 'scales_table'.
+
+:::
+
+
+
+#### cutoffs
+
+CSV files containing cutoffs can be uploaded in the following format. 
+
+|scale      |low_cut|high_cut|level                  |warning|text_order|interpretation                                         |recommendation                                                                                   |
+|-----------|-------|--------|-----------------------|-------|----------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+|TotalScore |0      |5       |none                   |FALSE  |1         |The level of depression was none.                      |                                                                                                 |
+|TotalScore |5      |10      |mild                   |FALSE  |1         |The level of depression was mild.                      |Please consider further clincal interviews to find out if help regarding depression is required. |
+|TotalScore |10     |15      |moderate               |FALSE  |1         |The level of depression was moderate.                  |Please consider further clincal interviews to find out if help regarding depression is required. |
+|TotalScore |15     |20      |moderately severe      |FALSE  |1         |The level of depression was moderately severe.         |                                                                                                 |
+|TotalScore |20     |28      |severe                 |FALSE  |1         |The level of depression was severe.                    |Discuss the case with a psychiatrist at your department. Medication might be helpful.            |
+|Suicidality|0      |1       |not at all             |FALSE  |2         |The patient was not at all suicidal.                   |                                                                                                 |
+|Suicidality|1      |2       |several days           |TRUE   |2         |The patient suicidal on several days.                  |Make sure the patient does't harm himself.                                                       |
+|Suicidality|2      |3       |more than half the days|TRUE   |2         |The patient was suicidal on more than half of the days.|Make sure the patient does't harm himself.                                                       |
+|Suicidality|3      |4       |nearly every day       |TRUE   |2         |The patient  suicidal nearly every day.                |Please consider hospitalisation to keep the patient safe.                                        |
+
+- scale: Needs to correspond to the scaleName in scales_table. This is a common source of errors
+- low_cut: Lower cutoff for a certain level (e.g. of symptom severity). The upper bound is not inculded.
+- high_cut: Higher cutoff for the level. The upper bound is not excluded except for the highest level. 
+- level: severity level of these cutoffs. 
+- text_order: The order of the representation. Will allow to concatenate the interpretations and recommendations. 
+- Interpretation: Text bocks associated to a certain level.
+- Recommendatin: Text bocks associated to a certain level.
+
+The cutoff script needs to be named 'cutoffs' in the MHIRA form. 
+
+
+#### scales_function
+
+Sometimes calculating the scales is more complex. In these cases, a table might be too limited. 
+You can also upload R functions which need to be names 'scale_function' as in the following example. 
+
+´´´r
+# Input: The parameter given to the function is a data frame with the columns
+# representing the item data of a single questionnaire e.g., item1; item2; item3, ...
+# The column names should be the scale name of the item i.e., name in the xlsform.
+# The data frame has a single row as it only represents data of one questionnaire
+
+# Output:The function should return a data frame structured like the example below:
+#      scale        value   scaleMin scaleMax mean sd plotGroup
+# 1 somatic_symptoms   0        0       0      NA  NA      1
+# 2 sleep              3        0       0      NA  NA      1
+# 3 depression         2        0       0      NA  NA      1
+# 4 substance_use      1        0       0      NA  NA      1
+# 5 ...                0        0       0      NA  NA      1
+
+# The data frame has a long format if there are multiple variables 
+
+
+scales_function = function(dfItmes){
+  
+  anyNotFalse = function(x){any(x) | any(is.na(x))}
+  
+  df = dfItems %>% 
+    mutate(
+      var20 = as.logical(var20),
+      var21 = as.logical(var21),
+      var22 = as.logical(var22),
+      var23 = as.logical(var23),
+      var24 = as.logical(var24),
+      var25 = as.logical(var25)
+    )
+  
+  
+  df = df %>%
+    summarise(
+      somatic_symptoms	= mean(var1, var2, na.rm = T),
+      sleep = 	var3,
+      inattention = var4,
+      depression	= mean(var5, var6, na.rm = T),
+      anger =	var7,
+      irritability =	var8,
+      mania	= mean(var9, var10, na.rm = T),
+      anxiety	= mean(var11, var12, var13, na.rm = T),
+      psychosis = 	mean(var14,  var15, na.rm = T),
+      repetitiv_thoughts_and_behavious	= mean(var16, var17, var18, var19, na.rm = T),
+      substance_use	= c(var20, var21, var22, var23) %>% anyNotFalse() %>% as.numeric(),   # 0 and 1 treated as logical
+      suicidality	= c(var24, var25) %>% anyNotFalse() %>% as.numeric()  
+      ) %>% 
+    pivot_longer(cols = everything(),values_to = "value", names_to = "scale")
+  
+  dfS =  data.frame(df, scaleMin = 0, scaleMax = c(4,4,4,4,4,4,4,4,4,4,1,1), mean = NA, sd = NA, plotGroup = c(2,2,1,2,2,2,2,2,1,2,3,3))  
+  
+  
+  # Run minimum plausibility check
+  
+  if(!all(c("scale" ,"value") %in%  colnames(dfS))){print("scale and value columns are required as output of scales_function")}
+  
+  # Return results
+  
+  return(dfS)
+  
+}
+
+´´´
+Make sure that the [shiny server has the required packages](5-using-shiny-apps-for-reporting.md#adding-r-packages-to-the-shiny-server).
+Please assign the name 'scales_function' as name for the script when uploading it. 
+
+### Creating the button
+
+
+Please refer to [this section](../3-guide-for-admins/10-reports.md#create-buttons) of how to create the button for the patient reports.

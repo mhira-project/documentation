@@ -97,4 +97,8 @@ The uploaded questionnaires are listed under the “questionnaires” menu acces
 
  ##  Old versions of questionnaires
 
-When a questionnaire is used in an assessment, the data collected with the questionnaire is linked to the currently active questionnaire version (the one listed in the questionnaire list with status “published”). When you update or archive a questionnaire, the *old version* of the questionnaire is kept in the database. It will never be deleted.  This way, questionnaire answers can always be linked to the questionnaire version used. The old versions are listed under the menu “old versions” in the navigation bar. 
+When a questionnaire is used in an assessment, the data collected with the questionnaire is linked to the currently active questionnaire version (the one listed in the questionnaire list with status “published”). When you update or archive a questionnaire, the *old version* of the questionnaire is kept in the database. It will never be deleted.  This way, questionnaire answers can always be linked to the questionnaire version used. The old versions are listed under the menu “old versions” in the navigation bar. This is important to consider especially when implementing automatic evalution routines (see next section). They can differ between the old and new versions of a questionnaire.
+
+## Uploading information for creating reports.
+
+Please refer to [this section on how to provide algorithms to calculate the scales as well as cutoffs to evaluate questionnaires](../5-mhira-reporting-guide/8-patient-report-shiny-app.md#adding-algorithms-for-sales-and-cutoffs-for-the-questionnairs)

@@ -88,6 +88,12 @@ Not setting the database passwords can compromise the security of the applicatio
 
 :::
 
+:::warning
+
+Losing these database passwords means losing your data. Make sure to save them (in a secure and permanent location you have access to).
+
+:::
+
 
 ### Setting access of MHIRA and HTTPS Certificates in the .env file
 

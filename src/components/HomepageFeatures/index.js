@@ -27,8 +27,8 @@ const FeatureList = [
     Svg: require('@site/static/img/handshake.svg').default,
     description: (
       <>
-        This project was desinged together with front-line health 
-        care workers who's primary objective it is  to care for their patients.
+        This project was designed together with front-line health 
+        care workers whose primary objective it is  to care for their patients.
       </>
     ),
   }
