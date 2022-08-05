@@ -5,9 +5,9 @@ sidebar_position: 2
 
 #  Installing MHIRA 
 
-> MHIRA can be installed from docker containers using docker-compose. 
-> The following page will walk you through the installation process.
-> [Here](https://github.com/mhira-project/mhira-docker) you fill find the github repository containing the docker-compose setup. 
+MHIRA can be installed from docker containers using docker-compose. 
+The following page will walk you through the installation process.
+[Here](https://github.com/mhira-project/mhira-docker) you fill find the github repository containing the docker-compose setup. 
 
 ## Pre-requisites
 
@@ -17,11 +17,10 @@ You will need to install docker and docker-compose:
 
 * Docker installation instruction can be found [here](https://docs.docker.com/engine/install/)
 
-* We  recommend executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
+* Consider executing the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) e.g., adding your user to a docker group and setting docker to re-start automatically. 
 
 ### Docker-compose
 
-* For Windows and Mac this is installed along with docker. 
 You can check whether you already have docker compose with:
 
     docker compose version
@@ -58,6 +57,28 @@ Copy example `environment` file to create your own config
 Change the line `JWT_SECRET=changeMe` after the equal sign to set the secret key, which is a 32 character string. Run this line in order to change it into a randomly generated key.
 
     sed -i "s|changeMe|$(openssl rand -base64 32)|" .env
+
+### Data Storage Location
+
+The location where mhira-docker installation will store data (i.e., the location of the mongodb and postgres databases) is controlled by the environment variable `DATA_SAVE_PATH` in the .env file.
+
+```dotenv
+# Default location under current user home directory
+DATA_SAVE_PATH=~/.mhira-docker/data
+```
+This is where all stateful containers (containers which persist data) will store their configuration and data.
+
+In a typical installation, the folder contents will be as listed below.
+
+![Data-Directory](./img/data-directory.png "Data Directory")
+
+
+:::warning Important note on MHIRA running user context
+As the default data directory is a relative path to the current user's home directory, the user under which `MHIRA` is running is of importance.
+For example: 'docker compose' is run as root user, the data save path will be under the root user's home directory, i.e: `/root/.mhira-docker/data`.
+Switching a running instance of mhira to another user can result in apparent data loss, as the new user context will create a new data directory under their home directory, which will not include data from the old data directory.
+To avoid this, you can replace the `DATA_SAVE_PATH` with an absolute path pointing to a directory of your choice for persisting data.
+:::
 
 ### Settings passwords for the databases
 
@@ -137,11 +158,6 @@ Later changes to the .env file come into effect by restarting the containers
 
 ## Updating your installation
 
-:::danger Warning
-Before updating, taking a backup is highly recommended. 
-Please consult the section on [data and backup](data-and-backup)
-:::    
-
 
 To update your existing installation to a newer version of MHIRA software, execute following commands (you need to be in the folder with the docker compose .yml file)
    
@@ -154,6 +170,7 @@ To update your existing installation to a newer version of MHIRA software, execu
 The .env example file might have changed with the update, potentially leading to missing or superflous environment variables.
 If a variable is missing, docker compose will output the corresponding error.
 Please compare your old and the new environment variables for discrepancies.
+Make sure to take a copy of your old .env settings. 
 
 :::
 
@@ -165,3 +182,12 @@ Please compare your old and the new environment variables for discrepancies.
 
     # Restart containers with updated images and config   
     docker compose up -d --build --remove-orphan
+
+:::tip
+
+Old docker images and containers can take quite some space on your system. If this is a concern, you can prune unrequired elements.
+
+    docker system prune -a
+
+:::
+

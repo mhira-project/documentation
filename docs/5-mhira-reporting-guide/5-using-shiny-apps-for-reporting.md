@@ -12,23 +12,20 @@ By default, MHIRA comes with a [shiny server](https://www.rstudio.com/products/s
 
 Shiny apps need to be added to the folder '/srv/shiny-server/' inside the shiny docker container ([see rocker/shiny documentation](https://hub.docker.com/r/rocker/shiny)).
 In our MHIRA setup, they need to be added to '/srv/shiny-server/shiny' (this is related to serving the url of the server via the caddy server). 
-We have connected this location to a docker volume called 'shiny_apps' in the ['mhira-docker.yml'](https://github.com/mhira-project/mhira-docker/blob/main/docker-compose.yml) file.
+We have connected this location to a [mounted docker volume](https://docs.docker.com/storage/volumes/), meaning that a folder on the host (server) is synced with this folder. You can change the corresponding variable in the .env file to adjust the path: 
 
     
-    volumes:
-      - shiny_apps:/srv/shiny-server/shiny
-    
-The rstudio container will have access to the same volume. Thus, using the rstudio server, you can add your shiny app to the folder 'shiny_apps' in the home directory of your rstudio user. The app will then be shared with the shiny server via the volume. 
+  ### SHINY ############################################################
 
-:::tip
-If you do not want to use rstudio to add files, you could for example [change the volume to a mounted location on the host](https://docs.docker.com/storage/volumes/). Then, copy your app to the selected location on the host. 
-:::
+  SHINY_APPS_PATH=~/shiny_apps
+    
+Addtionally, the rstudio container will have access to the same volume. Thus, using the rstudio server, you can modify the shiny app directly in this folder. The app will then be shared with the shiny server via the docker volume. 
 
 ## Access the shiny app via URL
 
 The shiny app can now be accessed under this url: 
 
-  https://yourMHIRAdomain/shiny/nameOFyourAPP 
+  https://yourMHIRAdomain/shiny/nameOFyourSHINYapp 
 
 ## Adding a button in MHIRA to connect to your app
 
@@ -61,6 +58,6 @@ Packages can be added via the [shiny server docker file](https://github.com/mhir
 
 If you want to see output from the shiny app you can attach the container to your terminal using the
 intructions found [here](https://docs.docker.com/engine/reference/commandline/logs/). 
-Else, we recommend to run the app via the rstudio container. 
+Else, we recommend to run the app via the rstudio container and use debugging and break points. 
 
 

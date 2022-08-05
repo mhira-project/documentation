@@ -64,8 +64,40 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "MHIRA is available under the Mozilla Public License, version 2.0",
-      "links": []
+      "links": [
+        {
+          "items": [
+            {
+              "label": "Partners and Team",
+              "href": "https://mhira-project.org/"
+            }
+          ],
+          "title": null
+        },
+        {
+          "items": [
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/company/projectmhira"
+            },
+            {
+              "label": "Twitter",
+              "href": "https://twitter.com/projectMHIRA"
+            }
+          ],
+          "title": null
+        },
+        {
+          "items": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/mhira-project"
+            }
+          ],
+          "title": null
+        }
+      ],
+      "copyright": "MHIRA is available under the Mozilla Public License, version 2.0"
     },
     "prism": {
       "theme": {

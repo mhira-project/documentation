@@ -80,47 +80,39 @@ const config = {
       },
       footer: {
         style: 'dark',
-     /*   links: [
+           links: [
           {
-            title: 'Docs',
+          
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Partners and Team',
+                href: 'https://mhira-project.org/',
               },
             ],
           },
           {
-            title: 'Community',
+          
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/projectmhira',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/projectMHIRA',
               },
             ],
           },
           {
-            title: 'More',
+           
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/mhira-project',
               },
             ],
           },
-        ],*/
+        ],
         copyright: `MHIRA is available under the Mozilla Public License, version 2.0`,
       },
       prism: {

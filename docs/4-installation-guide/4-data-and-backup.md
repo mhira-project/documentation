@@ -4,29 +4,9 @@ sidebar_position: 4
 
 # Data and Backup
 
-## Data Storage Location
+## Data storage location
 
-The location where mhira-docker installation will store data (i.e., the location of the mongodb and postgres databases) is controlled by the environment variable `DATA_SAVE_PATH` in the .env file.
-
-```dotenv
-# Default location under current user home directory
-DATA_SAVE_PATH=~/.mhira-docker/data
-```
-
-This is where all stateful containers (containers which persist data) will store their configuration and data.
-
-In a typical installation, the folder contents will be as listed below.
-
-![Data-Directory](./img/data-directory.png "Data Directory")
-
-***Important note on MHIRA running user context:***
-> As the data directory is a relative path to the current user's home directory, the user under which `MHIRA` is running is of importance.
->
-> For example: if `MHIRA` docker-compose is run as root user, the data save path will be under the root user's home directory, i.e: `/root/.mhira-docker/data`.
->
-> Switching a running instance of mhira to another user can result in apparent data loss, as the new user context will create a new data directory under their home directory, which will not include data from the old data directory.
->
-> To avoid this, you can replace the `DATA_SAVE_PATH` with an absolute path pointing to a directory of your choice for persisting data.
+[Please consult this section](2-installing-mhira.md#data-storage-location)
 
 ## Backup data
 
@@ -42,11 +22,15 @@ The `MHIRA` docker installation comes with a `backup` helper container, that man
 >
 > * The backup utility creates a TAR archive of the MHIRA data directory and saves it in configured data backup path.
 
-***WARNING:***
+:::warning
 
 * It is recommended to use a different hard drive for backup storage, or where possible Remote Backup to a different location. This will make sure your data can be restored in case of hard drive failure or other incidents.
 
 * Please refer to your oganizations guidelines regarding best practices for backing up data and disaster recovery.
+
+:::
+
+
 
 ### Manual backup
 

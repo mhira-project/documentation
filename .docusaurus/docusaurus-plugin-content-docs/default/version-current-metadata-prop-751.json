@@ -332,7 +332,7 @@
     "installation-guide/data-and-backup": {
       "id": "installation-guide/data-and-backup",
       "title": "Data and Backup",
-      "description": "Data Storage Location",
+      "description": "Data storage location",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/installing-mhira": {
@@ -344,7 +344,7 @@
     "installation-guide/requirements": {
       "id": "installation-guide/requirements",
       "title": "Requirements",
-      "description": "Server",
+      "description": "An IT professional",
       "sidebar": "tutorialSidebar"
     },
     "installation-guide/rstudio": {
