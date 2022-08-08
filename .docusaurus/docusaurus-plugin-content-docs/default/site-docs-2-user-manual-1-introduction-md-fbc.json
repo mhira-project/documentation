@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-manual/introduction",
+  "id": "user-manual/introduction",
+  "title": "Introduction",
+  "description": "A large proportion of the world's disease burden00395-3/fulltext#text=GBD%202019%20confirmed%20that%20a,a%20reduction%20in%20the%20burden) is attributable to mental disorders. In fact mental disorders are among the leading causes.  An important aspect of the mental health treatment gap is the diagnostic gap00673-5/fulltext) (i.e., the proportion of the population with a condition who remain undiagnosed).",
+  "source": "@site/docs/2-user-manual/1-introduction.md",
+  "sourceDirName": "2-user-manual",
+  "slug": "/user-manual/introduction",
+  "permalink": "/documentation/docs/user-manual/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/2-user-manual/1-introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Manual",
+    "permalink": "/documentation/docs/category/user-manual"
+  },
+  "next": {
+    "title": "Access",
+    "permalink": "/documentation/docs/user-manual/access"
+  }
+}

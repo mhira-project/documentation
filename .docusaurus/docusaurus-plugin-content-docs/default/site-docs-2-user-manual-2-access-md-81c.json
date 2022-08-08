@@ -2,7 +2,7 @@
   "unversionedId": "user-manual/access",
   "id": "user-manual/access",
   "title": "Access",
-  "description": "",
+  "description": "MHIRA is a web application",
   "source": "@site/docs/2-user-manual/2-access.md",
   "sourceDirName": "2-user-manual",
   "slug": "/user-manual/access",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Workflow",
-    "permalink": "/documentation/docs/user-manual/workflow"
+    "title": "Introduction",
+    "permalink": "/documentation/docs/user-manual/introduction"
   },
   "next": {
     "title": "Navigation",

@@ -2,7 +2,7 @@
   "unversionedId": "user-manual/patient-management",
   "id": "user-manual/patient-management",
   "title": "Patient Management",
-  "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site. The patient-centred view can be accessed by selecting the corresponding patient from the patient overview list.  The patient-centred view contains the subsections profile, departments, case managers, departments, caregivers, assessments and reports. To create a patient, the “create patient” button needs to be clicked. This will prompt the user to fill in the patient's profile.",
+  "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site.",
   "source": "@site/docs/2-user-manual/4-patient-management.md",
   "sourceDirName": "2-user-manual",
   "slug": "/user-manual/patient-management",

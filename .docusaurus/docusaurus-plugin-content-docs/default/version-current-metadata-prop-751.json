@@ -22,9 +22,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Workflow",
-            "href": "/documentation/docs/user-manual/workflow",
-            "docId": "user-manual/workflow"
+            "label": "Introduction",
+            "href": "/documentation/docs/user-manual/introduction",
+            "docId": "user-manual/introduction"
           },
           {
             "type": "link",
@@ -404,7 +404,7 @@
     "user-manual/access": {
       "id": "user-manual/access",
       "title": "Access",
-      "description": "",
+      "description": "MHIRA is a web application",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/assessments": {
@@ -413,28 +413,28 @@
       "description": "Assessments are part of the core workflow (see Figure 1) which aims at facilitating the use of psychometric instruments (evidence-based assessment). After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, a ‘plan assessment’ menu accessed from the navigation bar.",
       "sidebar": "tutorialSidebar"
     },
+    "user-manual/introduction": {
+      "id": "user-manual/introduction",
+      "title": "Introduction",
+      "description": "A large proportion of the world's disease burden00395-3/fulltext#text=GBD%202019%20confirmed%20that%20a,a%20reduction%20in%20the%20burden) is attributable to mental disorders. In fact mental disorders are among the leading causes.  An important aspect of the mental health treatment gap is the diagnostic gap00673-5/fulltext) (i.e., the proportion of the population with a condition who remain undiagnosed).",
+      "sidebar": "tutorialSidebar"
+    },
     "user-manual/navigation": {
       "id": "user-manual/navigation",
       "title": "Navigation",
-      "description": "",
+      "description": "navigation1",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/patient-management": {
       "id": "user-manual/patient-management",
       "title": "Patient Management",
-      "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site. The patient-centred view can be accessed by selecting the corresponding patient from the patient overview list.  The patient-centred view contains the subsections profile, departments, case managers, departments, caregivers, assessments and reports. To create a patient, the “create patient” button needs to be clicked. This will prompt the user to fill in the patient's profile.",
+      "description": "MHIRA is conceptualised as an electronic health record centred around cases (i.e., patients). By creating a patient entry, the mental health care workers can access all the information about their patient in one site.",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/reports": {
       "id": "user-manual/reports",
       "title": "Reports",
       "description": "Now that questionnaire data has been collected, the mental health care worker can proceed to access a report on the collected data. As an example, this could be the calculated scales of a given questionnaire represented as a graph which also shows the likelihood of the results compared to healthy control subjects. In case of repeated measures, the graph could show the severity of symptoms over time. A report could also link to psychoeducation materials or suggest treatments or further assessments based on the obtained results.",
-      "sidebar": "tutorialSidebar"
-    },
-    "user-manual/workflow": {
-      "id": "user-manual/workflow",
-      "title": "Workflow",
-      "description": "The core workflow in MHIRA consists of creating a case (information representing a patient), then creating one or multiple assessment(s) for this patient which contain one or multiple questionnaires. Next, the questions in the assessment(s) need to be answered by an informant. Each assessment needs to be filled in by only one informant. Finally, a user with access to the case’s information can access the report which results from the answered questionnaires.",
       "sidebar": "tutorialSidebar"
     }
   }

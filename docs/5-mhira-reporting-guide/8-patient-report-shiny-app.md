@@ -109,7 +109,7 @@ The cutoff script needs to be named 'cutoffs' in the MHIRA form.
 #### scales_function
 
 Sometimes calculating the scales is more complex. In these cases, a table might be too limited. 
-You can also upload R functions which need to be names 'scale_function' as in the following example. 
+You can also upload R functions which need to be named 'scale_function' as in the following example. 
 
 ```r
 # Input: The parameter given to the function is a dataframe 'dfItems' with the columns

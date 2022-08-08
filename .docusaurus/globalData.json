@@ -146,6 +146,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "user-manual/introduction",
+              "path": "/documentation/docs/user-manual/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "user-manual/navigation",
               "path": "/documentation/docs/user-manual/navigation",
               "sidebar": "tutorialSidebar"
@@ -158,11 +163,6 @@
             {
               "id": "user-manual/reports",
               "path": "/documentation/docs/user-manual/reports",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "user-manual/workflow",
-              "path": "/documentation/docs/user-manual/workflow",
               "sidebar": "tutorialSidebar"
             },
             {

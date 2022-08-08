@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', 'ca8'),
+    component: ComponentCreator('/documentation/docs', '059'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -210,6 +210,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/documentation/docs/user-manual/introduction',
+        component: ComponentCreator('/documentation/docs/user-manual/introduction', '7d1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/documentation/docs/user-manual/navigation',
         component: ComponentCreator('/documentation/docs/user-manual/navigation', 'af6'),
         exact: true,
@@ -224,12 +230,6 @@ export default [
       {
         path: '/documentation/docs/user-manual/reports',
         component: ComponentCreator('/documentation/docs/user-manual/reports', 'b61'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/documentation/docs/user-manual/workflow',
-        component: ComponentCreator('/documentation/docs/user-manual/workflow', '436'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
