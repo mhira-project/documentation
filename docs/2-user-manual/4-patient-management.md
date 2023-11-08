@@ -31,7 +31,7 @@ Right click will open the context menu allowing for actions like deleting the pa
 ![patient-overview](./img/patient-overview.png "patient-overview")
 
 :::tip
-the **My patients** button will reduce the table entriesto those patient for which you are assigned as [case manager](4-patient-management.md#case-manager)
+The '**My patients**' button will filter the table retaining those patient for which you are assigned as [case manager](4-patient-management.md#case-manager).
 :::
 
 :::note Access to patients
