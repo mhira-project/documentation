@@ -1,8 +1,8 @@
 {
   "unversionedId": "mhira-reporting-guide/using-shiny-apps-for-reporting",
   "id": "mhira-reporting-guide/using-shiny-apps-for-reporting",
-  "title": "Using shiny apps for reporting",
-  "description": "As discussed, MHIRA allows for the connection of external apps for reporting.",
+  "title": "Integrating Shiny Apps for Reporting with MHIRA",
+  "description": "MHIRA supports interactive reporting through Shiny apps. Here's how to set up and manage Shiny apps within your MHIRA environment.",
   "source": "@site/docs/5-mhira-reporting-guide/5-using-shiny-apps-for-reporting.md",
   "sourceDirName": "5-mhira-reporting-guide",
   "slug": "/mhira-reporting-guide/using-shiny-apps-for-reporting",

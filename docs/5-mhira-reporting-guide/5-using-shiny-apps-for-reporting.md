@@ -2,46 +2,58 @@
 sidebar_position: 5
 ---
 
-# Using shiny apps for reporting
+# Integrating Shiny Apps for Reporting with MHIRA
 
-[As discussed](/docs/mhira-reporting-guide/overview), MHIRA allows for the connection of external apps for reporting.
+MHIRA supports interactive reporting through Shiny apps. Here's how to set up and manage Shiny apps within your MHIRA environment.
 
-By default, MHIRA comes with a [shiny server](https://www.rstudio.com/products/shiny/shiny-server/) in form of a [docker container containing the shiny server](https://hub.docker.com/r/rocker/shiny). The docker setup also comes with an rstudio server to facilitate setting up the shiny apps. The rstudio container is disabled by default and needs to be activated [as discribed in here](/docs/installation-guide/rstudio). To reduce attack surface, it is recommended to disable rstudio during production. 
+## Deploying Shiny Apps
 
-## Adding a shiny app to the shiny server in the MHIRA setup.
+### Setting the Shiny Apps Directory
 
-Shiny apps need to be added to the folder '/srv/shiny-server/' inside the shiny docker container ([see rocker/shiny documentation](https://hub.docker.com/r/rocker/shiny)).
-In our MHIRA setup, they need to be added to '/srv/shiny-server/shiny' (this is related to serving the url of the server via the caddy server). 
-We have connected this location to a [mounted docker volume](https://docs.docker.com/storage/volumes/), meaning that a folder on the host (server) is synced with this folder. You can change the corresponding variable in the .env file to adjust the path: 
+To host your Shiny apps, place them in the directory indicated by the `SHINY_APPS_PATH` variable in your `.env` file. By default, this is set to:
 
-    
-  ### SHINY ############################################################
+```bash
+~/shiny_apps
+```
 
-  SHINY_APPS_PATH=~/shiny_apps
-    
-Addtionally, the rstudio container will have access to the same volume. Thus, using the rstudio server, you can modify the shiny app directly in this folder. The app will then be shared with the shiny server via the docker volume. 
+The tilde (~) symbol represents your user's home directory. For example, if your username is `john`, the path `~/shiny_apps` would translate to `/home/john/shiny_apps` on most Unix-based systems.
 
-## Access the shiny app via URL
+### Cloning a Shiny App Repository
 
-The shiny app can now be accessed under this url: 
+You can easily clone existing Shiny apps into this directory. For example, to clone the MHIRA data export app, navigate to your Shiny apps directory and run:
 
-  https://yourMHIRAdomain/shiny/nameOFyourSHINYapp 
+```bash
+git clone https://github.com/mhira-project/data-export.git
+```
 
-## Adding a button in MHIRA to connect to your app
+This will create a `data-export` folder within your `~/shiny_apps` directory containing all the files from the repository.
+
+### Accessing Your Shiny App
+
+After deployment, your Shiny app can be accessed via the following URL format:
+
+```bash
+https://yourMHIRAdomain/shiny/nameOFyourSHINYapp
+```
+
+## Dashboard Integration
+
+To link your Shiny app within the MHIRA dashboard, consult the admin reports guide or refer to the following section:
+
+### Adding a button in MHIRA to connect to your app
 
 Please consult [this section](../3-guide-for-admins/10-reports.md).
 
-## Access to graphQL API from within shiny server and rstudio server
+## R Package Management
 
-Please refer to the section about the [graphql API](3-graphql_api.md)
+If your Shiny apps require additional R packages, append them to the Dockerfile used for building the Shiny server container or refer to the following section:
 
-## Adding R packages to the shiny server
+### Adding R packages to the shiny server
 
-Packages can be added via the [shiny server docker file](https://github.com/mhira-project/mhira-docker/blob/main/shiny/Dockerfile) with the [install2.R command](https://rocker-project.org/use/extending#install2.r).  
+Packages can be added via the [shiny server docker file](https://github.com/mhira-project/mhira-docker/blob/main/shiny/Dockerfile) with the [install2.R command](https://rocker-project.org/use/extending#install2.r).
 
- 
-  ```dockerfile
-  RUN install2.r --error \
+```dockerfile
+RUN install2.r --error \
     --deps FALSE \
     data.table \
     RColorBrewer \
@@ -52,12 +64,24 @@ Packages can be added via the [shiny server docker file](https://github.com/mhir
     htmlwidgets \
     DT \
     crosstalk
-  ```
+```
 
-## Troubleshooting of the shiny app in the shiny container
+## Access to GraphQL API
 
-If you want to see output from the shiny app you can attach the container to your terminal using the
-intructions found [here](https://docs.docker.com/engine/reference/commandline/logs/). 
-Else, we recommend to run the app via the rstudio container and use debugging and break points. 
+For accessing the GraphQL API from within shiny server and RStudio server, please refer to the section about the [GraphQL API](3-graphql_api.md).
+
+## Troubleshooting
+
+For troubleshooting Shiny app issues, there are a few strategies you can use:
+
+### Using Docker Logs
+
+If you want to see output from the shiny app, you can attach the container to your terminal using Docker logs. For instructions on how to use Docker logs, you can refer to the official documentation [here](https://docs.docker.com/engine/reference/commandline/logs/).
+
+### RStudio Container
+
+Else, we recommend to run the app via the RStudio container and use debugging and breakpoints. Detailed logs and debugging tools are available in RStudio to help diagnose and fix problems.
+
+This streamlined process ensures your Shiny apps are effectively incorporated into MHIRA's reporting capabilities.
 
 
