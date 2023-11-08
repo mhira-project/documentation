@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '059'),
+    component: ComponentCreator('/documentation/docs', 'b06'),
     routes: [
       {
         path: '/documentation/docs/category/guide-for-admins',
@@ -44,6 +44,12 @@ export default [
       {
         path: '/documentation/docs/category/user-manual',
         component: ComponentCreator('/documentation/docs/category/user-manual', '27e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/category/videos',
+        component: ComponentCreator('/documentation/docs/category/videos', 'dc8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -230,6 +236,12 @@ export default [
       {
         path: '/documentation/docs/user-manual/reports',
         component: ComponentCreator('/documentation/docs/user-manual/reports', 'b61'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/documentation/docs/Videos/instructional-videos-albanian',
+        component: ComponentCreator('/documentation/docs/Videos/instructional-videos-albanian', '057'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

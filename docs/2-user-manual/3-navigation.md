@@ -22,7 +22,7 @@ Use right click to open the context menu of a table entry. (On tablet this might
 - Some features have tabs allowing you to access different sub-composnents (e.g., patient-profile or patient-assessments).
 - The navigation bar can be minimised in case you need more space. Hovering the symbols will show the sub-entires. 
 
-::: note Permissions
+:::note Permissions
 
 If certain features are not available or you cannot make changes, this might mean that you do not have the required permissions. 
 You can see your assigned user roles from the user profile. 

@@ -92,6 +92,10 @@ export default {
             {
               "label": "GitHub",
               "href": "https://github.com/mhira-project"
+            },
+            {
+              "label": "Youtube",
+              "href": "https://www.youtube.com/channel/UC8vS43V6Nvtdk1wbDksnx1w"
             }
           ],
           "title": null

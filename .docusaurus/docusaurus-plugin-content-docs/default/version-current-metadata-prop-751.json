@@ -247,6 +247,21 @@
           }
         ],
         "href": "/documentation/docs/category/license-and-contributors"
+      },
+      {
+        "type": "category",
+        "label": "Videos",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Instructional videos in Albanian",
+            "href": "/documentation/docs/Videos/instructional-videos-albanian",
+            "docId": "Videos/instructional-videos-albanian"
+          }
+        ],
+        "href": "/documentation/docs/category/videos"
       }
     ]
   },
@@ -410,7 +425,7 @@
     "user-manual/assessments": {
       "id": "user-manual/assessments",
       "title": "Assessments",
-      "description": "Assessments are part of the core workflow (see Figure 1) which aims at facilitating the use of psychometric instruments (evidence-based assessment). After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, a ‘plan assessment’ menu accessed from the navigation bar.",
+      "description": "Assessments are sessions in which information about a patient is collected.",
       "sidebar": "tutorialSidebar"
     },
     "user-manual/introduction": {
@@ -435,6 +450,12 @@
       "id": "user-manual/reports",
       "title": "Reports",
       "description": "Now that questionnaire data has been collected, the mental health care worker can proceed to access a report on the collected data. As an example, this could be the calculated scales of a given questionnaire represented as a graph which also shows the likelihood of the results compared to healthy control subjects. In case of repeated measures, the graph could show the severity of symptoms over time. A report could also link to psychoeducation materials or suggest treatments or further assessments based on the obtained results.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Videos/instructional-videos-albanian": {
+      "id": "Videos/instructional-videos-albanian",
+      "title": "Instructional videos in Albanian",
+      "description": "Please visit the playlist on our youtube channel.",
       "sidebar": "tutorialSidebar"
     }
   }

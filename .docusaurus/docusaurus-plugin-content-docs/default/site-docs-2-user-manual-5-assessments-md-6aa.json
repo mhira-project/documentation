@@ -2,7 +2,7 @@
   "unversionedId": "user-manual/assessments",
   "id": "user-manual/assessments",
   "title": "Assessments",
-  "description": "Assessments are part of the core workflow (see Figure 1) which aims at facilitating the use of psychometric instruments (evidence-based assessment). After questionnaires have been uploaded and a patient has been entered, assessments can be created from the patient centred-view, or, alternatively, a ‘plan assessment’ menu accessed from the navigation bar.",
+  "description": "Assessments are sessions in which information about a patient is collected.",
   "source": "@site/docs/2-user-manual/5-assessments.md",
   "sourceDirName": "2-user-manual",
   "slug": "/user-manual/assessments",

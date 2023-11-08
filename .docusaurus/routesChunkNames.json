@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/documentation/docs-059": {
+  "/documentation/docs-b06": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a9f6cc16"
@@ -36,6 +36,10 @@
   "/documentation/docs/category/user-manual-27e": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "5ef954cc"
+  },
+  "/documentation/docs/category/videos-dc8": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "2ee53248"
   },
   "/documentation/docs/guide-for-admins/assessment-titles-571": {
     "__comp": "17896441",
@@ -160,6 +164,10 @@
   "/documentation/docs/user-manual/reports-b61": {
     "__comp": "17896441",
     "content": "06e17de8"
+  },
+  "/documentation/docs/Videos/instructional-videos-albanian-057": {
+    "__comp": "17896441",
+    "content": "74d35838"
   },
   "/documentation/-974": {
     "__comp": "c4f5d8e4",

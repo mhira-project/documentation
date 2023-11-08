@@ -166,6 +166,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Videos/instructional-videos-albanian",
+              "path": "/documentation/docs/Videos/instructional-videos-albanian",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/user-manual",
               "path": "/documentation/docs/category/user-manual",
               "sidebar": "tutorialSidebar"
@@ -193,6 +198,11 @@
             {
               "id": "/category/license-and-contributors",
               "path": "/documentation/docs/category/license-and-contributors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/videos",
+              "path": "/documentation/docs/category/videos",
               "sidebar": "tutorialSidebar"
             }
           ],

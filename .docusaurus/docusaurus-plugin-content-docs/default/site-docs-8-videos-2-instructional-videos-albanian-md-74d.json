@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Videos/instructional-videos-albanian",
+  "id": "Videos/instructional-videos-albanian",
+  "title": "Instructional videos in Albanian",
+  "description": "Please visit the playlist on our youtube channel.",
+  "source": "@site/docs/8-Videos/2-instructional-videos-albanian.md",
+  "sourceDirName": "8-Videos",
+  "slug": "/Videos/instructional-videos-albanian",
+  "permalink": "/documentation/docs/Videos/instructional-videos-albanian",
+  "draft": false,
+  "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/8-Videos/2-instructional-videos-albanian.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Videos",
+    "permalink": "/documentation/docs/category/videos"
+  }
+}

@@ -13,7 +13,7 @@ Use the address bar of the browser to enter the URL of MHIRA at your organisatio
 |:--:| 
 | The format of the URL will be something like: https://mhira.myclinic.com. |
 
-note :::
+:::note
 This URL needs to be provided to you by your organisation. 
 You might also need to be connected to the right network for access e.g., Virtual Private Network or your organisation's intranet.  
 :::
