@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MHIRA',
   tagline: 'Mental Health Information Reporting Assistant',
-  url: 'https://mhira-project.github.io',
+  url: 'https://www.mhira.app',
   baseUrl: '/documentation/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
