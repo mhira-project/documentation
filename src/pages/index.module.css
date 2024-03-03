@@ -3,11 +3,16 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('/img/hendrik-cornelissen-qs4E9t0hJc0-unsplash (1).jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh; 
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +25,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 55vh; /* Adjust this value as needed */
+}
+
+.customButton {
+  background-color: black !important; /* Ensures background is black */
+  color: white !important; /* Ensures text is white */
+  /* Add any other button styling here */
 }

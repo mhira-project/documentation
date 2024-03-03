@@ -9,7 +9,7 @@ const config = {
   title: 'MHIRA',
   tagline: 'Mental Health Information Reporting Assistant',
   url: 'https://www.mhira.app',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -122,6 +122,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'dark', // Set default to dark mode
+        disableSwitch: false, // Allows users to switch to light mode
+        respectPrefersColorScheme: false, // Site will not automatically switch based on user's system theme
       },
     }),
 };

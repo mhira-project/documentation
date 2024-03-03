@@ -6,7 +6,7 @@
   "source": "@site/docs/8-Videos/2-instructional-videos-albanian.md",
   "sourceDirName": "8-Videos",
   "slug": "/Videos/instructional-videos-albanian",
-  "permalink": "/documentation/docs/Videos/instructional-videos-albanian",
+  "permalink": "/docs/Videos/instructional-videos-albanian",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/8-Videos/2-instructional-videos-albanian.md",
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Videos",
-    "permalink": "/documentation/docs/category/videos"
+    "permalink": "/docs/category/videos"
   }
 }

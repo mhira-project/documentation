@@ -6,7 +6,7 @@
   "source": "@site/docs/7-license-and-contributors/3-how-to-contribute.md",
   "sourceDirName": "7-license-and-contributors",
   "slug": "/license-and-contributors/how-to-contribute",
-  "permalink": "/documentation/docs/license-and-contributors/how-to-contribute",
+  "permalink": "/docs/license-and-contributors/how-to-contribute",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/7-license-and-contributors/3-how-to-contribute.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Contributors",
-    "permalink": "/documentation/docs/license-and-contributors/contributors"
+    "permalink": "/docs/license-and-contributors/contributors"
   },
   "next": {
     "title": "Videos",
-    "permalink": "/documentation/docs/category/videos"
+    "permalink": "/docs/category/videos"
   }
 }

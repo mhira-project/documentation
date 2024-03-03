@@ -6,7 +6,7 @@
   "source": "@site/docs/1-intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/documentation/docs/intro",
+  "permalink": "/docs/intro",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/1-intro.md",
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "User Manual",
-    "permalink": "/documentation/docs/category/user-manual"
+    "permalink": "/docs/category/user-manual"
   }
 }

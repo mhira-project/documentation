@@ -1,0 +1,16 @@
+{
+  "title": "User Manual",
+  "description": "This is a guide for mental health care workers using MHIRA",
+  "slug": "/category/user-manual",
+  "permalink": "/docs/category/user-manual",
+  "navigation": {
+    "previous": {
+      "title": "Overview",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/user-manual/introduction"
+    }
+  }
+}

@@ -6,7 +6,7 @@
   "source": "@site/docs/6-implementation-scenarios/1-chile.md",
   "sourceDirName": "6-implementation-scenarios",
   "slug": "/implementation-scenarios/chile",
-  "permalink": "/documentation/docs/implementation-scenarios/chile",
+  "permalink": "/docs/implementation-scenarios/chile",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/6-implementation-scenarios/1-chile.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Implementation scenarios",
-    "permalink": "/documentation/docs/category/implementation-scenarios"
+    "permalink": "/docs/category/implementation-scenarios"
   },
   "next": {
     "title": "License and contributors",
-    "permalink": "/documentation/docs/category/license-and-contributors"
+    "permalink": "/docs/category/license-and-contributors"
   }
 }

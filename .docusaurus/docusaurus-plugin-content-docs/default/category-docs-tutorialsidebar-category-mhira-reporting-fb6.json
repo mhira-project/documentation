@@ -1,0 +1,15 @@
+{
+  "title": "MHIRA Reporting",
+  "slug": "/category/mhira-reporting",
+  "permalink": "/docs/category/mhira-reporting",
+  "navigation": {
+    "previous": {
+      "title": "rstudio",
+      "permalink": "/docs/installation-guide/rstudio"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/docs/mhira-reporting-guide/overview"
+    }
+  }
+}

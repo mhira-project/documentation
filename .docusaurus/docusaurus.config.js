@@ -6,8 +6,8 @@
 export default {
   "title": "MHIRA",
   "tagline": "Mental Health Information Reporting Assistant",
-  "url": "https://mhira-project.github.io",
-  "baseUrl": "/documentation/",
+  "url": "https://www.mhira.app",
+  "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/ronan/Documents/documentation/sidebars.js",
+          "sidebarPath": "/Users/ronan/Documents/mhira/documentation/sidebars.js",
           "editUrl": "https://github.com/mhira-project/documentation/edit/main/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/mhira-project/documentation/edit/main/blog"
         },
         "theme": {
-          "customCss": "/home/ronan/Documents/documentation/src/css/custom.css"
+          "customCss": "/Users/ronan/Documents/mhira/documentation/src/css/custom.css"
         }
       }
     ]
@@ -308,7 +308,7 @@ export default {
       ]
     },
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
     },

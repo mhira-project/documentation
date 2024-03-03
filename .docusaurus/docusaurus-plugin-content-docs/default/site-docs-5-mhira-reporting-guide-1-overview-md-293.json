@@ -6,7 +6,7 @@
   "source": "@site/docs/5-mhira-reporting-guide/1-overview.md",
   "sourceDirName": "5-mhira-reporting-guide",
   "slug": "/mhira-reporting-guide/overview",
-  "permalink": "/documentation/docs/mhira-reporting-guide/overview",
+  "permalink": "/docs/mhira-reporting-guide/overview",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/1-overview.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "MHIRA Reporting",
-    "permalink": "/documentation/docs/category/mhira-reporting"
+    "permalink": "/docs/category/mhira-reporting"
   },
   "next": {
     "title": "GraphQL API",
-    "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api"
+    "permalink": "/docs/mhira-reporting-guide/graphql_api"
   }
 }

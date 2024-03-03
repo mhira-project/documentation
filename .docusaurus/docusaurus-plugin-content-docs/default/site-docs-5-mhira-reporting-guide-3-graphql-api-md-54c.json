@@ -6,7 +6,7 @@
   "source": "@site/docs/5-mhira-reporting-guide/3-graphql_api.md",
   "sourceDirName": "5-mhira-reporting-guide",
   "slug": "/mhira-reporting-guide/graphql_api",
-  "permalink": "/documentation/docs/mhira-reporting-guide/graphql_api",
+  "permalink": "/docs/mhira-reporting-guide/graphql_api",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/5-mhira-reporting-guide/3-graphql_api.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Overview",
-    "permalink": "/documentation/docs/mhira-reporting-guide/overview"
+    "permalink": "/docs/mhira-reporting-guide/overview"
   },
   "next": {
     "title": "Integrating Shiny Apps for Reporting with MHIRA",
-    "permalink": "/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting"
+    "permalink": "/docs/mhira-reporting-guide/using-shiny-apps-for-reporting"
   }
 }

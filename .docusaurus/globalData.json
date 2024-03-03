@@ -1,208 +1,208 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/documentation/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/documentation/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "guide-for-admins/assessment-titles",
-              "path": "/documentation/docs/guide-for-admins/assessment-titles",
+              "path": "/docs/guide-for-admins/assessment-titles",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/departments",
-              "path": "/documentation/docs/guide-for-admins/departments",
+              "path": "/docs/guide-for-admins/departments",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/messages-and-disclaimers",
-              "path": "/documentation/docs/guide-for-admins/messages-and-disclaimers",
+              "path": "/docs/guide-for-admins/messages-and-disclaimers",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/overview",
-              "path": "/documentation/docs/guide-for-admins/overview",
+              "path": "/docs/guide-for-admins/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/patient-statuses",
-              "path": "/documentation/docs/guide-for-admins/patient-statuses",
+              "path": "/docs/guide-for-admins/patient-statuses",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/permissions",
-              "path": "/documentation/docs/guide-for-admins/permissions",
+              "path": "/docs/guide-for-admins/permissions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/questionnaires",
-              "path": "/documentation/docs/guide-for-admins/questionnaires",
+              "path": "/docs/guide-for-admins/questionnaires",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/reports",
-              "path": "/documentation/docs/guide-for-admins/reports",
+              "path": "/docs/guide-for-admins/reports",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/roles",
-              "path": "/documentation/docs/guide-for-admins/roles",
+              "path": "/docs/guide-for-admins/roles",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/superadmin",
-              "path": "/documentation/docs/guide-for-admins/superadmin",
+              "path": "/docs/guide-for-admins/superadmin",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guide-for-admins/users",
-              "path": "/documentation/docs/guide-for-admins/users",
+              "path": "/docs/guide-for-admins/users",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "implementation-scenarios/chile",
-              "path": "/documentation/docs/implementation-scenarios/chile",
+              "path": "/docs/implementation-scenarios/chile",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "installation-guide/admin-password-reset",
-              "path": "/documentation/docs/installation-guide/admin-password-reset",
+              "path": "/docs/installation-guide/admin-password-reset",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "installation-guide/data-and-backup",
-              "path": "/documentation/docs/installation-guide/data-and-backup",
+              "path": "/docs/installation-guide/data-and-backup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "installation-guide/installing-mhira",
-              "path": "/documentation/docs/installation-guide/installing-mhira",
+              "path": "/docs/installation-guide/installing-mhira",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "installation-guide/requirements",
-              "path": "/documentation/docs/installation-guide/requirements",
+              "path": "/docs/installation-guide/requirements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "installation-guide/rstudio",
-              "path": "/documentation/docs/installation-guide/rstudio",
+              "path": "/docs/installation-guide/rstudio",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/documentation/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "license-and-contributors/contributors",
-              "path": "/documentation/docs/license-and-contributors/contributors",
+              "path": "/docs/license-and-contributors/contributors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "license-and-contributors/how-to-contribute",
-              "path": "/documentation/docs/license-and-contributors/how-to-contribute",
+              "path": "/docs/license-and-contributors/how-to-contribute",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "license-and-contributors/license",
-              "path": "/documentation/docs/license-and-contributors/license",
+              "path": "/docs/license-and-contributors/license",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "mhira-reporting-guide/graphql_api",
-              "path": "/documentation/docs/mhira-reporting-guide/graphql_api",
+              "path": "/docs/mhira-reporting-guide/graphql_api",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "mhira-reporting-guide/overview",
-              "path": "/documentation/docs/mhira-reporting-guide/overview",
+              "path": "/docs/mhira-reporting-guide/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "mhira-reporting-guide/patient-report-shiny-app",
-              "path": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
+              "path": "/docs/mhira-reporting-guide/patient-report-shiny-app",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "mhira-reporting-guide/using-shiny-apps-for-reporting",
-              "path": "/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
+              "path": "/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/access",
-              "path": "/documentation/docs/user-manual/access",
+              "path": "/docs/user-manual/access",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/assessments",
-              "path": "/documentation/docs/user-manual/assessments",
+              "path": "/docs/user-manual/assessments",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/introduction",
-              "path": "/documentation/docs/user-manual/introduction",
+              "path": "/docs/user-manual/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/navigation",
-              "path": "/documentation/docs/user-manual/navigation",
+              "path": "/docs/user-manual/navigation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/patient-management",
-              "path": "/documentation/docs/user-manual/patient-management",
+              "path": "/docs/user-manual/patient-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/reports",
-              "path": "/documentation/docs/user-manual/reports",
+              "path": "/docs/user-manual/reports",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Videos/instructional-videos-albanian",
-              "path": "/documentation/docs/Videos/instructional-videos-albanian",
+              "path": "/docs/Videos/instructional-videos-albanian",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/user-manual",
-              "path": "/documentation/docs/category/user-manual",
+              "path": "/docs/category/user-manual",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/guide-for-admins",
-              "path": "/documentation/docs/category/guide-for-admins",
+              "path": "/docs/category/guide-for-admins",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/installation-guide",
-              "path": "/documentation/docs/category/installation-guide",
+              "path": "/docs/category/installation-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/mhira-reporting",
-              "path": "/documentation/docs/category/mhira-reporting",
+              "path": "/docs/category/mhira-reporting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/implementation-scenarios",
-              "path": "/documentation/docs/category/implementation-scenarios",
+              "path": "/docs/category/implementation-scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/license-and-contributors",
-              "path": "/documentation/docs/category/license-and-contributors",
+              "path": "/docs/category/license-and-contributors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/videos",
-              "path": "/documentation/docs/category/videos",
+              "path": "/docs/category/videos",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -210,7 +210,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

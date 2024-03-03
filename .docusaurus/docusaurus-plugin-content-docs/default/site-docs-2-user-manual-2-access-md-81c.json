@@ -6,7 +6,7 @@
   "source": "@site/docs/2-user-manual/2-access.md",
   "sourceDirName": "2-user-manual",
   "slug": "/user-manual/access",
-  "permalink": "/documentation/docs/user-manual/access",
+  "permalink": "/docs/user-manual/access",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/2-user-manual/2-access.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/documentation/docs/user-manual/introduction"
+    "permalink": "/docs/user-manual/introduction"
   },
   "next": {
     "title": "Navigation",
-    "permalink": "/documentation/docs/user-manual/navigation"
+    "permalink": "/docs/user-manual/navigation"
   }
 }

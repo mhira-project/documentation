@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Overview",
-        "href": "/documentation/docs/intro",
+        "href": "/docs/intro",
         "docId": "intro"
       },
       {
@@ -23,41 +23,41 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/documentation/docs/user-manual/introduction",
+            "href": "/docs/user-manual/introduction",
             "docId": "user-manual/introduction"
           },
           {
             "type": "link",
             "label": "Access",
-            "href": "/documentation/docs/user-manual/access",
+            "href": "/docs/user-manual/access",
             "docId": "user-manual/access"
           },
           {
             "type": "link",
             "label": "Navigation",
-            "href": "/documentation/docs/user-manual/navigation",
+            "href": "/docs/user-manual/navigation",
             "docId": "user-manual/navigation"
           },
           {
             "type": "link",
             "label": "Patient Management",
-            "href": "/documentation/docs/user-manual/patient-management",
+            "href": "/docs/user-manual/patient-management",
             "docId": "user-manual/patient-management"
           },
           {
             "type": "link",
             "label": "Assessments",
-            "href": "/documentation/docs/user-manual/assessments",
+            "href": "/docs/user-manual/assessments",
             "docId": "user-manual/assessments"
           },
           {
             "type": "link",
             "label": "Reports",
-            "href": "/documentation/docs/user-manual/reports",
+            "href": "/docs/user-manual/reports",
             "docId": "user-manual/reports"
           }
         ],
-        "href": "/documentation/docs/category/user-manual"
+        "href": "/docs/category/user-manual"
       },
       {
         "type": "category",
@@ -68,71 +68,71 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/documentation/docs/guide-for-admins/overview",
+            "href": "/docs/guide-for-admins/overview",
             "docId": "guide-for-admins/overview"
           },
           {
             "type": "link",
             "label": "Superadmin",
-            "href": "/documentation/docs/guide-for-admins/superadmin",
+            "href": "/docs/guide-for-admins/superadmin",
             "docId": "guide-for-admins/superadmin"
           },
           {
             "type": "link",
             "label": "User roles",
-            "href": "/documentation/docs/guide-for-admins/roles",
+            "href": "/docs/guide-for-admins/roles",
             "docId": "guide-for-admins/roles"
           },
           {
             "type": "link",
             "label": "Permissions",
-            "href": "/documentation/docs/guide-for-admins/permissions",
+            "href": "/docs/guide-for-admins/permissions",
             "docId": "guide-for-admins/permissions"
           },
           {
             "type": "link",
             "label": "Departments",
-            "href": "/documentation/docs/guide-for-admins/departments",
+            "href": "/docs/guide-for-admins/departments",
             "docId": "guide-for-admins/departments"
           },
           {
             "type": "link",
             "label": "Users",
-            "href": "/documentation/docs/guide-for-admins/users",
+            "href": "/docs/guide-for-admins/users",
             "docId": "guide-for-admins/users"
           },
           {
             "type": "link",
             "label": "Messages and disclaimers",
-            "href": "/documentation/docs/guide-for-admins/messages-and-disclaimers",
+            "href": "/docs/guide-for-admins/messages-and-disclaimers",
             "docId": "guide-for-admins/messages-and-disclaimers"
           },
           {
             "type": "link",
             "label": "Patient status",
-            "href": "/documentation/docs/guide-for-admins/patient-statuses",
+            "href": "/docs/guide-for-admins/patient-statuses",
             "docId": "guide-for-admins/patient-statuses"
           },
           {
             "type": "link",
             "label": "Assessment titles",
-            "href": "/documentation/docs/guide-for-admins/assessment-titles",
+            "href": "/docs/guide-for-admins/assessment-titles",
             "docId": "guide-for-admins/assessment-titles"
           },
           {
             "type": "link",
             "label": "Questionnaires",
-            "href": "/documentation/docs/guide-for-admins/questionnaires",
+            "href": "/docs/guide-for-admins/questionnaires",
             "docId": "guide-for-admins/questionnaires"
           },
           {
             "type": "link",
             "label": "Reports",
-            "href": "/documentation/docs/guide-for-admins/reports",
+            "href": "/docs/guide-for-admins/reports",
             "docId": "guide-for-admins/reports"
           }
         ],
-        "href": "/documentation/docs/category/guide-for-admins"
+        "href": "/docs/category/guide-for-admins"
       },
       {
         "type": "category",
@@ -143,35 +143,35 @@
           {
             "type": "link",
             "label": "Requirements",
-            "href": "/documentation/docs/installation-guide/requirements",
+            "href": "/docs/installation-guide/requirements",
             "docId": "installation-guide/requirements"
           },
           {
             "type": "link",
             "label": "Installing MHIRA",
-            "href": "/documentation/docs/installation-guide/installing-mhira",
+            "href": "/docs/installation-guide/installing-mhira",
             "docId": "installation-guide/installing-mhira"
           },
           {
             "type": "link",
             "label": "Data and Backup",
-            "href": "/documentation/docs/installation-guide/data-and-backup",
+            "href": "/docs/installation-guide/data-and-backup",
             "docId": "installation-guide/data-and-backup"
           },
           {
             "type": "link",
             "label": "Admin Password Reset",
-            "href": "/documentation/docs/installation-guide/admin-password-reset",
+            "href": "/docs/installation-guide/admin-password-reset",
             "docId": "installation-guide/admin-password-reset"
           },
           {
             "type": "link",
             "label": "rstudio",
-            "href": "/documentation/docs/installation-guide/rstudio",
+            "href": "/docs/installation-guide/rstudio",
             "docId": "installation-guide/rstudio"
           }
         ],
-        "href": "/documentation/docs/category/installation-guide"
+        "href": "/docs/category/installation-guide"
       },
       {
         "type": "category",
@@ -182,29 +182,29 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/documentation/docs/mhira-reporting-guide/overview",
+            "href": "/docs/mhira-reporting-guide/overview",
             "docId": "mhira-reporting-guide/overview"
           },
           {
             "type": "link",
             "label": "GraphQL API",
-            "href": "/documentation/docs/mhira-reporting-guide/graphql_api",
+            "href": "/docs/mhira-reporting-guide/graphql_api",
             "docId": "mhira-reporting-guide/graphql_api"
           },
           {
             "type": "link",
             "label": "Integrating Shiny Apps for Reporting with MHIRA",
-            "href": "/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
+            "href": "/docs/mhira-reporting-guide/using-shiny-apps-for-reporting",
             "docId": "mhira-reporting-guide/using-shiny-apps-for-reporting"
           },
           {
             "type": "link",
             "label": "Patient-report shiny app",
-            "href": "/documentation/docs/mhira-reporting-guide/patient-report-shiny-app",
+            "href": "/docs/mhira-reporting-guide/patient-report-shiny-app",
             "docId": "mhira-reporting-guide/patient-report-shiny-app"
           }
         ],
-        "href": "/documentation/docs/category/mhira-reporting"
+        "href": "/docs/category/mhira-reporting"
       },
       {
         "type": "category",
@@ -215,11 +215,11 @@
           {
             "type": "link",
             "label": "Scenario 1",
-            "href": "/documentation/docs/implementation-scenarios/chile",
+            "href": "/docs/implementation-scenarios/chile",
             "docId": "implementation-scenarios/chile"
           }
         ],
-        "href": "/documentation/docs/category/implementation-scenarios"
+        "href": "/docs/category/implementation-scenarios"
       },
       {
         "type": "category",
@@ -230,23 +230,23 @@
           {
             "type": "link",
             "label": "Copyright and Licensing",
-            "href": "/documentation/docs/license-and-contributors/license",
+            "href": "/docs/license-and-contributors/license",
             "docId": "license-and-contributors/license"
           },
           {
             "type": "link",
             "label": "Contributors",
-            "href": "/documentation/docs/license-and-contributors/contributors",
+            "href": "/docs/license-and-contributors/contributors",
             "docId": "license-and-contributors/contributors"
           },
           {
             "type": "link",
             "label": "How to contribute?",
-            "href": "/documentation/docs/license-and-contributors/how-to-contribute",
+            "href": "/docs/license-and-contributors/how-to-contribute",
             "docId": "license-and-contributors/how-to-contribute"
           }
         ],
-        "href": "/documentation/docs/category/license-and-contributors"
+        "href": "/docs/category/license-and-contributors"
       },
       {
         "type": "category",
@@ -257,11 +257,11 @@
           {
             "type": "link",
             "label": "Instructional videos in Albanian",
-            "href": "/documentation/docs/Videos/instructional-videos-albanian",
+            "href": "/docs/Videos/instructional-videos-albanian",
             "docId": "Videos/instructional-videos-albanian"
           }
         ],
-        "href": "/documentation/docs/category/videos"
+        "href": "/docs/category/videos"
       }
     ]
   },

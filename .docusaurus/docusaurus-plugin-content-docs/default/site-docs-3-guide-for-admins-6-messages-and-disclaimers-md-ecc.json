@@ -6,7 +6,7 @@
   "source": "@site/docs/3-guide-for-admins/6-messages-and-disclaimers.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/messages-and-disclaimers",
-  "permalink": "/documentation/docs/guide-for-admins/messages-and-disclaimers",
+  "permalink": "/docs/guide-for-admins/messages-and-disclaimers",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/6-messages-and-disclaimers.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Users",
-    "permalink": "/documentation/docs/guide-for-admins/users"
+    "permalink": "/docs/guide-for-admins/users"
   },
   "next": {
     "title": "Patient status",
-    "permalink": "/documentation/docs/guide-for-admins/patient-statuses"
+    "permalink": "/docs/guide-for-admins/patient-statuses"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Videos",
+  "slug": "/category/videos",
+  "permalink": "/docs/category/videos",
+  "navigation": {
+    "previous": {
+      "title": "How to contribute?",
+      "permalink": "/docs/license-and-contributors/how-to-contribute"
+    },
+    "next": {
+      "title": "Instructional videos in Albanian",
+      "permalink": "/docs/Videos/instructional-videos-albanian"
+    }
+  }
+}

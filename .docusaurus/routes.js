@@ -3,253 +3,253 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/documentation/markdown-page',
-    component: ComponentCreator('/documentation/markdown-page', '26d'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '78f'),
     exact: true
   },
   {
-    path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', 'b06'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '496'),
     routes: [
       {
-        path: '/documentation/docs/category/guide-for-admins',
-        component: ComponentCreator('/documentation/docs/category/guide-for-admins', '720'),
+        path: '/docs/category/guide-for-admins',
+        component: ComponentCreator('/docs/category/guide-for-admins', '1d8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/implementation-scenarios',
-        component: ComponentCreator('/documentation/docs/category/implementation-scenarios', '430'),
+        path: '/docs/category/implementation-scenarios',
+        component: ComponentCreator('/docs/category/implementation-scenarios', 'e03'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/installation-guide',
-        component: ComponentCreator('/documentation/docs/category/installation-guide', '444'),
+        path: '/docs/category/installation-guide',
+        component: ComponentCreator('/docs/category/installation-guide', 'e04'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/license-and-contributors',
-        component: ComponentCreator('/documentation/docs/category/license-and-contributors', '3ed'),
+        path: '/docs/category/license-and-contributors',
+        component: ComponentCreator('/docs/category/license-and-contributors', '379'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/mhira-reporting',
-        component: ComponentCreator('/documentation/docs/category/mhira-reporting', '3b6'),
+        path: '/docs/category/mhira-reporting',
+        component: ComponentCreator('/docs/category/mhira-reporting', '2cc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/user-manual',
-        component: ComponentCreator('/documentation/docs/category/user-manual', '27e'),
+        path: '/docs/category/user-manual',
+        component: ComponentCreator('/docs/category/user-manual', '38e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/category/videos',
-        component: ComponentCreator('/documentation/docs/category/videos', 'dc8'),
+        path: '/docs/category/videos',
+        component: ComponentCreator('/docs/category/videos', 'c1b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/assessment-titles',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/assessment-titles', '571'),
+        path: '/docs/guide-for-admins/assessment-titles',
+        component: ComponentCreator('/docs/guide-for-admins/assessment-titles', '03d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/departments',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/departments', '5f7'),
+        path: '/docs/guide-for-admins/departments',
+        component: ComponentCreator('/docs/guide-for-admins/departments', '539'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/messages-and-disclaimers',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/messages-and-disclaimers', '985'),
+        path: '/docs/guide-for-admins/messages-and-disclaimers',
+        component: ComponentCreator('/docs/guide-for-admins/messages-and-disclaimers', '26f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/overview',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/overview', '6f8'),
+        path: '/docs/guide-for-admins/overview',
+        component: ComponentCreator('/docs/guide-for-admins/overview', 'b18'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/patient-statuses',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/patient-statuses', '065'),
+        path: '/docs/guide-for-admins/patient-statuses',
+        component: ComponentCreator('/docs/guide-for-admins/patient-statuses', '40b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/permissions',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/permissions', '3ca'),
+        path: '/docs/guide-for-admins/permissions',
+        component: ComponentCreator('/docs/guide-for-admins/permissions', '086'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/questionnaires',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/questionnaires', '0d2'),
+        path: '/docs/guide-for-admins/questionnaires',
+        component: ComponentCreator('/docs/guide-for-admins/questionnaires', '980'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/reports',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/reports', '1ce'),
+        path: '/docs/guide-for-admins/reports',
+        component: ComponentCreator('/docs/guide-for-admins/reports', 'e6d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/roles',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/roles', 'b1d'),
+        path: '/docs/guide-for-admins/roles',
+        component: ComponentCreator('/docs/guide-for-admins/roles', 'fd3'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/superadmin',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/superadmin', '71e'),
+        path: '/docs/guide-for-admins/superadmin',
+        component: ComponentCreator('/docs/guide-for-admins/superadmin', '614'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/guide-for-admins/users',
-        component: ComponentCreator('/documentation/docs/guide-for-admins/users', 'a5d'),
+        path: '/docs/guide-for-admins/users',
+        component: ComponentCreator('/docs/guide-for-admins/users', '2e5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/implementation-scenarios/chile',
-        component: ComponentCreator('/documentation/docs/implementation-scenarios/chile', 'ed5'),
+        path: '/docs/implementation-scenarios/chile',
+        component: ComponentCreator('/docs/implementation-scenarios/chile', '682'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/admin-password-reset',
-        component: ComponentCreator('/documentation/docs/installation-guide/admin-password-reset', 'c4d'),
+        path: '/docs/installation-guide/admin-password-reset',
+        component: ComponentCreator('/docs/installation-guide/admin-password-reset', 'ce5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/data-and-backup',
-        component: ComponentCreator('/documentation/docs/installation-guide/data-and-backup', '5fb'),
+        path: '/docs/installation-guide/data-and-backup',
+        component: ComponentCreator('/docs/installation-guide/data-and-backup', '12d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/installing-mhira',
-        component: ComponentCreator('/documentation/docs/installation-guide/installing-mhira', '714'),
+        path: '/docs/installation-guide/installing-mhira',
+        component: ComponentCreator('/docs/installation-guide/installing-mhira', '162'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/requirements',
-        component: ComponentCreator('/documentation/docs/installation-guide/requirements', 'adb'),
+        path: '/docs/installation-guide/requirements',
+        component: ComponentCreator('/docs/installation-guide/requirements', 'bfc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/installation-guide/rstudio',
-        component: ComponentCreator('/documentation/docs/installation-guide/rstudio', '12a'),
+        path: '/docs/installation-guide/rstudio',
+        component: ComponentCreator('/docs/installation-guide/rstudio', '4fb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/intro',
-        component: ComponentCreator('/documentation/docs/intro', 'fdd'),
+        path: '/docs/intro',
+        component: ComponentCreator('/docs/intro', '533'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/license-and-contributors/contributors',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/contributors', 'a66'),
+        path: '/docs/license-and-contributors/contributors',
+        component: ComponentCreator('/docs/license-and-contributors/contributors', '389'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/license-and-contributors/how-to-contribute',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/how-to-contribute', '534'),
+        path: '/docs/license-and-contributors/how-to-contribute',
+        component: ComponentCreator('/docs/license-and-contributors/how-to-contribute', '6f5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/license-and-contributors/license',
-        component: ComponentCreator('/documentation/docs/license-and-contributors/license', '18e'),
+        path: '/docs/license-and-contributors/license',
+        component: ComponentCreator('/docs/license-and-contributors/license', 'bd7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/mhira-reporting-guide/graphql_api',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/graphql_api', 'f22'),
+        path: '/docs/mhira-reporting-guide/graphql_api',
+        component: ComponentCreator('/docs/mhira-reporting-guide/graphql_api', '69e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/mhira-reporting-guide/overview',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/overview', 'cc6'),
+        path: '/docs/mhira-reporting-guide/overview',
+        component: ComponentCreator('/docs/mhira-reporting-guide/overview', '9e8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/mhira-reporting-guide/patient-report-shiny-app',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/patient-report-shiny-app', 'c3b'),
+        path: '/docs/mhira-reporting-guide/patient-report-shiny-app',
+        component: ComponentCreator('/docs/mhira-reporting-guide/patient-report-shiny-app', 'bae'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting',
-        component: ComponentCreator('/documentation/docs/mhira-reporting-guide/using-shiny-apps-for-reporting', '107'),
+        path: '/docs/mhira-reporting-guide/using-shiny-apps-for-reporting',
+        component: ComponentCreator('/docs/mhira-reporting-guide/using-shiny-apps-for-reporting', '74e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/access',
-        component: ComponentCreator('/documentation/docs/user-manual/access', '2fb'),
+        path: '/docs/user-manual/access',
+        component: ComponentCreator('/docs/user-manual/access', '9b9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/assessments',
-        component: ComponentCreator('/documentation/docs/user-manual/assessments', '827'),
+        path: '/docs/user-manual/assessments',
+        component: ComponentCreator('/docs/user-manual/assessments', '2a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/introduction',
-        component: ComponentCreator('/documentation/docs/user-manual/introduction', '7d1'),
+        path: '/docs/user-manual/introduction',
+        component: ComponentCreator('/docs/user-manual/introduction', 'c13'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/navigation',
-        component: ComponentCreator('/documentation/docs/user-manual/navigation', 'af6'),
+        path: '/docs/user-manual/navigation',
+        component: ComponentCreator('/docs/user-manual/navigation', '728'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/patient-management',
-        component: ComponentCreator('/documentation/docs/user-manual/patient-management', 'd29'),
+        path: '/docs/user-manual/patient-management',
+        component: ComponentCreator('/docs/user-manual/patient-management', 'a70'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/user-manual/reports',
-        component: ComponentCreator('/documentation/docs/user-manual/reports', 'b61'),
+        path: '/docs/user-manual/reports',
+        component: ComponentCreator('/docs/user-manual/reports', 'ffe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/documentation/docs/Videos/instructional-videos-albanian',
-        component: ComponentCreator('/documentation/docs/Videos/instructional-videos-albanian', '057'),
+        path: '/docs/Videos/instructional-videos-albanian',
+        component: ComponentCreator('/docs/Videos/instructional-videos-albanian', '103'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/documentation/',
-    component: ComponentCreator('/documentation/', '974'),
+    path: '/',
+    component: ComponentCreator('/', 'f6e'),
     exact: true
   },
   {

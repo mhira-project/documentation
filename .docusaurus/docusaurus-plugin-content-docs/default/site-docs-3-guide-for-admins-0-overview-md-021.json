@@ -6,7 +6,7 @@
   "source": "@site/docs/3-guide-for-admins/0-overview.md",
   "sourceDirName": "3-guide-for-admins",
   "slug": "/guide-for-admins/overview",
-  "permalink": "/documentation/docs/guide-for-admins/overview",
+  "permalink": "/docs/guide-for-admins/overview",
   "draft": false,
   "editUrl": "https://github.com/mhira-project/documentation/edit/main/docs/3-guide-for-admins/0-overview.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Guide for admins",
-    "permalink": "/documentation/docs/category/guide-for-admins"
+    "permalink": "/docs/category/guide-for-admins"
   },
   "next": {
     "title": "Superadmin",
-    "permalink": "/documentation/docs/guide-for-admins/superadmin"
+    "permalink": "/docs/guide-for-admins/superadmin"
   }
 }
