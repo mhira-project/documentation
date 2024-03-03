@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[9169],{7736:function(s){s.exports=JSON.parse('{"label":"open-source","permalink":"/blog/tags/open-source","allTagsPath":"/blog/tags","count":1}')}}]);

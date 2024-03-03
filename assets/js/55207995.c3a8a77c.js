@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[9650],{3610:function(a){a.exports=JSON.parse('{"label":"technology","permalink":"/blog/tags/technology","allTagsPath":"/blog/tags","count":1}')}}]);
