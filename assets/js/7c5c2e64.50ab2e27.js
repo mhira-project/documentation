@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[3861],{7703:function(a){a.exports=JSON.parse('{"label":"LMIC","permalink":"/blog/tags/lmic","allTagsPath":"/blog/tags","count":1}')}}]);

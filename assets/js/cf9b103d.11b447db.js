@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[7922],{8712:function(e){e.exports=JSON.parse('{"label":"Screening Tool","permalink":"/blog/tags/screening-tool","allTagsPath":"/blog/tags","count":1}')}}]);

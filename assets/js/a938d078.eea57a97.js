@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[589],{8937:function(a){a.exports=JSON.parse('{"label":"mental health","permalink":"/blog/tags/mental-health","allTagsPath":"/blog/tags","count":2}')}}]);

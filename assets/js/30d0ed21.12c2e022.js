@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[9228],{3675:function(a){a.exports=JSON.parse('{"label":"LoPF-Q 12\u201318","permalink":"/blog/tags/lo-pf-q-12-18","allTagsPath":"/blog/tags","count":1}')}}]);

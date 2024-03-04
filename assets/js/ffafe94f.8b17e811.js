@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[2068],{3325:function(a){a.exports=JSON.parse('{"label":"digital tools","permalink":"/blog/tags/digital-tools","allTagsPath":"/blog/tags","count":1}')}}]);

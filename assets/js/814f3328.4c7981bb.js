@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmhira_docs=self.webpackChunkmhira_docs||[]).push([[2535],{5641:function(i){i.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Celebrating Our Publication in BMC Psychiatry - The MHIRA Project","permalink":"/blog/2023/10/02/achieving-publication-in-bmc-psychiatry-mhira-project"}]}')}}]);
